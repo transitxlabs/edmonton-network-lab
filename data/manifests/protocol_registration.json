@@ -1,0 +1,10 @@
+{
+  "amendment": "Rank bootstrap p-value formula clarified before payload analysis or archive inventory",
+  "commit": "465d3daced039bb5d0c776b49e4936ca139e9e17",
+  "committed_at": "2026-10-11T02:39:08-07:00",
+  "original_registration_commit": "826766f9d7fe7b662d5ff632a1d02f3b42e5efc1",
+  "original_registration_sha256": "c0dc32c4a2fe58add292ee4239f27e5bb8b8a2d0fa17b55ee7cfeeaa80251684",
+  "original_registration_time": "2026-10-11T02:12:15-07:00",
+  "payload_analysis_before_registration": false,
+  "sha256": "77e8a31dc2acd2612ef824fd470bed9d6ae13a4c4d34756eb5079b5176758b2f"
+}

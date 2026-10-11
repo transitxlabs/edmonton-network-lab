@@ -1,0 +1,44 @@
+{
+  "frequency_records": 0,
+  "routes.txt": {
+    "nonblank_restricted_fields": {
+      "continuous_drop_off": 0,
+      "continuous_pickup": 0
+    },
+    "records": 243
+  },
+  "stop_times.txt": {
+    "nonblank_restricted_fields": {
+      "continuous_drop_off": 0,
+      "continuous_pickup": 0,
+      "drop_off_booking_rule_id": 0,
+      "end_pickup_drop_off_window": 0,
+      "location_group_id": 0,
+      "location_id": 0,
+      "pickup_booking_rule_id": 0,
+      "start_pickup_drop_off_window": 0
+    },
+    "records": 2802846
+  },
+  "transfers.txt": {
+    "nonblank_restricted_fields": {
+      "from_route_id": 0,
+      "from_trip_id": 0,
+      "to_route_id": 0,
+      "to_trip_id": 0
+    },
+    "records": 3718,
+    "transfer_types": {
+      "1": 112,
+      "2": 2698,
+      "3": 908
+    }
+  },
+  "trips.txt": {
+    "nonblank_restricted_fields": {
+      "continuous_drop_off": 0,
+      "continuous_pickup": 0
+    },
+    "records": 86628
+  }
+}

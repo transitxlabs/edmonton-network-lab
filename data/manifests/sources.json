@@ -1,0 +1,60 @@
+[
+  {
+    "path": "data/frozen/ets_gtfs.zip",
+    "url": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/GTFS/GTFS.zip",
+    "bytes": 18704644,
+    "sha256": "197a510d012e66f66436cec573a088b9c10d14f4a48e3d937278e4bd9b504a10",
+    "retrieved_utc": "2026-10-11T09:11:34.457198+00:00",
+    "licence": "Open Government Licence - Edmonton"
+  },
+  {
+    "path": "data/frozen/roads_selected.json",
+    "url": "https://data.edmonton.ca/resource/9j8t-zm52.json?$select=centerlineid,centerline_type,functional_class_code,from_intersectionid,to_intersectionid,geometry&$limit=100000&$order=centerlineid",
+    "bytes": 16411917,
+    "sha256": "88356cd2bc2cb2182f3e5f6790a645468a9d9de1d4fa90eb9b238ed99c4f4b54",
+    "retrieved_utc": "2026-10-11T09:23:40.523900+00:00",
+    "licence": "Open Government Licence - Edmonton"
+  },
+  {
+    "path": "data/frozen/boundaries.json",
+    "url": "https://data.edmonton.ca/resource/3np6-c8en.json?$limit=10000",
+    "bytes": 3430020,
+    "sha256": "72e1293e5f2a87a73dfd7381cbf9975c97604cc2b7985b4bf5ed81941bdcbd0c",
+    "retrieved_utc": "2026-10-11T09:26:42.502831+00:00",
+    "licence": "Statistics Canada Open Licence"
+  },
+  {
+    "path": "data/frozen/libraries.json",
+    "url": "https://data.edmonton.ca/resource/jn25-zspi.json?$limit=1000&$order=branch_id",
+    "bytes": 16783,
+    "sha256": "ae2c2c3fb5194c7556ce2c11bded449d19f353f192fb7d3e2fcd4229b48e4dcc",
+    "retrieved_utc": "2026-10-11T09:26:43.328974+00:00",
+    "licence": "Open Government Licence - Edmonton"
+  },
+  {
+    "path": "data/frozen/98100015.zip",
+    "url": "https://www150.statcan.gc.ca/n1/tbl/csv/98100015-eng.zip",
+    "bytes": 3895735,
+    "sha256": "7b74ba93b645b44f8f5aff67fff02287f34b4e7d22e6838caaf45f4bd7f8b299",
+    "retrieved_utc": "2026-10-11T09:16:12.520560+00:00",
+    "licence": "Statistics Canada Open Licence"
+  },
+  {
+    "path": "data/manifests/edmonton_licence.txt",
+    "url": "https://data.edmonton.ca/stories/s/Open-Government-Licence-Edmonton/msh8-if28/",
+    "bytes": 4140,
+    "sha256": "07309dfcd86894ad15deba4f9204eb843af49d42339d63d856b2cb2fdb2be0a4",
+    "retrieved_utc": "2026-10-11T09:22:54.151682+00:00",
+    "licence": "Open Government Licence - Edmonton",
+    "format": "extracted licence terms; original embedded document read"
+  },
+  {
+    "path": "data/manifests/statcan_licence.txt",
+    "url": "https://www.statcan.gc.ca/en/reference/licence",
+    "bytes": 8270,
+    "sha256": "b6b0390a0f1027a4020afa142b5d5747323f59fd72c824b6d9837b67a432c1f3",
+    "retrieved_utc": "2026-10-11T09:22:54.153873+00:00",
+    "licence": "Statistics Canada Open Licence",
+    "format": "extracted licence terms; original embedded document read"
+  }
+]

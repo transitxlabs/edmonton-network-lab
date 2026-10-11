@@ -1,0 +1,17 @@
+{
+  "collector_never_stopped_or_edited": true,
+  "concurrency_exception": "The initial stop lookup missed the resolved interpreter path. The four-thread replay briefly overlapped the second frequency-check process; a conservative peak of five routing calls was possible, so the four-worker limit was not enforced during that interval. The old tree was then stopped, and final replay runs alone.",
+  "fixture_discovery_repair": "Default recursive collection included tests in preserved local replay folders. Discovery now explicitly targets the project tests directory.",
+  "frequency_arrival_hashes_unchanged": true,
+  "initial_fixture_collection_exit_code": 2,
+  "initial_second_clone_checksum_check": "Rejected before numerical work because the interrupted validation had not refreshed the sampling-metadata checksum. Preserved under work-tmp/replay-20261011-043414.",
+  "old_replay_process_tree_stopped": [
+    11136,
+    11313,
+    11344
+  ],
+  "reason": "Frequency diagnostic sampling description corrected to up to sixteen dependent hourly batches and remaining uniform minute batches, with per-case counts.",
+  "superseded_replay_checkout": "work-tmp/replay-20261011-042355",
+  "superseded_replay_source_commit": "1e6a67d",
+  "surviving_descendants": []
+}

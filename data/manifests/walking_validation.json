@@ -1,0 +1,91 @@
+{
+  "connector_target": "largest road component",
+  "exception_sha256": "7c89cb0b4565b16c613f8310d733643bb114dc33096be8e40a0b2924f824fdb8",
+  "failures": [
+    {
+      "id": "2021S051248112451",
+      "population": 336,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112459",
+      "population": 319,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112460",
+      "population": 259,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112470",
+      "population": 122,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112493",
+      "population": 25,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112568",
+      "population": 1521,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112577",
+      "population": 198,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    }
+  ],
+  "islands": [
+    {
+      "connected": true,
+      "id": "2021S051248112451",
+      "population": 336,
+      "snap_metres": 41.43422846579594
+    },
+    {
+      "connected": true,
+      "id": "2021S051248112459",
+      "population": 319,
+      "snap_metres": 94.44316196250924
+    },
+    {
+      "connected": true,
+      "id": "2021S051248112460",
+      "population": 259,
+      "snap_metres": 0.0
+    },
+    {
+      "connected": true,
+      "id": "2021S051248112470",
+      "population": 122,
+      "snap_metres": 0.0
+    },
+    {
+      "connected": true,
+      "id": "2021S051248112493",
+      "population": 25,
+      "snap_metres": 30.81452955566999
+    },
+    {
+      "connected": true,
+      "id": "2021S051248112568",
+      "population": 1521,
+      "snap_metres": 1.6802431610758923e-11
+    },
+    {
+      "connected": true,
+      "id": "2021S051248112577",
+      "population": 198,
+      "snap_metres": 3.1968677197851725
+    }
+  ],
+  "maximum_connector_metres": 300,
+  "moved_area_count": 12,
+  "moved_area_population": 5553,
+  "populated_area_count": 1339,
+  "status": "passed",
+  "walking_only_self_count": 7
+}

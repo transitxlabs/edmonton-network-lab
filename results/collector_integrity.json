@@ -1,0 +1,10 @@
+{
+  "collector_stop_or_edit_performed": false,
+  "current_source_sha256": "a423d465af692a22a9fa77a902e7395aa108a0ee2924f88cca145d4db3cc3b1e",
+  "latest_fetch_log_write_utc": "2026-10-11T12:02:36.556747+00:00",
+  "original_source_sha256": "a423d465af692a22a9fa77a902e7395aa108a0ee2924f88cca145d4db3cc3b1e",
+  "payloads_decoded": 0,
+  "read_only": true,
+  "seconds_since_latest_fetch_log_write": 8.972643613815308,
+  "source_unchanged": true
+}

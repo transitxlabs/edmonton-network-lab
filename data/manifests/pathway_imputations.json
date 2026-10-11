@@ -1,0 +1,237 @@
+[
+  {
+    "id": "Dav-1",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 22
+  },
+  {
+    "id": "Dav-2",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 22
+  },
+  {
+    "id": "Dav-3",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 32
+  },
+  {
+    "id": "Dav-4",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 30
+  },
+  {
+    "id": "Dav-5",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 12
+  },
+  {
+    "id": "Dav-6",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 60
+  },
+  {
+    "id": "Dav-7",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 14
+  },
+  {
+    "id": "Dav-8",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 58
+  },
+  {
+    "id": "Dav-9",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 32
+  },
+  {
+    "id": "Dav-10",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 22
+  },
+  {
+    "id": "Dav-11",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 30
+  },
+  {
+    "id": "Dav-12",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 22
+  },
+  {
+    "id": "Dav-13",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 22
+  },
+  {
+    "id": "Dav-14",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 22
+  },
+  {
+    "id": "Dav-15",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 32
+  },
+  {
+    "id": "Dav-16",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 30
+  },
+  {
+    "id": "MWo-1",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 25
+  },
+  {
+    "id": "MWo-2",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 75
+  },
+  {
+    "id": "GRN-1",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 20
+  },
+  {
+    "id": "GRN-2",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 68
+  },
+  {
+    "id": "Avo-1",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 82
+  },
+  {
+    "id": "Avo-2",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 5
+  },
+  {
+    "id": "Avo-3",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 71
+  },
+  {
+    "id": "Avo-4",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 15
+  },
+  {
+    "id": "Bon-1",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 71
+  },
+  {
+    "id": "Bon-2",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 126
+  },
+  {
+    "id": "Bon-3",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 72
+  },
+  {
+    "id": "Bon-4",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 126
+  },
+  {
+    "id": "Hol-1",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 66
+  },
+  {
+    "id": "Hol-2",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 23
+  },
+  {
+    "id": "Hol-3",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 16
+  },
+  {
+    "id": "Str-1",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 13
+  },
+  {
+    "id": "Str-2",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 67
+  },
+  {
+    "id": "Str-3",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 75
+  },
+  {
+    "id": "Str-4",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 20
+  },
+  {
+    "id": "Mut-1",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 22
+  },
+  {
+    "id": "Mut-2",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 72
+  },
+  {
+    "id": "Mut-3",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 37
+  },
+  {
+    "id": "Mut-4",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 15
+  },
+  {
+    "id": "Qua-1",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 4
+  },
+  {
+    "id": "Qua-2",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 56
+  },
+  {
+    "id": "Qua-3",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 41
+  },
+  {
+    "id": "Qua-4",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 14
+  },
+  {
+    "id": "CHS-1",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 49
+  },
+  {
+    "id": "CHS-2",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 11
+  },
+  {
+    "id": "CHS-3",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 6
+  },
+  {
+    "id": "CHS-4",
+    "method": "horizontal endpoint distance; minimum one second",
+    "seconds": 41
+  }
+]

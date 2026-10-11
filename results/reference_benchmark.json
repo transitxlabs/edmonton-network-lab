@@ -1,0 +1,39 @@
+{
+  "aggregate_speedup": 6.47326363466404,
+  "any_effect_full_seconds": 4075.4918548350092,
+  "any_effect_reuse_seconds": 821.1197878399989,
+  "any_effect_routes": 186,
+  "any_effect_speedup": 4.963334114204964,
+  "base": {
+    "maximum_rounds": 9,
+    "recomputed_batches": 27040,
+    "total_batches": 27040,
+    "wall_seconds": 29.07971783300036
+  },
+  "full_routes_timed": 243,
+  "full_seconds": 5320.06558745901,
+  "reuse_seconds": 821.8521425529921,
+  "timing_scope": "Four workers, loaded model; includes allocation and result copying; excludes preparation and metric aggregation.",
+  "top_five_speedups": [
+    {
+      "route_id": "021R",
+      "speedup": 1.1245008645128014
+    },
+    {
+      "route_id": "056",
+      "speedup": 1.5072269068650892
+    },
+    {
+      "route_id": "009",
+      "speedup": 1.1968776996615187
+    },
+    {
+      "route_id": "004",
+      "speedup": 1.2324438364018362
+    },
+    {
+      "route_id": "114",
+      "speedup": 1.755508947116761
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "components": [
+    "walking",
+    "geometry",
+    "timetable"
+  ],
+  "identity": "walking + geometry + timetable = sampled scheduled access",
+  "limits": "Signed counterfactual accounting, not causal attribution. Timetable combines headway and span because the extension rule creates artificial all-day service for short patterns. No extension is used.",
+  "order": "walking; zero-wait shifted-trip geometry; original schedule"
+}

@@ -1,0 +1,11 @@
+{
+  "area_departure_batches": 27040,
+  "certificate_batches": 27040,
+  "exact_decomposition_identity": true,
+  "local_links": 22,
+  "nonnegative_deletion_losses": true,
+  "oracle_queries": 2000,
+  "pdf_pages": 6,
+  "route_deletions": 243,
+  "status": "passed"
+}

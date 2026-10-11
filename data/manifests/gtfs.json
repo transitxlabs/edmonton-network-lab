@@ -1,0 +1,128 @@
+{
+  "feed_info": {
+    " feed_contact_email": "ets-gtfs@edmonton.ca",
+    "feed_end_date": "20261128",
+    "feed_lang": "EN",
+    "feed_publisher_name": "Edmonton Transit Service",
+    "feed_publisher_url": "http://www.takeets.com",
+    "feed_start_date": "20260920",
+    "feed_version": "261002_1029"
+  },
+  "feed_sha256": "197a510d012e66f66436cec573a088b9c10d14f4a48e3d937278e4bd9b504a10",
+  "published_trips": 86628,
+  "rejected_records": 0,
+  "rejection_reasons": {},
+  "routes": 243,
+  "stops": 6790,
+  "tables": [
+    {
+      "bytes": 1199,
+      "name": "agency.txt",
+      "records": 7,
+      "sha256": "d51f5db58a1242ca7a98c43339f69a16cbebfa4107c577dc64ef821a6adb7d23"
+    },
+    {
+      "bytes": 150,
+      "name": "areas.txt",
+      "records": 8,
+      "sha256": "aacfe128442505730528d7999a6da47782f19342cab70b717a7539e5467818bb"
+    },
+    {
+      "bytes": 584908,
+      "name": "calendar_dates.txt",
+      "records": 13551,
+      "sha256": "cc0ccaecbfdda8a4637f170e2259b76dea6c11ad1518ba30f2196ef220f3d4af"
+    },
+    {
+      "bytes": 2031,
+      "name": "fare_leg_rules.txt",
+      "records": 63,
+      "sha256": "480f30a8501c155bf9f18e331dfda4424ee119760fdaea3296527e01fd5eb05f"
+    },
+    {
+      "bytes": 82,
+      "name": "fare_media.txt",
+      "records": 3,
+      "sha256": "d697e0d02a836c3ab07ffd608fdceb5b45a000d01714fa078da3b77172baa29c"
+    },
+    {
+      "bytes": 2430,
+      "name": "fare_products.txt",
+      "records": 43,
+      "sha256": "9c9196d0d2429622abf353f6eb598e94ddec0c9b0b2de0ed03ca616e138fc645"
+    },
+    {
+      "bytes": 1724,
+      "name": "fare_transfer_rules.txt",
+      "records": 49,
+      "sha256": "69929e4952558419922df16eefb4def532f3d3fe8ac260b2d6fa8b6d8e3e7a91"
+    },
+    {
+      "bytes": 218,
+      "name": "feed_info.txt",
+      "records": 1,
+      "sha256": "188fd92142689d71db975b03e23c63e98bfb682fc36dae24d590cb63a459b3c4"
+    },
+    {
+      "bytes": 154,
+      "name": "levels.txt",
+      "records": 6,
+      "sha256": "fea5f2e54856621fbf767a02ec1eda524fc8df69f02c259a2e2890959724e1dd"
+    },
+    {
+      "bytes": 16408,
+      "name": "pathways.txt",
+      "records": 305,
+      "sha256": "720cabf9ea842d79d356808b130808e0e72d088485c0a0d205f885d1c8efe0ae"
+    },
+    {
+      "bytes": 14114,
+      "name": "routes.txt",
+      "records": 243,
+      "sha256": "5407c0ed8551be20354f461054bdc0ff6e6c9054bc4ce7a0a6d9e5632369fd30"
+    },
+    {
+      "bytes": 10517551,
+      "name": "shapes.txt",
+      "records": 247765,
+      "sha256": "d36eb28c6783a00e2a665cf426ace6370fc04b0b1b47ec547b3aaa6a0f33c260"
+    },
+    {
+      "bytes": 70994,
+      "name": "stop_areas.txt",
+      "records": 6319,
+      "sha256": "423cc3740554a0818e266d08829a457e02d1d62874710110cf26b3357cba20c1"
+    },
+    {
+      "bytes": 160113026,
+      "name": "stop_times.txt",
+      "records": 2802846,
+      "sha256": "b85729c67def2decd56fc594c033360a4399842ffbb28f87505b200932eb3195"
+    },
+    {
+      "bytes": 554532,
+      "name": "stops.txt",
+      "records": 6790,
+      "sha256": "218864b042c7a986ce5461a3b51279c1e5d8b978cddea9869068f5e20ab9fe49"
+    },
+    {
+      "bytes": 62613,
+      "name": "transfers.txt",
+      "records": 3718,
+      "sha256": "9e3703b10f9860721f9df99fbf0afaaa04111674a2c17dfd3cc75984a882f254"
+    },
+    {
+      "bytes": 1007982,
+      "name": "trip_pattern.txt",
+      "records": 25720,
+      "sha256": "a21095fa9cce363b2397e18aea321493a441436d46f15c5f695c86ed1adf8547"
+    },
+    {
+      "bytes": 7742369,
+      "name": "trips.txt",
+      "records": 86628,
+      "sha256": "242ed52991fc8e039b711fb0d83a54bd50f47b8632505463346e4a52fe9ee411"
+    }
+  ],
+  "valid_trips": 86628
+}

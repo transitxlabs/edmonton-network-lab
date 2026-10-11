@@ -1,0 +1,12 @@
+{
+  "quintile_breaks_reachable_population": [
+    25.0,
+    74341.81,
+    100304.01999999999,
+    127750.15000000001,
+    169337.66999999998,
+    392447.65
+  ],
+  "statistic": "hourly mean",
+  "threshold_minutes": 45
+}

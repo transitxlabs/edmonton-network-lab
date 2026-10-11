@@ -1,0 +1,10 @@
+{
+  "departure_distribution": "uniform integer minute from 05:00 through 24:00 inclusive",
+  "disagreements": [],
+  "match_rate": 1.0,
+  "matches": 2000,
+  "origin_destination_distribution": "independent uniform DA draws; replacement",
+  "queries": 2000,
+  "reachable_queries": 634,
+  "seed": 20261011
+}

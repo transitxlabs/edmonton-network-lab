@@ -1,0 +1,212 @@
+{
+  "departures": 20,
+  "hourly_rank_ties": "Route identifier breaks equal-score ties",
+  "primary_routes": 182,
+  "primary_routes_45_60": 184,
+  "primary_set": "Non-zero population loss on either side of each budget comparison",
+  "rho_30_45": 0.9442182822094352,
+  "rho_45_60": 0.9697084115193181,
+  "top_five": {
+    "30": [
+      {
+        "population_weighted_library_loss_30": 0.07403192603811064,
+        "population_weighted_library_loss_45": 0.4529360499911465,
+        "population_weighted_library_loss_60": 1.0940082540392264,
+        "population_weighted_loss_30": 717.4291558306022,
+        "population_weighted_loss_45": 6618.522237780431,
+        "population_weighted_loss_60": 26585.96062247564,
+        "rank_45_max": 6,
+        "rank_45_min": 1,
+        "route_id": "021R",
+        "route_name": "Capital Line",
+        "top_ten_departures_45": 20
+      },
+      {
+        "population_weighted_library_loss_30": 0.022632577537419662,
+        "population_weighted_library_loss_45": 0.08195388461161797,
+        "population_weighted_library_loss_60": 0.1280455317494626,
+        "population_weighted_loss_30": 667.8205400836285,
+        "population_weighted_loss_45": 1626.7773228581689,
+        "population_weighted_loss_60": 2860.1197608267494,
+        "rank_45_max": 18,
+        "rank_45_min": 3,
+        "route_id": "119",
+        "route_name": "Eaux Claires - West Clareview",
+        "top_ten_departures_45": 9
+      },
+      {
+        "population_weighted_library_loss_30": 0.013365875324834627,
+        "population_weighted_library_loss_45": 0.058299988426143465,
+        "population_weighted_library_loss_60": 0.11359829221316868,
+        "population_weighted_loss_30": 648.304875462336,
+        "population_weighted_loss_45": 2929.051618312017,
+        "population_weighted_loss_60": 6113.374312616789,
+        "rank_45_max": 8,
+        "rank_45_min": 1,
+        "route_id": "009",
+        "route_name": "Southgate - Eaux Claires",
+        "top_ten_departures_45": 20
+      },
+      {
+        "population_weighted_library_loss_30": 0.021804947873130746,
+        "population_weighted_library_loss_45": 0.05129300751113613,
+        "population_weighted_library_loss_60": 0.0828337450131022,
+        "population_weighted_loss_30": 570.7596094169645,
+        "population_weighted_loss_45": 1784.609239943852,
+        "population_weighted_loss_60": 3130.103643539068,
+        "rank_45_max": 22,
+        "rank_45_min": 3,
+        "route_id": "107",
+        "route_name": "Belvedere - West Clareview",
+        "top_ten_departures_45": 16
+      },
+      {
+        "population_weighted_library_loss_30": 0.021241093323863213,
+        "population_weighted_library_loss_45": 0.06158335303526861,
+        "population_weighted_library_loss_60": 0.06037254958210464,
+        "population_weighted_loss_30": 524.9514345152186,
+        "population_weighted_loss_45": 1021.3598816004369,
+        "population_weighted_loss_60": 1724.55461163776,
+        "rank_45_max": 41,
+        "rank_45_min": 7,
+        "route_id": "005",
+        "route_name": "Westmount - Downtown - Coliseum",
+        "top_ten_departures_45": 1
+      }
+    ],
+    "45": [
+      {
+        "population_weighted_library_loss_30": 0.07403192603811064,
+        "population_weighted_library_loss_45": 0.4529360499911465,
+        "population_weighted_library_loss_60": 1.0940082540392264,
+        "population_weighted_loss_30": 717.4291558306022,
+        "population_weighted_loss_45": 6618.522237780431,
+        "population_weighted_loss_60": 26585.96062247564,
+        "rank_45_max": 6,
+        "rank_45_min": 1,
+        "route_id": "021R",
+        "route_name": "Capital Line",
+        "top_ten_departures_45": 20
+      },
+      {
+        "population_weighted_library_loss_30": 0.030111267297722125,
+        "population_weighted_library_loss_45": 0.10940944644321539,
+        "population_weighted_library_loss_60": 0.2939404925714636,
+        "population_weighted_loss_30": 419.1472809350885,
+        "population_weighted_loss_45": 3287.996687997515,
+        "population_weighted_loss_60": 11269.781388496775,
+        "rank_45_max": 8,
+        "rank_45_min": 1,
+        "route_id": "056",
+        "route_name": "Meadows - Leger - West Edmonton Mall",
+        "top_ten_departures_45": 20
+      },
+      {
+        "population_weighted_library_loss_30": 0.013365875324834627,
+        "population_weighted_library_loss_45": 0.058299988426143465,
+        "population_weighted_library_loss_60": 0.11359829221316868,
+        "population_weighted_loss_30": 648.304875462336,
+        "population_weighted_loss_45": 2929.051618312017,
+        "population_weighted_loss_60": 6113.374312616789,
+        "rank_45_max": 8,
+        "rank_45_min": 1,
+        "route_id": "009",
+        "route_name": "Southgate - Eaux Claires",
+        "top_ten_departures_45": 20
+      },
+      {
+        "population_weighted_library_loss_30": 0.03227360003323774,
+        "population_weighted_library_loss_45": 0.10784465114714724,
+        "population_weighted_library_loss_60": 0.21822274035289382,
+        "population_weighted_loss_30": 466.86524543995,
+        "population_weighted_loss_45": 2120.3392307737963,
+        "population_weighted_loss_60": 5725.341897706892,
+        "rank_45_max": 13,
+        "rank_45_min": 2,
+        "route_id": "004",
+        "route_name": "Lewis Farms - University - Capilano",
+        "top_ten_departures_45": 19
+      },
+      {
+        "population_weighted_library_loss_30": 0.015676145688144908,
+        "population_weighted_library_loss_45": 0.06538828310246622,
+        "population_weighted_library_loss_60": 0.056112727384239176,
+        "population_weighted_loss_30": 390.3895434657666,
+        "population_weighted_loss_45": 1844.6503839157028,
+        "population_weighted_loss_60": 2726.6227424797135,
+        "rank_45_max": 28,
+        "rank_45_min": 3,
+        "route_id": "114",
+        "route_name": "West Clareview - Coliseum",
+        "top_ten_departures_45": 14
+      }
+    ],
+    "60": [
+      {
+        "population_weighted_library_loss_30": 0.07403192603811064,
+        "population_weighted_library_loss_45": 0.4529360499911465,
+        "population_weighted_library_loss_60": 1.0940082540392264,
+        "population_weighted_loss_30": 717.4291558306022,
+        "population_weighted_loss_45": 6618.522237780431,
+        "population_weighted_loss_60": 26585.96062247564,
+        "rank_45_max": 6,
+        "rank_45_min": 1,
+        "route_id": "021R",
+        "route_name": "Capital Line",
+        "top_ten_departures_45": 20
+      },
+      {
+        "population_weighted_library_loss_30": 0.030111267297722125,
+        "population_weighted_library_loss_45": 0.10940944644321539,
+        "population_weighted_library_loss_60": 0.2939404925714636,
+        "population_weighted_loss_30": 419.1472809350885,
+        "population_weighted_loss_45": 3287.996687997515,
+        "population_weighted_loss_60": 11269.781388496775,
+        "rank_45_max": 8,
+        "rank_45_min": 1,
+        "route_id": "056",
+        "route_name": "Meadows - Leger - West Edmonton Mall",
+        "top_ten_departures_45": 20
+      },
+      {
+        "population_weighted_library_loss_30": 0.013365875324834627,
+        "population_weighted_library_loss_45": 0.058299988426143465,
+        "population_weighted_library_loss_60": 0.11359829221316868,
+        "population_weighted_loss_30": 648.304875462336,
+        "population_weighted_loss_45": 2929.051618312017,
+        "population_weighted_loss_60": 6113.374312616789,
+        "rank_45_max": 8,
+        "rank_45_min": 1,
+        "route_id": "009",
+        "route_name": "Southgate - Eaux Claires",
+        "top_ten_departures_45": 20
+      },
+      {
+        "population_weighted_library_loss_30": 0.03227360003323774,
+        "population_weighted_library_loss_45": 0.10784465114714724,
+        "population_weighted_library_loss_60": 0.21822274035289382,
+        "population_weighted_loss_30": 466.86524543995,
+        "population_weighted_loss_45": 2120.3392307737963,
+        "population_weighted_loss_60": 5725.341897706892,
+        "rank_45_max": 13,
+        "rank_45_min": 2,
+        "route_id": "004",
+        "route_name": "Lewis Farms - University - Capilano",
+        "top_ten_departures_45": 19
+      },
+      {
+        "population_weighted_library_loss_30": 0.011625048595359181,
+        "population_weighted_library_loss_45": 0.11598052822289863,
+        "population_weighted_library_loss_60": 0.26081750006677223,
+        "population_weighted_loss_30": 111.30670472520005,
+        "population_weighted_loss_45": 1476.7380276367867,
+        "population_weighted_loss_60": 5394.831468870778,
+        "rank_45_max": 20,
+        "rank_45_min": 5,
+        "route_id": "023R",
+        "route_name": "Valley Line",
+        "top_ten_departures_45": 11
+      }
+    ]
+  }
+}

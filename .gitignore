@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+data/frozen/
+results/arrays/
+work-tmp/
+research/
+BRIEF.md
+AGENTS.md
+*.pyc

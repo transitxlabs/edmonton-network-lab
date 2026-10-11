@@ -1,0 +1,84 @@
+{
+  "all_exit_zero": true,
+  "checks": [
+    {
+      "check": "lint",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "check",
+        "src",
+        "tests",
+        "scripts"
+      ],
+      "exit_code": 0,
+      "log": "work-tmp.noindex/validation-20261011-110326/lint.log",
+      "seconds": 0.10963379200074996
+    },
+    {
+      "check": "format",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "ruff",
+        "format",
+        "--check",
+        "src",
+        "tests",
+        "scripts"
+      ],
+      "exit_code": 0,
+      "log": "work-tmp.noindex/validation-20261011-110326/format.log",
+      "seconds": 0.04819070799931069
+    },
+    {
+      "check": "types",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "mypy",
+        "src/network_lab"
+      ],
+      "exit_code": 0,
+      "log": "work-tmp.noindex/validation-20261011-110326/types.log",
+      "seconds": 1.8882040829994367
+    },
+    {
+      "check": "fixtures",
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "--basetemp=work-tmp.noindex/validation-20261011-110326/fixtures",
+        "-o",
+        "cache_dir=work-tmp.noindex/validation-20261011-110326/pytest-cache"
+      ],
+      "exit_code": 0,
+      "log": "work-tmp.noindex/validation-20261011-110326/fixtures.log",
+      "seconds": 3.1902895840012206
+    },
+    {
+      "check": "frozen-inputs",
+      "command": [
+        ".venv/bin/python",
+        "scripts/verify_inputs.py"
+      ],
+      "exit_code": 0,
+      "log": "work-tmp.noindex/validation-20261011-110326/frozen-inputs.log",
+      "seconds": 0.07072108299871616
+    },
+    {
+      "check": "artifacts",
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_artifacts.py"
+      ],
+      "exit_code": 0,
+      "log": "work-tmp.noindex/validation-20261011-110326/artifacts.log",
+      "seconds": 10.932712624999112
+    }
+  ],
+  "hosted_ci_executed": false
+}

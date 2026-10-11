@@ -1,0 +1,861 @@
+{
+  "checked_at": "2026-10-11T07:16:28.476150-07:00",
+  "class_counts_frozen_geometry": {
+    "": 14229,
+    "Alley-Commercial": 2,
+    "Alley-Residential": 42,
+    "Arterial-Class A (Primary Highway, Truck Route)": 839,
+    "Arterial-Class B (Non-Primary Highway, Truck Route)": 977,
+    "Arterial-Class C (Truck Route, Low speeds)": 3990,
+    "Arterial-Class D (Non-Truck Route, Low speeds)": 3079,
+    "Collector-Commercial (Adjoining lots zoned > 50% Commercial)": 20,
+    "Collector-Industrial (Adjoining lots zoned > 50% Industrial)": 612,
+    "Collector-Residential": 7114,
+    "Local-Commercial (Adjoining lots zoned > 50% Commercial)": 188,
+    "Local-Industrial (Adjoining lots zoned > 50% Industrial)": 1187,
+    "Local-ParkWay": 860,
+    "Local-Private": 378,
+    "Local-Residential": 20343,
+    "Local-Residential (Enhanced)": 13
+  },
+  "classification_segment_counts": [
+    {
+      "segments": "90"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Roadway (Standard-DeadEnd)",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Collector-Residential",
+      "road_segment_type_description": "Roadway (Standard-DeadEnd)",
+      "segments": "11"
+    },
+    {
+      "functional_class_code": "Local-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Cul-de-sac:Half Circle",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Arterial-Class A (Primary Highway, Truck Route)",
+      "road_segment_type_description": "Right Turn Cutoff",
+      "segments": "19"
+    },
+    {
+      "functional_class_code": "Local-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Right Turn Cutoff",
+      "segments": "13"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Entrance Ramp",
+      "segments": "14"
+    },
+    {
+      "functional_class_code": "Local-Commercial (Adjoining lots zoned > 50% Commercial)",
+      "road_segment_type_description": "Right Turn Cutoff",
+      "segments": "3"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Structure - Bridge",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Arterial-Class A (Primary Highway, Truck Route)",
+      "road_segment_type_description": "Structure - Bridge",
+      "segments": "15"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Overpass Entrance Ramp",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Local-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Roadway (Standard-DeadEnd)",
+      "segments": "42"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "2705"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "3503"
+    },
+    {
+      "functional_class_code": "Local-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Structure - Overpass",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Local-Private",
+      "road_segment_type_description": "Roadway (Standard-Auxiliary)",
+      "segments": "17"
+    },
+    {
+      "road_segment_type_description": "Asphalt - FullDepth Base",
+      "segments": "9"
+    },
+    {
+      "road_segment_type_description": "Asphalt - Composite Concrete SoilCement Base",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Cul-de-sac:Full Circle",
+      "segments": "43"
+    },
+    {
+      "functional_class_code": "Local-ParkWay",
+      "road_segment_type_description": "Entrance Ramp",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Local-ParkWay",
+      "road_segment_type_description": "Cul-de-sac:Full Ushape",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Local-ParkWay",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "61"
+    },
+    {
+      "road_segment_type_description": "Asphalt - SoilCement Base",
+      "segments": "8596"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Roadway (Standard-Auxiliary)",
+      "segments": "218"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Ramp",
+      "segments": "4"
+    },
+    {
+      "functional_class_code": "Local-Private",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "152"
+    },
+    {
+      "road_segment_type_description": "Light Rail Transit (surface)",
+      "segments": "99"
+    },
+    {
+      "functional_class_code": "Local-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Left Turn Cutoff",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Collector-Residential",
+      "road_segment_type_description": "Structure - Bridge",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Left Turn Cutoff",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Collector-Residential",
+      "road_segment_type_description": "Roadway (Standard-Auxiliary)",
+      "segments": "6"
+    },
+    {
+      "functional_class_code": "Alley-Residential",
+      "road_segment_type_description": "Alley - Addressable",
+      "segments": "37"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Right Turn Cutoff",
+      "segments": "282"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Structure - Overpass",
+      "segments": "84"
+    },
+    {
+      "functional_class_code": "Local-Private",
+      "road_segment_type_description": "Cul-de-sac:Full Circle",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Overpass Entrance Ramp",
+      "segments": "16"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "89"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Structure - Overpass",
+      "segments": "33"
+    },
+    {
+      "road_segment_type_description": "Rail Line (spur line)",
+      "segments": "743"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Park Road",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Frontage Road",
+      "segments": "35"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Left Turn Cutoff",
+      "segments": "6"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Overpass Exit Ramp",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Alley-Residential",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "5"
+    },
+    {
+      "functional_class_code": "Arterial-Class A (Primary Highway, Truck Route)",
+      "road_segment_type_description": "Exit Ramp",
+      "segments": "6"
+    },
+    {
+      "functional_class_code": "Collector-Commercial (Adjoining lots zoned > 50% Commercial)",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "9"
+    },
+    {
+      "functional_class_code": "Local-Commercial (Adjoining lots zoned > 50% Commercial)",
+      "road_segment_type_description": "Roadway (Standard-DeadEnd)",
+      "segments": "6"
+    },
+    {
+      "functional_class_code": "Local-ParkWay",
+      "road_segment_type_description": "Cul-de-sac:Primary",
+      "segments": "15"
+    },
+    {
+      "functional_class_code": "Local-Private",
+      "road_segment_type_description": "Cul-de-sac:Half Ushape",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Local-Commercial (Adjoining lots zoned > 50% Commercial)",
+      "road_segment_type_description": "Cul-de-sac:Primary",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Cul-de-sac:Full Ushape",
+      "segments": "289"
+    },
+    {
+      "functional_class_code": "Local-Private",
+      "road_segment_type_description": "Restricted Use",
+      "segments": "130"
+    },
+    {
+      "functional_class_code": "Collector-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "567"
+    },
+    {
+      "road_segment_type_description": "Unpaved - Gravel",
+      "segments": "714"
+    },
+    {
+      "functional_class_code": "Arterial-Class A (Primary Highway, Truck Route)",
+      "road_segment_type_description": "Structure - Overpass",
+      "segments": "68"
+    },
+    {
+      "functional_class_code": "Local-Commercial (Adjoining lots zoned > 50% Commercial)",
+      "road_segment_type_description": "Roadway (Standard-Auxiliary)",
+      "segments": "3"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Left Turn Cutoff",
+      "segments": "4"
+    },
+    {
+      "functional_class_code": "Local-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Roadway (Standard-Auxiliary)",
+      "segments": "3"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Structure - Overpass",
+      "segments": "6"
+    },
+    {
+      "functional_class_code": "Local-Private",
+      "road_segment_type_description": "Service Road",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Structure - Bridge",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Entrance Ramp",
+      "segments": "310"
+    },
+    {
+      "functional_class_code": "Collector-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Roadway (Standard-DeadEnd)",
+      "segments": "11"
+    },
+    {
+      "functional_class_code": "Collector-Residential",
+      "road_segment_type_description": "Right Turn Cutoff",
+      "segments": "86"
+    },
+    {
+      "functional_class_code": "Arterial-Class A (Primary Highway, Truck Route)",
+      "road_segment_type_description": "Collector - Distributor Overpass",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Collector-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Restricted Use",
+      "segments": "4"
+    },
+    {
+      "road_segment_type_description": "Unknown",
+      "segments": "40"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Restricted Use",
+      "segments": "4"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Right Turn Cutoff",
+      "segments": "29"
+    },
+    {
+      "functional_class_code": "Alley-Commercial",
+      "road_segment_type_description": "Alley - Addressable",
+      "segments": "2"
+    },
+    {
+      "road_segment_type_description": "Light Rail Transit (underground)",
+      "segments": "19"
+    },
+    {
+      "functional_class_code": "Collector-Commercial (Adjoining lots zoned > 50% Commercial)",
+      "road_segment_type_description": "Roadway (Standard-Auxiliary)",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Collector-Residential",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "6858"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Entrance Ramp",
+      "segments": "8"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Exit Ramp",
+      "segments": "10"
+    },
+    {
+      "functional_class_code": "Collector-Residential",
+      "road_segment_type_description": "Service Road",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Local-Private",
+      "road_segment_type_description": "Roadway (Standard-DeadEnd)",
+      "segments": "6"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Exit Ramp",
+      "segments": "18"
+    },
+    {
+      "functional_class_code": "Local-Private",
+      "road_segment_type_description": "Cul-de-sac:Full Ushape",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Cul-de-sac:Secondary",
+      "segments": "37"
+    },
+    {
+      "functional_class_code": "Collector-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Right Turn Cutoff",
+      "segments": "24"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Left Turn Cutoff",
+      "segments": "14"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Collector - Distributor Overpass",
+      "segments": "26"
+    },
+    {
+      "functional_class_code": "Arterial-Class A (Primary Highway, Truck Route)",
+      "road_segment_type_description": "Entrance Ramp",
+      "segments": "5"
+    },
+    {
+      "road_segment_type_description": "Rail Line (siding line)",
+      "segments": "74"
+    },
+    {
+      "functional_class_code": "Local-ParkWay",
+      "road_segment_type_description": "Cul-de-sac:Half Ushape",
+      "segments": "7"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Right Turn Cutoff",
+      "segments": "313"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Structure - Bridge",
+      "segments": "20"
+    },
+    {
+      "road_segment_type_description": "Asphalt - Gravel Base",
+      "segments": "2105"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Service Road",
+      "segments": "498"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Structure - Overpass",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Overpass Exit Ramp",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Cul-de-sac",
+      "segments": "75"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Roadway (Standard-Auxiliary)",
+      "segments": "9"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Roadway (Standard-DeadEnd)",
+      "segments": "128"
+    },
+    {
+      "functional_class_code": "Arterial-Class A (Primary Highway, Truck Route)",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "713"
+    },
+    {
+      "functional_class_code": "Local-Private",
+      "road_segment_type_description": "Condominium Road",
+      "segments": "52"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "16242"
+    },
+    {
+      "road_segment_type_description": "Concrete",
+      "segments": "225"
+    },
+    {
+      "functional_class_code": "Local-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Service Road",
+      "segments": "138"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Collector-Distributor",
+      "segments": "77"
+    },
+    {
+      "functional_class_code": "Collector-Commercial (Adjoining lots zoned > 50% Commercial)",
+      "road_segment_type_description": "Restricted Use",
+      "segments": "9"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Ramp",
+      "segments": "4"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Restricted Use",
+      "segments": "3"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Overpass Exit Ramp",
+      "segments": "13"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Service Road",
+      "segments": "1"
+    },
+    {
+      "road_segment_type_description": "Rail Line (yard line)",
+      "segments": "859"
+    },
+    {
+      "functional_class_code": "Local-ParkWay",
+      "road_segment_type_description": "Cul-de-sac:Full Circle",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Cul-de-sac:Half Circle",
+      "segments": "341"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Restricted Use",
+      "segments": "12"
+    },
+    {
+      "functional_class_code": "Local-Commercial (Adjoining lots zoned > 50% Commercial)",
+      "road_segment_type_description": "Service Road",
+      "segments": "40"
+    },
+    {
+      "functional_class_code": "Local-Residential (Enhanced)",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "13"
+    },
+    {
+      "road_segment_type_description": "Asphalt - Composite Concrete Base",
+      "segments": "325"
+    },
+    {
+      "functional_class_code": "Local-Commercial (Adjoining lots zoned > 50% Commercial)",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "135"
+    },
+    {
+      "functional_class_code": "Local-Private",
+      "road_segment_type_description": "Cul-de-sac:Primary",
+      "segments": "15"
+    },
+    {
+      "functional_class_code": "Collector-Commercial (Adjoining lots zoned > 50% Commercial)",
+      "road_segment_type_description": "Service Road",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Structure - Underpass",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Collector-Residential",
+      "road_segment_type_description": "Restricted Use",
+      "segments": "142"
+    },
+    {
+      "functional_class_code": "Local-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Cul-de-sac:Primary",
+      "segments": "35"
+    },
+    {
+      "functional_class_code": "Local-ParkWay",
+      "road_segment_type_description": "Structure - Bridge",
+      "segments": "1"
+    },
+    {
+      "road_segment_type_description": "Rail Line - Bridge",
+      "segments": "54"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Cul-de-sac:Primary",
+      "segments": "2350"
+    },
+    {
+      "functional_class_code": "Local-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Cul-de-sac:Full Circle",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Local-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Roadway (Standard)",
+      "segments": "949"
+    },
+    {
+      "road_segment_type_description": "Light Rail Transit (above ground)",
+      "segments": "4"
+    },
+    {
+      "road_segment_type_description": "Light Rail Transit - Bridge",
+      "segments": "6"
+    },
+    {
+      "functional_class_code": "Local-ParkWay",
+      "road_segment_type_description": "Roadway (Standard-Auxiliary)",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Local-ParkWay",
+      "road_segment_type_description": "Exit Ramp",
+      "segments": "2"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Right Turn Cutoff",
+      "segments": "106"
+    },
+    {
+      "functional_class_code": "Arterial-Class B (Non-Primary Highway, Truck Route)",
+      "road_segment_type_description": "Exit Ramp",
+      "segments": "287"
+    },
+    {
+      "functional_class_code": "Arterial-Class D (Non-Truck Route, Low speeds)",
+      "road_segment_type_description": "Structure - Bridge",
+      "segments": "13"
+    },
+    {
+      "functional_class_code": "Collector-Residential",
+      "road_segment_type_description": "Structure - Overpass",
+      "segments": "8"
+    },
+    {
+      "functional_class_code": "Arterial-Class A (Primary Highway, Truck Route)",
+      "road_segment_type_description": "Collector-Distributor",
+      "segments": "11"
+    },
+    {
+      "functional_class_code": "Collector-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Structure - Overpass",
+      "segments": "4"
+    },
+    {
+      "functional_class_code": "Local-Residential",
+      "road_segment_type_description": "Cul-de-sac:Half Ushape",
+      "segments": "84"
+    },
+    {
+      "functional_class_code": "Collector-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Service Road",
+      "segments": "1"
+    },
+    {
+      "functional_class_code": "Arterial-Class C (Truck Route, Low speeds)",
+      "road_segment_type_description": "Roadway (Standard-Auxiliary)",
+      "segments": "10"
+    },
+    {
+      "functional_class_code": "Local-ParkWay",
+      "road_segment_type_description": "Park Road",
+      "segments": "768"
+    },
+    {
+      "functional_class_code": "Collector-Industrial (Adjoining lots zoned > 50% Industrial)",
+      "road_segment_type_description": "Cul-de-sac:Full Ushape",
+      "segments": "1"
+    },
+    {
+      "road_segment_type_description": "Rail Line (main line)",
+      "segments": "266"
+    },
+    {
+      "functional_class_code": "Arterial-Class A (Primary Highway, Truck Route)",
+      "road_segment_type_description": "Overpass Entrance Ramp",
+      "segments": "1"
+    }
+  ],
+  "decision": "No explicit limited-access label found. Retain all arterial classes; ramps or truck-route labels alone do not establish freeway or expressway access.",
+  "description": "The geometric center of roads and alleyways in the City of Edmonton, with accompanying roadway classifications and their assigned address ranges.",
+  "explicit_freeway_or_expressway_labels": [],
+  "fields": [
+    {
+      "description": "",
+      "field": "centerlineid",
+      "name": "CENTERLINEID"
+    },
+    {
+      "description": "",
+      "field": "centerline_type",
+      "name": "CENTERLINE_TYPE"
+    },
+    {
+      "description": "",
+      "field": "road_segment_type_description",
+      "name": "ROAD_SEGMENT_TYPE_DESCRIPTION"
+    },
+    {
+      "description": "",
+      "field": "functional_class_code",
+      "name": "FUNCTIONAL_CLASS_CODE_DESCRIPTION"
+    },
+    {
+      "description": "",
+      "field": "responsible_party_description",
+      "name": "RESPONSIBLE_PARTY_DESCRIPTION"
+    },
+    {
+      "description": "",
+      "field": "street_name_full_abbrev",
+      "name": "STREET_NAME_FULL_ABBREV"
+    },
+    {
+      "description": "",
+      "field": "street_name_full_abbrev_parent",
+      "name": "STREET_NAME_FULL_ABBREV_PARENT"
+    },
+    {
+      "description": "",
+      "field": "street_name_full",
+      "name": "STREET_NAME_FULL"
+    },
+    {
+      "description": "",
+      "field": "street_name_full_parent",
+      "name": "STREET_NAME_FULL_PARENT"
+    },
+    {
+      "description": "",
+      "field": "street_name",
+      "name": "STREET_NAME"
+    },
+    {
+      "description": "",
+      "field": "street_name_origin_code",
+      "name": "STREET_NAME_ORIGIN_CODE_DESCRIPTION"
+    },
+    {
+      "description": "",
+      "field": "address_left_from",
+      "name": "ADDRESS_LEFT_FROM"
+    },
+    {
+      "description": "",
+      "field": "address_left_to",
+      "name": "ADDRESS_LEFT_TO"
+    },
+    {
+      "description": "",
+      "field": "address_right_from",
+      "name": "ADDRESS_RIGHT_FROM"
+    },
+    {
+      "description": "",
+      "field": "address_right_to",
+      "name": "ADDRESS_RIGHT_TO"
+    },
+    {
+      "description": "",
+      "field": "address_range_left",
+      "name": "ADDRESS_RANGE_LEFT"
+    },
+    {
+      "description": "",
+      "field": "address_range_right",
+      "name": "ADDRESS_RANGE_RIGHT"
+    },
+    {
+      "description": "",
+      "field": "street_name_suffix_code",
+      "name": "STREET_NAME_SUFFIX_CODE_DESCRIPTION"
+    },
+    {
+      "description": "",
+      "field": "quadrant",
+      "name": "QUADRANT"
+    },
+    {
+      "description": "",
+      "field": "digitizing_code_description",
+      "name": "DIGITIZING_CODE_DESCRIPTION"
+    },
+    {
+      "description": "",
+      "field": "from_intersectionid",
+      "name": "FROM_INTERSECTIONID"
+    },
+    {
+      "description": "",
+      "field": "from_intersection_type",
+      "name": "FROM_INTERSECTION_TYPE_DESCRIPTION"
+    },
+    {
+      "description": "",
+      "field": "from_intersection_subtype",
+      "name": "FROM_INTERSECTION_SUBTYPE_DESCRIPTION"
+    },
+    {
+      "description": "",
+      "field": "to_intersectionid",
+      "name": "TO_INTERSECTIONID"
+    },
+    {
+      "description": "",
+      "field": "to_intersection_type",
+      "name": "TO_INTERSECTION_TYPE_DESCRIPTION"
+    },
+    {
+      "description": "",
+      "field": "to_intersection_subtype",
+      "name": "TO_INTERSECTION_SUBTYPE_DESCRIPTION"
+    },
+    {
+      "description": "",
+      "field": "surface_layer_type",
+      "name": "SURFACE_LAYER_TYPE"
+    },
+    {
+      "description": "",
+      "field": "surface_layer_thickness",
+      "name": "SURFACE_LAYER_THICKNESS"
+    },
+    {
+      "description": "",
+      "field": "geometry",
+      "name": "GEOMETRY"
+    }
+  ],
+  "metadata_sha256": "68aa1661b3b885b35c7b659a2a2263fafda795091fc21b2dca41cdcb7bb8336c",
+  "metadata_url": "https://data.edmonton.ca/api/views/9j8t-zm52.json"
+}

@@ -1,0 +1,93 @@
+{
+  "browser_console_messages": 0,
+  "desktop_document_width": 1440,
+  "desktop_viewport": [
+    1440,
+    1000
+  ],
+  "evidence_directory": "work-tmp.noindex/p2c-resume",
+  "external_resource_requests": 0,
+  "images": [
+    {
+      "path": "work-tmp.noindex/p2c-resume/note-final-4.png",
+      "sha256": "84e62eb3b5d9f693119851810e50e874c5803082f5b830c2db3fd8814abe4b31"
+    },
+    {
+      "path": "work-tmp.noindex/p2c-resume/note-1.png",
+      "sha256": "adf3fb40f2363993cfe54c9ee9f242a25dce3441e3857fa65c35544b936617c9"
+    },
+    {
+      "path": "work-tmp.noindex/p2c-resume/note-2.png",
+      "sha256": "e388bb5a90b086fb93f87fc3a47dea2cc5d293b904c22f627f0dcdbede67988c"
+    },
+    {
+      "path": "work-tmp.noindex/p2c-resume/note-3.png",
+      "sha256": "370d625a5e1fce08980d19da513615839169dc33cb6eb519e32d35af89e86ef3"
+    },
+    {
+      "path": "work-tmp.noindex/p2c-resume/note-5.png",
+      "sha256": "4f9c630dd476f6e8efabb6cc3f10cadb4abf9282c43d457f33f290a2b36ab00a"
+    },
+    {
+      "path": "work-tmp.noindex/p2c-resume/note-6.png",
+      "sha256": "88272fd4a3706700b9747d3a47716d06fea7dfc05bea14501138d71c0df7c003"
+    },
+    {
+      "path": "work-tmp.noindex/p2c-resume/browser-qa/page-2026-10-11T18-02-52-064Z.png",
+      "sha256": "a4722df73ceeba19ef336e572177f0d78fb3ad799624378998592a65f17dbbbd"
+    },
+    {
+      "path": "work-tmp.noindex/p2c-resume/browser-qa/page-2026-10-11T18-03-39-887Z.png",
+      "sha256": "e4c9348fb8fd0101a4b4d6e2d7080d77d00925f4f36225d46bebadb84bb58a03"
+    },
+    {
+      "path": "work-tmp.noindex/p2c-resume/browser-qa/element-2026-10-11T18-03-53-053Z.png",
+      "sha256": "1acc0b88c0b2bec616077cc8d88cba28db5a63ef6e6bdbdd95a4d1e347d01a57"
+    },
+    {
+      "path": "work-tmp.noindex/p2c-resume/browser-qa/page-2026-10-11T18-03-54-851Z.png",
+      "sha256": "87253a69ae8b5997a7a7f2ad6a2513a20aefa923d8a87814605983313ac646e6"
+    }
+  ],
+  "keyboard_skip_target_focused": "main",
+  "local_static_requests": 10,
+  "mobile_document_width": 390,
+  "mobile_scroll_containers": [
+    {
+      "scroll_width": 346,
+      "width": 346
+    },
+    {
+      "scroll_width": 412,
+      "width": 346
+    },
+    {
+      "scroll_width": 347,
+      "width": 346
+    }
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "owned_preview_processes_stopped": [
+    32824,
+    38194,
+    38195,
+    38199,
+    38200,
+    38201,
+    38220,
+    38223,
+    38224
+  ],
+  "pdf_pages": 6,
+  "pdf_sha256": "9373c6cc04db7004ee93d710987bf0059a9e7f5e706d96644238b42981cdb3c5",
+  "preview": "Loopback-only ephemeral static preview; external origins blocked; package invocation offline.",
+  "section_navigation_target": "routes",
+  "section_navigation_top_pixels": 27.703125,
+  "site_sha256": "f15b8bd655db3f56d1434e76f20f344290231cf05951d3f00df9caa9b63f5b42",
+  "status": "passed",
+  "surviving_descendants": [],
+  "visual_findings": "All six note pages readable without clipping. Desktop and mobile fit the viewport; mobile route columns scroll within the table wrapper. Map and charts have CSV alternatives. Final cohort punctuation corrected and checked."
+}

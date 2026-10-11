@@ -1,0 +1,14 @@
+{
+  "adjacent_service_dates_suffice_for_05_to_24_with_60_minute_horizon": true,
+  "drop_off_types": {
+    "0": 2710199,
+    "1": 92647
+  },
+  "maximum_published_stop_time_seconds": 100440,
+  "minimum_published_stop_time_seconds": 15000,
+  "pickup_types": {
+    "0": 2710196,
+    "1": 92650
+  },
+  "stop_time_records": 2802846
+}

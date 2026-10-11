@@ -1,0 +1,11 @@
+{
+  "all_arrivals_and_route_footprints_byte_equal": true,
+  "all_saved_oracle_values_matched": true,
+  "cross_compiler_batches": 2000,
+  "hosted_ci_executed": false,
+  "model_sha256": "fd7fb673978007ab5d70bcf273235bed5642b8a41a735c4e44b2d75bc3c57e6a",
+  "native_source_sha256": "9ee8ab7c9ca9453ba26478c7342734f7d7425ed121d526d92de70bef99fe034f",
+  "strict_alternate_compiler_exit_code": 0,
+  "strict_default_compiler_exit_code": 0,
+  "wall_seconds": 12.477058250000482
+}

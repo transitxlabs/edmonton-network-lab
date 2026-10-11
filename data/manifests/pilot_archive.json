@@ -1,0 +1,4827 @@
+{
+  "archive_read_only": true,
+  "attempt_spacings_over_60_seconds": [
+    {
+      "end_utc": "2026-10-11T10:41:31.685236+00:00",
+      "feed": "vehicle_positions",
+      "seconds_between_attempts": 66.418973,
+      "start_utc": "2026-10-11T10:40:25.266263+00:00"
+    },
+    {
+      "end_utc": "2026-10-11T10:43:21.768923+00:00",
+      "feed": "vehicle_positions",
+      "seconds_between_attempts": 110.083687,
+      "start_utc": "2026-10-11T10:41:31.685236+00:00"
+    },
+    {
+      "end_utc": "2026-10-11T10:42:11.703376+00:00",
+      "feed": "trip_updates",
+      "seconds_between_attempts": 104.378857,
+      "start_utc": "2026-10-11T10:40:27.324519+00:00"
+    },
+    {
+      "end_utc": "2026-10-11T10:43:22.453642+00:00",
+      "feed": "trip_updates",
+      "seconds_between_attempts": 70.750266,
+      "start_utc": "2026-10-11T10:42:11.703376+00:00"
+    },
+    {
+      "end_utc": "2026-10-11T10:42:36.729480+00:00",
+      "feed": "alerts",
+      "seconds_between_attempts": 128.36866,
+      "start_utc": "2026-10-11T10:40:28.360820+00:00"
+    }
+  ],
+  "collector_start_utc": "2026-10-11T09:08:00+00:00",
+  "compressed_bytes": 27396490,
+  "coverage_limit": "Counts describe collection. 304 responses have no stored body; their content is not assumed known. No absence is interpreted as a cancelled trip.",
+  "elapsed_hours": 2.033044081111111,
+  "feed_file_counts": {
+    "alerts": 221,
+    "trip_updates": 220,
+    "vehicle_positions": 225
+  },
+  "fetch_status_counts": [
+    {
+      "count": 221,
+      "feed": "alerts",
+      "status": "200"
+    },
+    {
+      "count": 17,
+      "feed": "alerts",
+      "status": "304"
+    },
+    {
+      "count": 1,
+      "feed": "alerts",
+      "status": "GAP_URLError"
+    },
+    {
+      "count": 1,
+      "feed": "alerts",
+      "status": "GAP_timeout"
+    },
+    {
+      "count": 220,
+      "feed": "trip_updates",
+      "status": "200"
+    },
+    {
+      "count": 15,
+      "feed": "trip_updates",
+      "status": "304"
+    },
+    {
+      "count": 1,
+      "feed": "trip_updates",
+      "status": "GAP_HTTP_500"
+    },
+    {
+      "count": 1,
+      "feed": "trip_updates",
+      "status": "GAP_URLError"
+    },
+    {
+      "count": 3,
+      "feed": "trip_updates",
+      "status": "GAP_timeout"
+    },
+    {
+      "count": 225,
+      "feed": "vehicle_positions",
+      "status": "200"
+    },
+    {
+      "count": 13,
+      "feed": "vehicle_positions",
+      "status": "304"
+    },
+    {
+      "count": 2,
+      "feed": "vehicle_positions",
+      "status": "GAP_URLError"
+    }
+  ],
+  "file_count": 666,
+  "files": [
+    {
+      "bytes": 6881,
+      "compressed_sha256": "8c3dd6e1c7d814b33392d8c2c8f28c5055fe0459e19229ec1e30f0ba107ef455",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T090839Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:08:39+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "355d3fce31671b5539e5c59a7e9d0baacec51a946b288b4b33535de0d8978044",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T090912Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:09:12+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "8138b35b56d4f330cd86aae6e16c6ab23dd1b8eeb990a07e88c90ca7112dfe23",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T090941Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:09:41+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d7ad7e81ba855bcd8556139489b411f729b43a27080be082b19d5b96b4e393f2",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091010Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:10:10+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "4413538661d86b9db54b3dc80250e7f709945c291647d7346403c4a8e48b7116",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091040Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:10:40+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "1d712a6742cbb7230507670bc092c54a427a93661c6a2daf8759434a79ef8362",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091109Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:11:09+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "20460427c878ed676432e9c2b1487857872a740ea0d40ded6db46e233b260c59",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091137Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:11:37+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "f2c8b328f94e4e20024c0bb53818159208ac47a6c16d4ea453ae26c32ffee35e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091206Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:12:06+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "39d094947e5089b32d6de298c95cbfe0c863c061478db55e5f5e3dc986a00172",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091237Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:12:37+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "306fd1437acb4d428d0bfe2993b57839072165701f9c6e3090f7ab2f9d0ede7d",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091308Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:13:08+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "45bfff50545c04cda3e822556f34b9e7de2cde2e8522ce7ac3b6197a5a957309",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091334Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:13:34+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "4988353cc21fe2b2d764b17a2fffc9c237400e5448384e407d6d6a11e2717c15",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091405Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:14:05+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "3f5706f7cf6f5f3ab4ca23905531e64de7076eff1e170b95aa6285e28bd9303d",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091437Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:14:37+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "cf8ae66e983c89f01da51675691fff6ec665da8c81f2705f0d1501e09e728a4a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091506Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:15:06+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "eddc1321cc82f54e3e03cc9849d666949a4fd2c4b8c0c9ccd5cbfdb6cf8c4e63",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091534Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:15:34+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "da39c472b5ffb403189356ac8eef6ec315a40551925150898edff544e301040e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091604Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:16:04+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "fbb959d30757a452af9c3d5e4830b1ab090bb1a1be8ae55668c1f87a94daa55c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091635Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:16:35+00:00"
+    },
+    {
+      "bytes": 6880,
+      "compressed_sha256": "a0e7a66252c1ac4ac01dba5272deff83ae84b8a2ca2e6d476501872c3dbefb5c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091704Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:17:04+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ca32c606a30bd69a52dee01e675827bc4c22610778dbbb1d0ba1e0d62576d634",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091735Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:17:35+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d8f1222cf23bad9dafabc25406f2c7ca77779aad28065683c958df238aaa0806",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091805Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:18:05+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "9ffd0237fb5f0a5deb8c3aec1b2a2472056d0e74360af5990d2f81df57160c3a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091836Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:18:36+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "dd629b4e1fbef6b328d5b61c7e16ac6be913f45b10a3bfc88b6ffde32852a7cc",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091907Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:19:07+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "1732770e81066dd3acd5a0389720244ee8b54b62ddd92503f3d3c56d6e182057",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T091936Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:19:36+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "e8db2fb1020d43ae98953a42e9e7661cd51015523b8c01f5b41d4aec1a8736fe",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092007Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:20:07+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ce98d2f84ecc2c6b7974c2b9eb66b0a0779ac7243d0515988d2e0c5e6250d3e6",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092035Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:20:35+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "5d54e960002d3efd4cb1a95471b5d4a5f4c6831f32c37104bbef28cca07bb3bf",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092103Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:21:03+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "8fcc1cf158833f7d584cc9d38702de354c809774cf8627fbf6c405885ca08108",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092133Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:21:33+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "7bf79ad4bdadc8a281eeb28a00c315a2baa22068e29a25786514898446e901d1",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092204Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:22:04+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "cea75b25d257d04669f3c4138db4a1d182812532fcb2f9e19d8a06bcbe9b733e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092233Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:22:33+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "4b3f4d37f96730bdf2251dd8299d2313555fa1ff8360facd37b67945d451a51e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092303Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:23:03+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "28eed8055135302abda028acb41b77cb1ab03502871378562d1dcf30af20c624",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092333Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:23:33+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "001ab1a6dc72858c98edbe171c638f3bc4369c62f9d66390c36b4d1521dd8a6c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092403Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:24:03+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ab62b2ab90f9dbdd884454bfd659f9550039bda8fde7ad9e036b9263fa07389f",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092434Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:24:34+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "3ce6c72e6ab63789465c01fa8a9459fb50c32beb5cc32e237d13afcb5e7cacf9",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092502Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:25:02+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "bbd3ac2737293ef36f7144a498815d9aed794bc5b1aeffd7003be76adbcbcae6",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092531Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:25:31+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "9452185e003d3cad9b9bc8b1d1736292c76b75de8f4aab3aa0c8fb691ee49fa8",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092601Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:26:01+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c6cb46dcb6f481281b8a9d16c78bec87dfc9ba0de0d7707b9bab0c6c6a29570e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092630Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:26:30+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c6145e04ef2dc48642460671db518836a695c645cd069284258bb081abc6981e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092659Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:26:59+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d90ae4d4d0b18ab007fa87cfc3caeab95e6259ecd1551d3d28123eea56f79e42",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092729Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:27:29+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "1846c18a884288f30d203cdd827ad7bdb8d27d7ee8f3216bef443ef5e85199f5",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092757Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:27:57+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "188502b93fde02553e9f67880d01ccfb051ad149c85eaa4da70bcb03f1cbf0c1",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092829Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:28:29+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "895b0bd6b33003e0f8d8efdcf39d521a1801bd005420280dac5dcb9919eaa317",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092900Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:29:00+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "3814c82ee896a06c8c0cda5d6e15527e2bde84102239097ed0951be2825d8652",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092928Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:29:28+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "707b14065c0943c283fc9dd813fbf468a431b56592658ffe7ab774f466fda2c9",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T092957Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:29:57+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "26de36a15211b64624a9945bd6822417a10f5836031cdfd2024226820a89f83b",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093025Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:30:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "8319083c3a6b729746707d7495fe5504a3e0e6e4390f12ddd6eb667f599b5ffa",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093056Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:30:56+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "e54a51e1d6464b797a122bb29f1cd3e37348c95a17c8e9731993ef241fb56f84",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093126Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:31:26+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "f44c712893f3aaed93f9424e09fa753d682d5f677961bfa26522e617664a9d4d",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093154Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:31:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "0bcbf361cf93c7ddcc93ecb42753c8a73cf6fe91f9ff9c68525632f96c0f7f51",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093225Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:32:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "7e5502e1931af1d49e1e4eb78e01c8fe7d7719d85ed41b823a6b579d302e8fd9",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093325Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:33:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ce95dcd2f22cd6b0c771584ef9eb2d76880d945a44e791b3e08bfbb61882c31a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093355Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:33:55+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "87d819a8a73ba449d420947678a249d802f7043efe536eea57357bfd1963b0f9",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093426Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:34:26+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "4caadff9ce320229a5ef1d954b3ad9a93ce4c99f85f8c2bf07f1ec5d886199bf",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093526Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:35:26+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ab4498d58f4ccbf02ba6ce64e93253ab362cd780fe3c1b95640cdd9a25367b5c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093555Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:35:55+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "a1ebec1d8c111e7ff8ce71470a0b522dbf87aaee40f59fa23404dc1bad063899",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093625Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:36:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "12ec43a0ecba4a32ee39889010f16bc3beb2274c50d449c50c6ee87050e06b45",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093658Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:36:58+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "13795684668a3ff316d486ae3e8fa428c17ddcf6beee1cdc4f3606e6294369d9",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093724Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:37:24+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "7411f293df3b1a30e6864cfa76028c3f0bee28650d14b826cd46ef6a50f64094",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093825Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:38:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "36e5c5b78d75cdb5494acc7583133bb3f5c4219ba05756628ea6bb83975c44ec",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093854Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:38:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "a94a08214ebfa90e2cd4f3c6ccd3030b03b423ca562af5d98246b501ebe6d342",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T093953Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:39:53+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "e68d8b737f23b146b01d7d0feaf41d7923b4fd3dc041cb19297e3ec7b509239b",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094025Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:40:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "4aa8d9c5846045c6cefac54e30127dda16a6a10d691854f51b51a20665462d1a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094055Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:40:55+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "23083bd9871731d70017ca07df9bb568dfb2df0aad0c29925bc90b50a41a4731",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094154Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:41:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "7faca0b2291c64f48ab3cd723150c48b30af5a47a7507365f0b5564c77be8453",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094222Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:42:22+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "78b5ba4eb18be744cfbe77e6e6a58bff3db1a70e54c821ef2282e8aa1e3c97fa",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094254Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:42:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "12781ab0959bd8c9fbcf9f5ee7b86c53c4383089198628921668dd3aa9cd6898",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094320Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:43:20+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "2836afa48ca793fbf5e03fe5d9707db67bb92af5ed106937cc45394944fa02e0",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094352Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:43:52+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "21595b29db6fb924626549e8e59443591a4e63f874bc0e6db78a96b277fa9463",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094423Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:44:23+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ba04457732df7dab96c5f7afd03adc8300363b58fec97f37f07e0b008959185b",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094454Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:44:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d18887ef51ccac3a8a413978e8fa8c8b418e537f371030f53a12a1ce8a09abe8",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094525Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:45:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "113250b3cc5e0a3f2fd3e6898bfda7e098ea4370cb9c2cb4d615653a1f99a961",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094556Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:45:56+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "70c733d22c7f70479092fa1afea72a48ec2ae724f4d3bb73a7d241adffbefd6d",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094629Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:46:29+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "cf221e857b28aa15c1dada5b47d6adb5368f594eeb3b7fe907af5b210d27837f",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094656Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:46:56+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "9d765c5b99d7ee1bcd34a167ed18644381582955a8a2f8444c5c457dd64af762",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094726Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:47:26+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "caf8c605b3685c50109c908600bf6df206c29caec84cfef27f263250212593e5",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094757Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:47:57+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c467419344b029f7db888baae1b5b9819a8a000e6aa634232a41ace34dc7bbf5",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094827Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:48:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "5e884998f94851a1f3c1940a53a8b5de5e6fe4104ba9321cfac6485861324f78",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094857Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:48:57+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "8971ac3c75fa076f7e843d2393824f4ead5ca0797acb71fc0221ac3f19c1f2ee",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094926Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:49:26+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "79714a912cad8ce79de5dd1b850ed48bf7a21e3710b3c7aa6eb03a4c2caff4b7",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T094955Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:49:55+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d1c562566323eb2ce188236906f0abf8e8d61046b6bbe884f36746c7c924f90e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095025Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:50:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "eb0478a784ef0687896cda6f21cc9ad5cc57ed6753ac33d93abdb3060fc9324b",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095056Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:50:56+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "6bb8002dcc17b50d1e2bc03d1b270b47fd87e7b62c45940d313069b52901c383",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095127Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:51:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "e71450269515609bf94ce462a3626eb38dc36dd3e0a0af69e99d99b773f29b0a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095157Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:51:57+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "66765df7e3ea8ecf05c1384039f3e5b5f7c61352d049be09725cbe5dee99390a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095228Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:52:28+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d57fc5a43445bd15aec932c852552da166d74b7a407c1b06bf818e7580723637",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095258Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:52:58+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "af141c4bcb474569b93a2eb83e9c2a24401b8205fa996594f7950f1a8419b6f7",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095354Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:53:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "3acf3e597dca79879b3bf66e89d27526a793b2efa2685d3d937fb50399d88020",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095425Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:54:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "de9894738fe28e1e6be985d9137fc28a4ac020c590cafcd2704e5b9375cf18c9",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095458Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:54:58+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "a763202ccebb873e93a4a326dec11e0f929758aa2de7f248e6a50ca779ae3db9",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095528Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:55:28+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "5065bd1993f01b6b902a5d1475c88b50fd4782e1e146075d20ede358884d75bb",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095559Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:55:59+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "b89594b8d5311d004b5b235406b9f9296bf03eef3abae47a3a27ad4dd8fef331",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095631Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:56:31+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "9b71e44992a7a1ab738e833bcab53596d9d8dff9856bd2688d4d38c959012caa",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095702Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:57:02+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "dff86de1e09755a3d2645482ec3884564abbb28d75db8c245356f68e78ac5424",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095730Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:57:30+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "9335cde9799f5889364f06551b7e64efc636f5af084f9f06395028d00b0d747e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095804Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:58:04+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "79d16ce43a67c481600bd41d34b8b1f173e02dad24348add45ee29380babe427",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095833Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:58:33+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "fb22f6b630a55ea8f4f49b8ec861e1c5bdce894886fc861a9bc7415a38c515fa",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095901Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:59:01+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "729eed3b5fe01d3695e3945bd91196a331f6fe879b1938fa6c13a74193bc057a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/09/alerts/20261011T095930Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:59:30+00:00"
+    },
+    {
+      "bytes": 116029,
+      "compressed_sha256": "5183a4078ec67915b9c24bc2dfe74b64c495d54d751d3cd1e2ba09a7ed4226d5",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T090838Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:08:38+00:00"
+    },
+    {
+      "bytes": 115873,
+      "compressed_sha256": "6440c306c689ab6e2a1b0da0093a87a6e9860ddc1ee5cbfc9966321c50eda92a",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T090911Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:09:11+00:00"
+    },
+    {
+      "bytes": 115725,
+      "compressed_sha256": "83d26946b92d61de700914959e48b3695bbcd52981717ccda4b02c1a041e1e63",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T090941Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:09:41+00:00"
+    },
+    {
+      "bytes": 115589,
+      "compressed_sha256": "d2510ec0539836e2d75bcb3309d8b6b53b9d7ebe25ebce5351e418b9b146c77c",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091009Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:10:09+00:00"
+    },
+    {
+      "bytes": 115155,
+      "compressed_sha256": "d281cb611b5bcbaf805eadad6752c66fab6b1cd373b90e6f0dacc1e7f6b74745",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091040Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:10:40+00:00"
+    },
+    {
+      "bytes": 115100,
+      "compressed_sha256": "5e5de071901beef12645875684ed6398dcd644208a3359c8d7b36bdac50dba9a",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091108Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:11:08+00:00"
+    },
+    {
+      "bytes": 115003,
+      "compressed_sha256": "70120ec35c0aa199a84c87d574e9132532209a0f6152fc159672c70407bb61d8",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091137Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:11:37+00:00"
+    },
+    {
+      "bytes": 115020,
+      "compressed_sha256": "758fce40adc90cfc29c6c29565e832c190eab779a596ccad4264143c59ea772d",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091205Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:12:05+00:00"
+    },
+    {
+      "bytes": 114724,
+      "compressed_sha256": "ca777f32cc79064fc78cb43dc5e36137efacf42395ba8bd6e4aab290b62f8700",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091237Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:12:37+00:00"
+    },
+    {
+      "bytes": 114698,
+      "compressed_sha256": "7372bcbcfebe4a04ed79f2385ef0561c8fc5ca02898b140eab495ae5166be2b0",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091306Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:13:06+00:00"
+    },
+    {
+      "bytes": 114597,
+      "compressed_sha256": "60719600566c086d8d6a0fd03a168ff6114d448abcd1a291a8221bd744c4506b",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091334Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:13:34+00:00"
+    },
+    {
+      "bytes": 114520,
+      "compressed_sha256": "ce1a239afc5d5f4eeb6420afe8c5761297e753b28c87d5b548946c501b5a921f",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091405Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:14:05+00:00"
+    },
+    {
+      "bytes": 114416,
+      "compressed_sha256": "6c77f509979531654cfb36efbf29acc1bed150194b8506a0851d0611e6f19ea1",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091437Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:14:37+00:00"
+    },
+    {
+      "bytes": 114409,
+      "compressed_sha256": "42a285f5ff193a5b55a4ae84dd134d6eb80627f28dbf98e22a5b2b40e98eeb12",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091506Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:15:06+00:00"
+    },
+    {
+      "bytes": 114370,
+      "compressed_sha256": "7e1eb8e23c1d50eee804537e64be0b732782153ce6a2a144ace08020bcf6bede",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091534Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:15:34+00:00"
+    },
+    {
+      "bytes": 114343,
+      "compressed_sha256": "0796325f9a75d1dad2ec759b091679a4b40862e7e2b317721b155013f0b96623",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091604Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:16:04+00:00"
+    },
+    {
+      "bytes": 114269,
+      "compressed_sha256": "90fb70e5583c8d98ae8e524968010c8122085b4d9a431e33d7c613a1bda02a14",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091635Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:16:35+00:00"
+    },
+    {
+      "bytes": 114175,
+      "compressed_sha256": "36e0a91677616421322dc37218b297b3966b9fbd2baab749fa41d1012a4cfa79",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091704Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:17:04+00:00"
+    },
+    {
+      "bytes": 113971,
+      "compressed_sha256": "4ba12ee058d37a68d1ceaf2ae42ba6ed6d4c40afeb85eb47034aef793d91a0be",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091734Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:17:34+00:00"
+    },
+    {
+      "bytes": 113971,
+      "compressed_sha256": "5445013af99d186b2fcc0ea837f0e167590ce434f2d390b84df84432042d0ea5",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091805Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:18:05+00:00"
+    },
+    {
+      "bytes": 113934,
+      "compressed_sha256": "c77204e8d092601aba353a4f711aa512e2270edcfdd5611fd889603638e69815",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091836Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:18:36+00:00"
+    },
+    {
+      "bytes": 113569,
+      "compressed_sha256": "c7ca72d6255921c3a8eb97bb1eaad8807ad18d401fab83c83fb6d9b21548a175",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091906Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:19:06+00:00"
+    },
+    {
+      "bytes": 113506,
+      "compressed_sha256": "a92d94be5906eb29c3fe095128cb3fa042a2c3e7e29468db994f1424ea257e2c",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T091936Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:19:36+00:00"
+    },
+    {
+      "bytes": 113335,
+      "compressed_sha256": "8b73fb46ecdcd6cadfef4025463bf037a52d8b603417cb04234cc051c85b6768",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092006Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:20:06+00:00"
+    },
+    {
+      "bytes": 113318,
+      "compressed_sha256": "dd9c1efeade42fd2a21931c37d835c18a5007d4689691131c4ead7b959dfd85b",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092034Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:20:34+00:00"
+    },
+    {
+      "bytes": 113306,
+      "compressed_sha256": "d69465a3fff8e069668ffa8302bcfbfecfa468addcd5d00a1be026b9bc7f482e",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092103Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:21:03+00:00"
+    },
+    {
+      "bytes": 113258,
+      "compressed_sha256": "66c387443633cf9ebce730429aaa50afb5f7234345b7330dffdbadb633e83c62",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092133Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:21:33+00:00"
+    },
+    {
+      "bytes": 113219,
+      "compressed_sha256": "f765f960dc19e95a7930b58e86464ffd45d004252e0b4a5a68a01d9967ea2b02",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092204Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:22:04+00:00"
+    },
+    {
+      "bytes": 113188,
+      "compressed_sha256": "29e17d6a9b2d055daee69953df02f57205b7aa5c756f08dbb2b941d13a2a46aa",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092233Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:22:33+00:00"
+    },
+    {
+      "bytes": 113187,
+      "compressed_sha256": "9bad1e815feaba33eabdc637a0186eb9bfb07fe0fee0cdc8f476a19c305495fc",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092303Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:23:03+00:00"
+    },
+    {
+      "bytes": 113141,
+      "compressed_sha256": "9235bf8911d8b281b6c786c2ff31304c34137eebc862c9135ec485d77e5beccc",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092332Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:23:32+00:00"
+    },
+    {
+      "bytes": 113134,
+      "compressed_sha256": "4c198dc9538ef09420c40cf3256e64d1fa813eb79c5b183238f013da7d2222fc",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092403Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:24:03+00:00"
+    },
+    {
+      "bytes": 113098,
+      "compressed_sha256": "70bb20a259b75b1aa16ecc3506f702be42e034ec793b6b7c6a37be09a6c84983",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092433Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:24:33+00:00"
+    },
+    {
+      "bytes": 112992,
+      "compressed_sha256": "6ee35e78308a6425a6f5785b7a339f1bb2be434089cc1008a652496507d20913",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092501Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:25:01+00:00"
+    },
+    {
+      "bytes": 112971,
+      "compressed_sha256": "93b83896bc05d6b1298b7978e2807bb85f94046bb5a97d8fa90155ff5a9cb032",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092531Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:25:31+00:00"
+    },
+    {
+      "bytes": 112841,
+      "compressed_sha256": "c5d01293b868c3329e15a269d3d77d3e67fcb98153935062309c3af69d61848b",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092601Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:26:01+00:00"
+    },
+    {
+      "bytes": 112815,
+      "compressed_sha256": "a99744ae352e0961bd73a27611272b1691841c496ff427387002181a64be5706",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092630Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:26:30+00:00"
+    },
+    {
+      "bytes": 112771,
+      "compressed_sha256": "f06324e71ccdf1918b9f5a20ffa493323ce7c2032ab51dd1d4037af46c236ed3",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092658Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:26:58+00:00"
+    },
+    {
+      "bytes": 112630,
+      "compressed_sha256": "f3883dd307261634f1a67729456df8556266229dab7be0f17e647f9ec7bc8c79",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092729Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:27:29+00:00"
+    },
+    {
+      "bytes": 112659,
+      "compressed_sha256": "84d5c76aad354ddfe47f604b3709f348228bb147b403f1003aa24e8751350229",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092757Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:27:57+00:00"
+    },
+    {
+      "bytes": 112633,
+      "compressed_sha256": "fda621decdaa626b273cccb73c1f98b82fa121fe6d168adc21adc64605007058",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092829Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:28:29+00:00"
+    },
+    {
+      "bytes": 112608,
+      "compressed_sha256": "af142abf08a869261e557e5f6c23aa3aa41e59af7a9a44a7837fee21e7f9836f",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092859Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:28:59+00:00"
+    },
+    {
+      "bytes": 112601,
+      "compressed_sha256": "641012f39d3533b47131e476b68632a2b22c5c0dbd70c95ee88ed38ef76cf768",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092927Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:29:27+00:00"
+    },
+    {
+      "bytes": 112576,
+      "compressed_sha256": "81e220e421eab968e796216b901acee020bc9b8baa7d8ecb01edd5f7c9511a77",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T092957Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:29:57+00:00"
+    },
+    {
+      "bytes": 112254,
+      "compressed_sha256": "555313295b390c35b004d6e5f05e117989e99004f9fecc179c8d3c42d528f853",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093025Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:30:25+00:00"
+    },
+    {
+      "bytes": 112239,
+      "compressed_sha256": "a5baf6f9671d15fbc01bc9abdd08a362e168e9df66cc799fa8dbcf6ea7d72b2d",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093055Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:30:55+00:00"
+    },
+    {
+      "bytes": 112257,
+      "compressed_sha256": "922cc12c18422919cbc456731f57e6d6ac5e1896e6b05e5cc9815ec1c77c46fa",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093125Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:31:25+00:00"
+    },
+    {
+      "bytes": 112229,
+      "compressed_sha256": "f861759e32f144291757a997ee7ea7eaecf54329762da7faf32ac10ddc56beee",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093225Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:32:25+00:00"
+    },
+    {
+      "bytes": 112236,
+      "compressed_sha256": "c90a87781e7d094932aa7e7d070108c199c97e763ef30b5e48d04704abc33175",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093324Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:33:24+00:00"
+    },
+    {
+      "bytes": 112225,
+      "compressed_sha256": "e710f628de57793dea486ab0b384942be67602ed4602c7b62eef1cfc5cfc37bb",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093354Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:33:54+00:00"
+    },
+    {
+      "bytes": 112142,
+      "compressed_sha256": "04a21632965cfdbf69497a34c1b972b877c2d799d9416e8558e273564e42242c",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093425Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:34:25+00:00"
+    },
+    {
+      "bytes": 111629,
+      "compressed_sha256": "f467bb9f1ec46011bf0a5ba9175de5832e909ce1c6f909705ebf953bac9af16f",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093526Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:35:26+00:00"
+    },
+    {
+      "bytes": 111631,
+      "compressed_sha256": "abd54a0bd762c5c27d977db6651316ab23162f7c06e6ab09aa6f0931cbee14a3",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093555Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:35:55+00:00"
+    },
+    {
+      "bytes": 111628,
+      "compressed_sha256": "95b5b6c62582f7d5504e179b17bbdc9324399ec5bd0d8f18e0e80a7931425ba8",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093657Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:36:57+00:00"
+    },
+    {
+      "bytes": 111617,
+      "compressed_sha256": "6380f2c14820bd4c1dfbee58419f17edd12ef1720f2597214389686ffe4d8ce6",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093753Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:37:53+00:00"
+    },
+    {
+      "bytes": 111623,
+      "compressed_sha256": "853d83ff7d9a6d54bcf4f54af08cee57b9b6e2cdfa3f0d6a48c1143454292f2c",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093824Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:38:24+00:00"
+    },
+    {
+      "bytes": 111620,
+      "compressed_sha256": "c7409f08d5e78eaf7dae8a126bbe3a022de8b68d28c6457ab72e586cb18bcba9",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093854Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:38:54+00:00"
+    },
+    {
+      "bytes": 111620,
+      "compressed_sha256": "c1a0ae800720ba233ff07194cccf2392486b6f70f0f069a1f74092b931b6dae5",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093922Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:39:22+00:00"
+    },
+    {
+      "bytes": 111618,
+      "compressed_sha256": "71816be2367a0bf62cb66f1455efcc920d0ef1115696b4462a3aaf867b1b0089",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T093953Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:39:53+00:00"
+    },
+    {
+      "bytes": 111241,
+      "compressed_sha256": "57a757ae049669e2262c1a3437bda14fbdf96968571cd5351e0a259b6de7db74",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094055Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:40:55+00:00"
+    },
+    {
+      "bytes": 111191,
+      "compressed_sha256": "ae8658f31775e3688b471e05478efde90b8f2d0cc4b7b972f9e4f1afc8d5bce9",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094154Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:41:54+00:00"
+    },
+    {
+      "bytes": 111192,
+      "compressed_sha256": "9350b43346ac6fc68bd60656d578d07e3efe14ebfe7710ed4d725553f8969e62",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094222Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:42:22+00:00"
+    },
+    {
+      "bytes": 111153,
+      "compressed_sha256": "8e5cd39d77bea21e22d30a3a3053acdfbce57d60ce6e32ee6dc6c2e63e65d8ac",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094253Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:42:53+00:00"
+    },
+    {
+      "bytes": 111143,
+      "compressed_sha256": "c4a33cdc41d8babc7e6dc27eacaefa17aa0ff9454a91fa1b069565c26e0139e8",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094319Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:43:19+00:00"
+    },
+    {
+      "bytes": 111076,
+      "compressed_sha256": "13951aeafba3b75056810069bc68fe8f45be4b50da7503f1f585cf2926f8ebe8",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094351Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:43:51+00:00"
+    },
+    {
+      "bytes": 111075,
+      "compressed_sha256": "1a8c4214ead79a05f64da7e3812b1610b3af04f3b178a94fb6fa0526aca0fc66",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094423Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:44:23+00:00"
+    },
+    {
+      "bytes": 110933,
+      "compressed_sha256": "c0bd2279d5eb831d111506d9784664e082c6a7a8538bb0e250634ea40165445f",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094454Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:44:54+00:00"
+    },
+    {
+      "bytes": 110949,
+      "compressed_sha256": "f947668d9cc1606c0ea6ebeb2f0ca8ebf2c66f6665ea07db2ef9576e4c5cb36e",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094524Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:45:24+00:00"
+    },
+    {
+      "bytes": 110838,
+      "compressed_sha256": "ae1abf3e117913cdbef0e77841f202c27d82f2d24f30ec81f6e82ad005d765ab",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094555Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:45:55+00:00"
+    },
+    {
+      "bytes": 111091,
+      "compressed_sha256": "978dcb2585bdc691599962af93044abb5fe4fe5dc4d57a8228f21938030ea9b9",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094627Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:46:27+00:00"
+    },
+    {
+      "bytes": 111096,
+      "compressed_sha256": "9cf55b1cc2f5a675392fcb999fbfacfe05c157ac94912516b1d5658af04de0f0",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094656Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:46:56+00:00"
+    },
+    {
+      "bytes": 111074,
+      "compressed_sha256": "4049fc8df40562e819b5638509be81d4a0a5c20f9c63e8a29d07c537a85880dc",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094725Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:47:25+00:00"
+    },
+    {
+      "bytes": 111074,
+      "compressed_sha256": "90e6a18f16d40836b80e0690dab7af3b2168429a9205c90068b60b6c2806fb22",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094757Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:47:57+00:00"
+    },
+    {
+      "bytes": 110789,
+      "compressed_sha256": "7aeceb7028de6f6680e65936179e803e1e26c768ad4706ac5d19719bca365b43",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094827Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:48:27+00:00"
+    },
+    {
+      "bytes": 111056,
+      "compressed_sha256": "dc09ec7a08f35749d879793aa680bced5a6d0f4cff42c0dd81b4f94d54d33535",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094856Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:48:56+00:00"
+    },
+    {
+      "bytes": 111036,
+      "compressed_sha256": "8ac9975499c3f0e243c76ab900bb0debeb7a8bbd3e5f7d4665d00c038db330d8",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T094926Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:49:26+00:00"
+    },
+    {
+      "bytes": 111039,
+      "compressed_sha256": "487d2ba7ff3cad71fc0a3fe81269a7ee495825cf3377e6041ff91c8f3a5f5439",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095025Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:50:25+00:00"
+    },
+    {
+      "bytes": 111029,
+      "compressed_sha256": "4efdaa1ffb7c7a10aea249f55599bb184bdebd9388cff82a255b5582185d7431",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095056Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:50:56+00:00"
+    },
+    {
+      "bytes": 111017,
+      "compressed_sha256": "d8e17c156d437a87ad863cdb4f0fd9c12a9306f6462f19fbd5144935055337d5",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095127Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:51:27+00:00"
+    },
+    {
+      "bytes": 110993,
+      "compressed_sha256": "91c05416ec4e406c5921f645f471894ec5a3f2116828635e9530dc9d6b54d1a6",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095156Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:51:56+00:00"
+    },
+    {
+      "bytes": 110993,
+      "compressed_sha256": "cb5081a8b583a6be761c826017cacc2ebfc1bdff97a4976fa8a6f3250f99a591",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095228Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:52:28+00:00"
+    },
+    {
+      "bytes": 110992,
+      "compressed_sha256": "5fc4d0cc63c01fcbc4db9a7e9e7c4d9041e6652eee7c4bfa74b60f986af85765",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095257Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:52:57+00:00"
+    },
+    {
+      "bytes": 110993,
+      "compressed_sha256": "65c8324ff9c768c96759331a251650a5f852353e645b2fa08f949611e1f21643",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095353Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:53:53+00:00"
+    },
+    {
+      "bytes": 110989,
+      "compressed_sha256": "523375aa7470336955c45fce49ae7e6feb0e8c90be6438f16be8fd7e41582759",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095424Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:54:24+00:00"
+    },
+    {
+      "bytes": 110992,
+      "compressed_sha256": "dbcadbc505afbe6a981d172af2e10e40f8aabd61fb9ee325edd669a826771933",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095458Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:54:58+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "0fea25ae1953af6b14d44d2d7389d76f7662ea960935cfac4992018f9242f624",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095527Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:55:27+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "0c7ca42396734f659caf8e3a7fd0461bf4ace264c24c17495d4392e910d56387",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095558Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:55:58+00:00"
+    },
+    {
+      "bytes": 110652,
+      "compressed_sha256": "d06c6c4d335412a78acd376df4284b5d68eb84268fcd438ad9de98c10f9fe43f",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095630Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:56:30+00:00"
+    },
+    {
+      "bytes": 110652,
+      "compressed_sha256": "6489feaa4dfd549d682ec62377198eb390fe138ad68e8c1d041dcf66d5e7e0f9",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095701Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:57:01+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "fb76ce3d736c2c2b8ca8bd037fd73e654cea360ed64a0b2d88831a8ece8926f1",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095729Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:57:29+00:00"
+    },
+    {
+      "bytes": 110652,
+      "compressed_sha256": "6d62898fbce6a04a8210ce728ee3e6d54c3a2f659dacbcaa238cf1c653a55da6",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095803Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:58:03+00:00"
+    },
+    {
+      "bytes": 110651,
+      "compressed_sha256": "d7c3b859bcb92c1695f6339dcc5c6ef6db69af5f9ce1be24a4ded072b8409229",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095833Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:58:33+00:00"
+    },
+    {
+      "bytes": 110651,
+      "compressed_sha256": "aebd83f3c335ae6b31324ebbc65f40fac4019942918dfd82147b385e60c7b830",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095901Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:59:01+00:00"
+    },
+    {
+      "bytes": 110652,
+      "compressed_sha256": "f305f3810029282773a8fd993f153222905b561252cd7f8cffc693f100f74e96",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/09/trip_updates/20261011T095930Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:59:30+00:00"
+    },
+    {
+      "bytes": 776,
+      "compressed_sha256": "3049522094a8ad682a346974f24e378101290e5cfbe5a386a2d17bfbfded7cb6",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T090838Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:08:38+00:00"
+    },
+    {
+      "bytes": 779,
+      "compressed_sha256": "91dc5ef3cbc0ae626b4925331d215837f14b35b2ce63e3e59b93895b33db92d6",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T090911Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:09:11+00:00"
+    },
+    {
+      "bytes": 732,
+      "compressed_sha256": "b7ed7b6663fcef2ca19d9514591ae0e27b830cab0382b73430dee42ce414750c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T090940Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:09:40+00:00"
+    },
+    {
+      "bytes": 737,
+      "compressed_sha256": "b1f939a48fe5616af58b06f8934c04d7544893785e1dd796bd77b9acd29a9f79",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091009Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:10:09+00:00"
+    },
+    {
+      "bytes": 681,
+      "compressed_sha256": "85dfe5f0510c6bcd0d3d384a372a7d1c2355ea28797fa6a38b9401b36d191377",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091039Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:10:39+00:00"
+    },
+    {
+      "bytes": 692,
+      "compressed_sha256": "ec19fd553e422a276a43d1e7cd518ceb2b8dd2b109ab7ce73ced527acccd6d08",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091108Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:11:08+00:00"
+    },
+    {
+      "bytes": 689,
+      "compressed_sha256": "35bbe0bee5633104e37e58ddaa5a99a36076c33ad4e75179f8a285c00abf98f1",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091137Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:11:37+00:00"
+    },
+    {
+      "bytes": 680,
+      "compressed_sha256": "50092b9539064f370ff6e2e9c5522507bf43d190564e131bdf5a4d4ec7c14c35",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091205Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:12:05+00:00"
+    },
+    {
+      "bytes": 652,
+      "compressed_sha256": "682b8517f7a6960f0a154899baf0a8c05e8691d1429c2aec3e5f5eec0f399db3",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091237Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:12:37+00:00"
+    },
+    {
+      "bytes": 645,
+      "compressed_sha256": "a9e03809c3824a35ece80b44486c0e220f6aacc75b8ee6483ba9bbb5c278d541",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091306Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:13:06+00:00"
+    },
+    {
+      "bytes": 643,
+      "compressed_sha256": "fe44d60846d2704074fba79a4ca388220bcfe22bbfcb94ab1547ada5dfcb3117",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091334Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:13:34+00:00"
+    },
+    {
+      "bytes": 597,
+      "compressed_sha256": "cc51fbef6ad5231cf9d8b04894b50e32f2d287044b1e47f623a7e471d9e7b83c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091404Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:14:04+00:00"
+    },
+    {
+      "bytes": 602,
+      "compressed_sha256": "fc36c65073ebb5d70774d02beab317d3db49d118c08e0ce27b4560374c35b96a",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091436Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:14:36+00:00"
+    },
+    {
+      "bytes": 588,
+      "compressed_sha256": "d26d0967531f601df49e654ab61537ae53cb5a9bcfd39ad4d8e2ddb6dc3b2161",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091505Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:15:05+00:00"
+    },
+    {
+      "bytes": 647,
+      "compressed_sha256": "8ce155d42c44d12afd96ba27693d069b6431839704cf8bad1a4831040fd848e1",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091533Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:15:33+00:00"
+    },
+    {
+      "bytes": 626,
+      "compressed_sha256": "b83b55b8cef995bec60781b44e090819864acd8d55cd8fffb9067d3017e52f6e",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091603Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:16:03+00:00"
+    },
+    {
+      "bytes": 640,
+      "compressed_sha256": "fd72ec36e5f5d83cf6870af2924d5cb5e450fa7edb91efcf0bc91f878c715a64",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091635Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:16:35+00:00"
+    },
+    {
+      "bytes": 636,
+      "compressed_sha256": "36fc8e5532326e104029e86d695904d0b01a58fb4dd42abe4d8093d687332e50",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091704Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:17:04+00:00"
+    },
+    {
+      "bytes": 625,
+      "compressed_sha256": "af792ea7476979f67a5371c45206d05b9ed9955d841ef09b0dad748f13c1933f",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091733Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:17:33+00:00"
+    },
+    {
+      "bytes": 632,
+      "compressed_sha256": "51bea2dbf4d686239b1316d77a429f201d5b88a96cd497a6cf8572050f00555c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091805Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:18:05+00:00"
+    },
+    {
+      "bytes": 641,
+      "compressed_sha256": "c4036b7bb63373af912bbb4de884c5389249a61b431aebc4ca9191edca6afc58",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091836Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:18:36+00:00"
+    },
+    {
+      "bytes": 650,
+      "compressed_sha256": "090acbe914431d2314de2b1f5e64312d43d4c1a4d4099686392e68c4d0da443a",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091906Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:19:06+00:00"
+    },
+    {
+      "bytes": 629,
+      "compressed_sha256": "203157822f3eb7fa6845773d197984fe7f97d8d6e359e91e5809805a1a57f118",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T091935Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:19:35+00:00"
+    },
+    {
+      "bytes": 606,
+      "compressed_sha256": "92e4a2f5442b7c968558c3a9b50c2558172d76e64ae50c87f87b3520cee96524",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092006Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:20:06+00:00"
+    },
+    {
+      "bytes": 592,
+      "compressed_sha256": "e61cd351c595d89678d9f614d44007510e7a795070fca1956eff0d06fd915f90",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092034Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:20:34+00:00"
+    },
+    {
+      "bytes": 595,
+      "compressed_sha256": "b68b7ce986eb92cb9e7bac4025004a26e20ea64d64294f9c8c3122cdff2d9dd5",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092102Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:21:02+00:00"
+    },
+    {
+      "bytes": 592,
+      "compressed_sha256": "67ff6afe75064f88e612644e71f104b5953d0768dd77bcd208caebc99fcafaac",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092133Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:21:33+00:00"
+    },
+    {
+      "bytes": 584,
+      "compressed_sha256": "c7980ec494d2ad2175b60b321c0efae3deefcfa6b21be21d735a170a0f97b3a2",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092203Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:22:03+00:00"
+    },
+    {
+      "bytes": 543,
+      "compressed_sha256": "6478795afac7fa3f7c84712e592e09ac0b7f29c3014bf0b2d3652f90fe6034d2",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092232Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:22:32+00:00"
+    },
+    {
+      "bytes": 539,
+      "compressed_sha256": "462fec85be3c0f482c515f57d3ee872a02c37960ee822825d4402fcdfcfd6e73",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092303Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:23:03+00:00"
+    },
+    {
+      "bytes": 552,
+      "compressed_sha256": "3c9a99a69036f15e19ba50b7195f199ba0fec8ddae932489dec724d003033f47",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092332Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:23:32+00:00"
+    },
+    {
+      "bytes": 544,
+      "compressed_sha256": "29d68e74e77abdaa4e8fa387e5815743b0ee107137909ccfef8477e8bfcc53a7",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092403Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:24:03+00:00"
+    },
+    {
+      "bytes": 516,
+      "compressed_sha256": "7aa6c74b6d17d27cc7657e8f5cfd3f49427ad231f6059c14d8d1287c4a54e73c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092432Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:24:32+00:00"
+    },
+    {
+      "bytes": 481,
+      "compressed_sha256": "bb8ae64d89e954d1f33ff92886cac2ddd6691c6b8369a760a90f3718b24fcf9f",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092501Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:25:01+00:00"
+    },
+    {
+      "bytes": 546,
+      "compressed_sha256": "8d9d3259d051d6e11fc01a931a814798e331af7fc986d67f69715695b264b7e3",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092530Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:25:30+00:00"
+    },
+    {
+      "bytes": 506,
+      "compressed_sha256": "21e4bf240d6638d47d202e01259c84e2025b99327eb7a3d5e33dc4163003f5bf",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092600Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:26:00+00:00"
+    },
+    {
+      "bytes": 515,
+      "compressed_sha256": "e7b119c4dd78f03ca9e60d632b54f72f16865da6af47c741c915ab55a8c1f955",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092629Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:26:29+00:00"
+    },
+    {
+      "bytes": 506,
+      "compressed_sha256": "27b77095899432a91aedef6f5220f2a1ae7f93295553aaf56d95f33917b09372",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092658Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:26:58+00:00"
+    },
+    {
+      "bytes": 503,
+      "compressed_sha256": "229d33d125867a6cecd5438deabe86431a01bb66481a55789c7da2c471ca241c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092729Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:27:29+00:00"
+    },
+    {
+      "bytes": 494,
+      "compressed_sha256": "883da05ac53422cdd749a416b288104cc60cfacb9f5dab90af8db2ce774048ab",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092757Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:27:57+00:00"
+    },
+    {
+      "bytes": 493,
+      "compressed_sha256": "b988c50054008e7797dd2a0c38ecd846464ec9716e5bdee461377d65f8ddfa24",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092828Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:28:28+00:00"
+    },
+    {
+      "bytes": 498,
+      "compressed_sha256": "f2e210339e342a316faa103b1c8fd0201e6d281757359acead1fa1f41930b0fd",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092859Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:28:59+00:00"
+    },
+    {
+      "bytes": 506,
+      "compressed_sha256": "68309ef2bf55d4d0f8c30b48aabaa0eb9aeff96f05c3f474fbfbe1c9364be6b1",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092927Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:29:27+00:00"
+    },
+    {
+      "bytes": 503,
+      "compressed_sha256": "2defadceda3aac47461435c53f5c2fa812ee4c993448d9bf6fc67065f98ed23b",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T092957Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:29:57+00:00"
+    },
+    {
+      "bytes": 435,
+      "compressed_sha256": "8a526922aaf05ed179a5004241b94e6dbeb7295f677d99f3a48c7dc62cd36b0f",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093024Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:30:24+00:00"
+    },
+    {
+      "bytes": 448,
+      "compressed_sha256": "acf8cfab63d0c956259fe7c622ce83e9519e3e5a0076f0faec13ab638e13400e",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093055Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:30:55+00:00"
+    },
+    {
+      "bytes": 446,
+      "compressed_sha256": "00663eddd0e9d7965ecdc9ffccf1ddbd4bf25302b52b2cff12c90567eaf2c6bc",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093125Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:31:25+00:00"
+    },
+    {
+      "bytes": 444,
+      "compressed_sha256": "144384ed2e3b932f50f693788dae009179791c2423393c6f322cecc06fb3d1f3",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093225Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:32:25+00:00"
+    },
+    {
+      "bytes": 445,
+      "compressed_sha256": "c574d160b04bbcd03f82eb43d59a06adfdd1dd0390b18b9bd298f46959f4331f",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093323Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:33:23+00:00"
+    },
+    {
+      "bytes": 440,
+      "compressed_sha256": "4e3f5900cf08bc7a0f21bf07c664f8f786d147669866365ec676411908d1564c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093353Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:33:53+00:00"
+    },
+    {
+      "bytes": 441,
+      "compressed_sha256": "51d32a5a6fd346cd7d3ddeb196386f9afcac4edb19c5270fe37e0c5b30111adf",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093425Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:34:25+00:00"
+    },
+    {
+      "bytes": 330,
+      "compressed_sha256": "166adcca3a7b13d277d13ffddd5d26824006be4afae773d5aba11262b75e8e6a",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093525Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:35:25+00:00"
+    },
+    {
+      "bytes": 326,
+      "compressed_sha256": "c069427750b009ce423d14ee84a3e8f68a009d7bd5e8784d85e43cdae6bde5b8",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093554Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:35:54+00:00"
+    },
+    {
+      "bytes": 322,
+      "compressed_sha256": "dd63c1ca0a6244e96b062f550184a3080e4e4e528d2f28265ad741d442771f2c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093656Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:36:56+00:00"
+    },
+    {
+      "bytes": 329,
+      "compressed_sha256": "f11675afbd3f91a64629d2ddd376f2ab8cdef6bf9327ad676efeb0d309b182d6",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093753Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:37:53+00:00"
+    },
+    {
+      "bytes": 335,
+      "compressed_sha256": "a7f61779c1526a182ec91e5ddf06d9ad6a23bd69dfe71acd1983d6df6c5b5ff0",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093824Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:38:24+00:00"
+    },
+    {
+      "bytes": 326,
+      "compressed_sha256": "599d5fa1bfa1adcc7b894a89724ca25d4403b283af0ebe68ccb1efb217a5ad0a",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093853Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:38:53+00:00"
+    },
+    {
+      "bytes": 335,
+      "compressed_sha256": "cf7cac87cc8dfb7975763aabf0801e6f3d61f3dd370552cc64143845ad10dce6",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093922Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:39:22+00:00"
+    },
+    {
+      "bytes": 319,
+      "compressed_sha256": "7851422efa59af25fdd0cfaa08b6cc80e98e87be3b741b608d57edd4439fdcc2",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T093952Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:39:52+00:00"
+    },
+    {
+      "bytes": 325,
+      "compressed_sha256": "08037a9c2320d0bf74c16f05bb7bcbd319028c979c4c26745dccb77b8cce1312",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094025Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:40:25+00:00"
+    },
+    {
+      "bytes": 271,
+      "compressed_sha256": "c5e4ad8cc5dc2d66de7d4766168f952d8bfc0967caa312110c5823be103ee04c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094054Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:40:54+00:00"
+    },
+    {
+      "bytes": 269,
+      "compressed_sha256": "6888358e3095030b04ca8dbf27af35961d983d54e3ebcdf0427f019423fc558d",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094153Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:41:53+00:00"
+    },
+    {
+      "bytes": 271,
+      "compressed_sha256": "47d1b61245e926bba82afd4fd70ef9dcea6740006cd2e4ba9dcb61d023ae38e2",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094222Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:42:22+00:00"
+    },
+    {
+      "bytes": 265,
+      "compressed_sha256": "aa2b1614f652879cbaa05b7be857ab40595fb8bd62cf1c199dacbea34efeb350",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094250Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:42:50+00:00"
+    },
+    {
+      "bytes": 274,
+      "compressed_sha256": "4737fb1b10fd9ecdc55ffa515fc3c940a2e3654f4c9ce0faa5f61e920cd2dfbe",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094319Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:43:19+00:00"
+    },
+    {
+      "bytes": 269,
+      "compressed_sha256": "26553edd75839118770c12e8a5d718d9491bcc8eac5c7d6a825101020fb91442",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094351Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:43:51+00:00"
+    },
+    {
+      "bytes": 271,
+      "compressed_sha256": "bdebd64f4ecba818bf90b2017f15c5281fa06559fc84c067d2da6b9e3ef28b85",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094422Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:44:22+00:00"
+    },
+    {
+      "bytes": 272,
+      "compressed_sha256": "0549da3ac245c59a01ad5582ce52d3b19876a6f1dade8812d48a3ab15cef3d3f",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094454Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:44:54+00:00"
+    },
+    {
+      "bytes": 269,
+      "compressed_sha256": "65fda8bd520d442a3acedc72c5a8ce59cb93a3d170bb1ad807aac206c67e7536",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094523Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:45:23+00:00"
+    },
+    {
+      "bytes": 214,
+      "compressed_sha256": "7ec62e6f683c1af147b985f3b9175aa57268bf6f1e22ab6cc73aac92398edf20",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094555Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:45:55+00:00"
+    },
+    {
+      "bytes": 269,
+      "compressed_sha256": "33558a912860d6e5aeb12ac9bc5f650173e0aa0aa02c0fd4217517aeced25cdf",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094627Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:46:27+00:00"
+    },
+    {
+      "bytes": 277,
+      "compressed_sha256": "212bc072996ea3844fa06b764d0987f864555bad659e4e96e4e91eb85674040d",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094655Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:46:55+00:00"
+    },
+    {
+      "bytes": 286,
+      "compressed_sha256": "c7bed9b037dc6da26c840f6a5b50d9e3c050d6b4782a8b084d8f5e5f613dac85",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094725Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:47:25+00:00"
+    },
+    {
+      "bytes": 283,
+      "compressed_sha256": "00f014be77e942dcd16983229ddec81423c9be481177f6d45952c27d3158ec95",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094757Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:47:57+00:00"
+    },
+    {
+      "bytes": 214,
+      "compressed_sha256": "074f134ba33b8f06e8c3e53364c358c0ff07e099a0167b0fdb52562eb737f371",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094827Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:48:27+00:00"
+    },
+    {
+      "bytes": 280,
+      "compressed_sha256": "8b5d301b476477d4ebb2d20b681b5d8f10d113bbe6eaaa2d6d65b2a174f9a037",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094855Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:48:55+00:00"
+    },
+    {
+      "bytes": 279,
+      "compressed_sha256": "2dda77dfcdcc18233ee5c3b3acc1d5b4f690c11ddf034f080ee623f45ae0df62",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T094925Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:49:25+00:00"
+    },
+    {
+      "bytes": 279,
+      "compressed_sha256": "9407ec45ea11bb64f99d3dcbe3dc6eef772a90c5fc252cd9851fba516fe0a8e6",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095024Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:50:24+00:00"
+    },
+    {
+      "bytes": 274,
+      "compressed_sha256": "1a55c57b8f870f4d6b72429126ff22c8f3d906ab66732a73139cae2368813591",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095056Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:50:56+00:00"
+    },
+    {
+      "bytes": 285,
+      "compressed_sha256": "0c20884090655fb10992c2c56bbbc3500f38a08e25147a0233f08949675b6094",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095126Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:51:26+00:00"
+    },
+    {
+      "bytes": 280,
+      "compressed_sha256": "2d5f8edf885f99949a5dc04af84e96f41a51ab13f454f5f1ebfc528b94a6bc0a",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095224Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:52:24+00:00"
+    },
+    {
+      "bytes": 277,
+      "compressed_sha256": "aea32b1d8ba0200b0ba1fd4e5542a4fe41326accc0d4fd20563ecc1d30ac58b5",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095257Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:52:57+00:00"
+    },
+    {
+      "bytes": 276,
+      "compressed_sha256": "b92df97b5acc4d698715fc051a3b0846b4594a9575da4feccb5d6aeec520bd76",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095353Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:53:53+00:00"
+    },
+    {
+      "bytes": 267,
+      "compressed_sha256": "37da5081fc09a93c16c609a25002e3de211131d2ad515cdbae91fdf8a8a079ca",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095424Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:54:24+00:00"
+    },
+    {
+      "bytes": 278,
+      "compressed_sha256": "3a685d7ea99010a5b8d7ede066bce43953292794e6242866f0f43953855e35f2",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095456Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:54:56+00:00"
+    },
+    {
+      "bytes": 216,
+      "compressed_sha256": "8b032d99e3fe6b45b1006aab3a99150461114db63ffc2ca42b5297172d4322ad",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095527Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:55:27+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "5181ff9110c67d657cbf88beb421f7406107cd90f9d1df7344f3b6da2b82cfbc",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095558Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:55:58+00:00"
+    },
+    {
+      "bytes": 216,
+      "compressed_sha256": "6361bc98dd0d9580a05c3a168db9157c6499636c66e04a2a8e6094d3ae83d2ba",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095630Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:56:30+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "ea8bbd6a0f239a85b4477ac544b595335b80b151c9ef992a90d7ae9ced0f20ba",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095700Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:57:00+00:00"
+    },
+    {
+      "bytes": 218,
+      "compressed_sha256": "076de92a40a573351426fa7d7e9f9ef8befe06c32d51fbae564311f2df781b34",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095729Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:57:29+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "36474e0fef50bdc65d912d08ea03f184b5b0600cc33bc92cc2c84f1d9875f17f",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095801Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:58:01+00:00"
+    },
+    {
+      "bytes": 216,
+      "compressed_sha256": "d00075cc4a356603b4e3359396a8efea2b013c65d015d78d41a2742d6e2024a2",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095831Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:58:31+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "a3242b7bd4f0038d0d223c982778dea9e378230a78077e72bf3617e57e882424",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095900Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:59:00+00:00"
+    },
+    {
+      "bytes": 216,
+      "compressed_sha256": "08703b13e491850b2f39bcaa9f31cc5796ecc2c51b51fa50feddb8e380367442",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/09/vehicle_positions/20261011T095930Z.pb.gz",
+      "timestamp_utc": "2026-10-11T09:59:30+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c35076823439696ef0e392e7d597924c32c0950ed6a64fb08da81b8de61d65c3",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100003Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:00:03+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "a903703dc3ac4cf2557251ac4e666f4a0066fa99b3c6e077b9f354e1b8f6dc85",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100032Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:00:32+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "bb96681ca79de83944e789f6c295397a4653cb64389d1bae78ee797acf2e6d58",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100100Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:01:00+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "13f6056bbebd9cf552e5ee92119dc45bbb1329269b72660675b46da0040a0765",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100127Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:01:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c995acbeffd41542e3c1ca7908bcec0766b0fcf31f3faaaa1a9e8cf81f5bf266",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100159Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:01:59+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "0f7bfec2441693088e38469b22f48f79e2afda57751b184bc4c1f0cb2b33120a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100229Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:02:29+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "0bb61be77f8b6604bf278965fe1069eabd5d93888c589a2fe6d2a023f8331761",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100259Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:02:59+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "e3b834834aa3b42f24ebc4305bd5f115cf31b5bc9865a01810767fd2e70cd29b",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100331Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:03:31+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "f0a0a6d48776ec5f8fcd86460f210a69bf6e24a1522d1fe2af6ed94104454a96",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100413Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:04:13+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "9d777d964133a37e565457a7669dee91be5b0811feea2eefe9ad36bee568537b",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100427Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:04:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "9f60a378b658f7030393798035de885a787e16252a6427bff1a9ca7cacda42a4",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100457Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:04:57+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "9a9a5626c1abcb74e7de9d42dcad0aeea8d1a1e0b9dd3a5d3b7e054a94019886",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100528Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:05:28+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "231461372212b36215957479f4b0f187f2a072d85b3ab72290734e0c9b0dde41",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100600Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:06:00+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "b77258948b74c4ceef6cd67627c16e3b246883a05d033b4e2f6470e02585be6c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100627Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:06:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ec0ff35dc3206390711471d8bc2d29dae3b2e853aad0df64c7175e1a83f0c29c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100656Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:06:56+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "87672aa08d379be921aceb48c323e65f530e7562ef4d79b2d9636af6e803fd1c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100755Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:07:55+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "65bdbcf938881f2f097cb15948263c47fecdd43a3a9733c16f15e67eb6d99292",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100824Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:08:24+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "b434482c8057cbfe46a3d75ea0bc373be0edb2cb06b1cc4fe28394b144dfea88",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100855Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:08:55+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "336ba8f3b8ef79284797163d914cbe1cbd756dd3cfd13434153db87b94d41935",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100925Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:09:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "5b3f3274c06e7209eb533a442eafd79e481938b0f315bef72e354dc5a25f2880",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T100955Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:09:55+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "2ee40a7de8dbecd4b10751cbfe8c305d4f1a18dafcdc311c45347b1b2c0b076c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101023Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:10:23+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "8ebf20ef368e72d3b719c383f6dba72a8270126e37d64353039f527dc2376e2a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101052Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:10:52+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "887031356b869a1c8fb6eee285ad5b71c769be89ce637fdbef4186b154f71d31",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101124Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:11:24+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d4a7a25aa99e425b85e3a39ba4e47ee407f0e0abd0ee24966025b713f9bc8fb4",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101153Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:11:53+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "cfb0d89fed5400fe57c4ccebe889e670574e608f62ff18da9a9a4be87b561a8d",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101223Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:12:23+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "93fcf23495ca600945622de657783f3023c9d801614735f0f3fc8246ebddbe3d",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101253Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:12:53+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "45f7531f76be500888bc1ac8ccb17caa40804b333eecaddadbb2749249df13c9",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101324Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:13:24+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d0c81fa752e128bbed0386c83d66ec83596bb7169e0c3741c8d9eed8882da68b",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101354Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:13:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "801bcefbb6dc8b5b25af91f5d8b260fbbd971521b5b5c2870d77a758c24119ed",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101427Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:14:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "41507cb7f0a452cb254a48b5af993cd0e479ff5476cce5d827f93532e044280b",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101458Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:14:58+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ebaf2355d98da3663e5b2745cc989174a1797620a9cee43fabf4f7f637d4a98b",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101558Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:15:58+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "937f338390db80cfb435f00c9ddcedc483c9b653ed22669f63926908c3334d61",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101627Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:16:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "8d32e4b65dc811ca8ccd765f2c3fc29bd644cfa84be2cf8859387f312bafcbde",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101717Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:17:17+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "45f794050f7c353adfcf0936d00532cb7e3dd02f39b4682e72a92ac4ef765289",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101728Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:17:28+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "bd0f6cd016b685953b4bd36f361c6fb91e2d92d997d1741f0779bea12856a1a6",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101827Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:18:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "4e11dd2d43f3807ad0f545aad5112c618839336ce2789a784650b6cbf0e672e3",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101857Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:18:57+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "41e8ca5b9748b7775993b777f681dff56411d539eb30e2133db94b4c9dd2bef3",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T101928Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:19:28+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "63b704b2f900562dc1440d7bfa33280530bcc6c1209858899b4b257abfca984a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102024Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:20:24+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "fbfb599ecf31733a1bbf14c6263a8aee786e927d118421519e34c44204747042",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102056Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:20:56+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "e9712501065cd02f6d79fc6b90fecc8c9ad8e979300eaa225edeb135ac352375",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102127Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:21:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "df665c26f0c47fefd22a4f4a0e9f4335309e2b3e8c4d0982e6e26de1b0f4d35f",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102158Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:21:58+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ee7ae153cad4d2d71feb9e29c1bb8146cee6b8e3f1904092bb519ce25dd09a3e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102256Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:22:56+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ee984f4368e24dcf79343617bd4c3aa714d6b295ebab800508a7d0110d5a9075",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102324Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:23:24+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "a3cf3fa1ed61b04bf785c68bbec894d66dab7f9f0e09f126b0158da35df72955",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102352Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:23:52+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "1935680ad175561e59d00f0d5e3c8b9244cd3715e535183481b374f39ebf2b6a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102423Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:24:23+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "813e8ca9c2896cb99bb93d0089b8975487b805d5fabf56e43d9d47e983677213",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102515Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:25:15+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d1281261a914b808dea65d5b60e8e4d4738aa9d080e3e42f61011bdb133b3377",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102527Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:25:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "18a10b53e4dac97af4c4d242ccea5157ea60774e9e3681e6a6a604e4b7344c36",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102623Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:26:23+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "4e4984f2f220c4da277716c298a3eb5742ffcfa4d565166ba5d2fd771531daa5",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102652Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:26:52+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "27b44dc7eac08b2959bc45e2860e1da37ec1ebf0ec3fb9404e2e864bee2b4e1e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102722Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:27:22+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "8bf6834d4172d98d8ff2f316b8f1c4af0c2394ac7d2d6b3a8c5f5f18ec0b1e8c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102755Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:27:55+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "57e78ecf487fd72556e687311767d1a29b4fc5cdaca373573a16dc7f10ea0e05",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102821Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:28:21+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c662beabc49384c744ba6ac886054149355f80e406a480157c0fe8971a00beca",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102854Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:28:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "5c186ae244e1242e6c0a3a7999b77631e00d8b8568849622f9b5848ef89b5907",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102921Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:29:21+00:00"
+    },
+    {
+      "bytes": 6880,
+      "compressed_sha256": "38d44eb870f2630f6cf559be1723680a88ee79ddd8cc021db36ded49dbdc4bd1",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T102953Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:29:53+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "0b5b517e2e70c7830bc1ac16a86fcb8618443943d1c31d2c91513ecc58dcfb86",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103023Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:30:23+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "83a4e533791b1fef26026867a67c374617b62745e1b762d05dd5986ee061f6fd",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103054Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:30:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "4f3a1a1cd9c1ad36886d091aae5b2dae33f8c200beb07d377f6f1a0ba8cc0e22",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103128Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:31:28+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "274476b58e144f0541bfa2900cbddcd90f36a1dbb0766b1ba277c14aa62d8b74",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103225Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:32:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "a6ea1492c9a5c60568c5454e372e3579659220798023dd8da0c1dba3b020eecd",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103253Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:32:53+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "dbf6df6a7788c6d60f606cc8f727c250429e98ff57e4ee330f520bcde63fefe3",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103322Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:33:22+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "b7e4ec6b32f315ba5a7137ca7bad526ace3e728d625451217363e0cedafc0bad",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103354Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:33:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "0715f394d3f8cf8c46304865b52e7a0b69b5b4b115a66f57fe6e25d31469aa09",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103422Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:34:22+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "e83b0f57015b37cf47874353ae9d3ee6131a9487bd247f137c47d99714651eab",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103452Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:34:52+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ba4e976e22e3290c3560b822075c75df27bf2a3adbcbd14837d1214ab7176eca",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103522Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:35:22+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "b8763c1c4e4c2ad70af9bfd0750f3d1c4ef07da1156a385f3b6d84dc24eee593",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103555Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:35:55+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "304b97b02c6f5d0f30fba1fe3b28deb85d4c1ae1267de8124092545acc0f9535",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103627Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:36:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "356b93d5e117b93ba270af4028073073fba51f2da4225d513e00d5c83116a19e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103654Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:36:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "caa4f23865a4ac47201c3c80f5e7f67d99acbe98b7ce50d578bf35a2b0767997",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103726Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:37:26+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "576011fc983fb318aa2f52934622b2c59c5e0d89cfe86d5967b6805b7c7326f8",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103754Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:37:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "421773c27e78dac5ad3bb5b06d5325c44460f4edf5d02509acd1cc7b2e3bc2c8",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103827Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:38:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "06d32877d78698988db98e110ceebe6030c88f9934680f06680d6c5d024c08fa",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103924Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:39:24+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "1b00f253f84a87b1a17049430e34cbaab7de41e813715cf8d798a782c6ff634e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T103955Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:39:55+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ee568915301760bf658eecf885a1494cb85c9af59b44ffc751fae17c05f2b681",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104028Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:40:28+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "1c263e713f0dfcf7fa2c69c408dec40de31ac5f6806336d691f61c0dbfbaf3c0",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104322Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:43:22+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "e28557ca83228b76bc8535f1f3f684adf3aba16eab7e41871ebe8fee8d6cec48",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104400Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:44:00+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "3020c15a51c354755435d6682da0ad7de5c62e274a1ce3bf5e5bce748224703c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104422Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:44:22+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d7e0eb51eae3b76a19d4a12e5fc917e3365db37369d4a6029ce4cd9e34b5bd17",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104454Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:44:54+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "1caeb9cd7c04331e12384e8a934618045c7a643ad1f77fa3a72df5d5c275a906",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104523Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:45:23+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "26c882c2187f42ea97a0b8e3bd83d8e5ae61b88602b9fe02e4807f2c3c7e0dcc",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104557Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:45:57+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "01601ee83fa5fe56cf6ef24dd3178539b944fb789427f6c7947bbaf4ab72c602",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104628Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:46:28+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "0af7507aa4fd4fcc98d6c12f617f02120eb787db45386c3fe846f6beafe4a314",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104733Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:47:33+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c73d515da5e3b0479e7ee732e19c89f968f0583eb1e1e5537a2f04f6e8878205",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104825Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:48:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "8e473d63da18418f7896799fe30991df34a4d98f986e63ac96f4d1a14bf9eb18",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104856Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:48:56+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "e8aa647704153156e04f7609bb13faf1f2e05276f4f6ddceb7b161ce14a5b3a7",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T104925Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:49:25+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "541dc403c2ffe0f6f0ffc1dcd49680728581baea5afd8f3076f8311cec96270c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105019Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:50:19+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "18a210d0072b6637fd65ac544f056c447833180b565f539f809ab9172aee24f0",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105027Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:50:27+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ed9d8ae2444dc4c41353f526ba9e689327ef09059d378d8f088e4c7ccba2ed11",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105152Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:51:52+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "56409c7944a108d916249515e39cb3f8d4770d80dcfa33695ddd0d0696f5d5db",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105202Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:52:02+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d3dcc17ef95af23cc300f1347904a1f4e69bfcbc17899d6d5a2dd2ad71e7bf69",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105232Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:52:32+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "9c8c73bad487a80271e1886c51a061610cbaa5c98d65e74f6c623615e95ef336",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105304Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:53:04+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "100fd20f5c8be7938761d81f9ffb4f6a092f952f05b79d79d79290df469b5543",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105352Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:53:52+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "f345485e509b38286ecfeddb7b7db749e55265120a256ec0a8e7c167ae10b3fa",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105401Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:54:01+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "8a623cf1823780c3a60370a03572a58d580ccbe6da8d476fa13374dd85246daf",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105433Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:54:33+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "6fd10fd3a8298c129f031d78ee9e799490df944eb71dab2a335cc3072d4d2207",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105504Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:55:04+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "85783b3fe7667a32171601e7b20248095ef6cb8dbdb452a7295886df8c49f146",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105533Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:55:33+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "9d7c6342d1c3b11cdfd93775b76eb2c6eaa6a0604231a306e4a7aba70ff5a732",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105619Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:56:19+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c9c6d36ad740d7f39a00459a8fb6529749b456f116be652428ffc995b54bfdd5",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105634Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:56:34+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "a88417c843fd54bbda6cf14ac0b75f9da9471909df7149e2c84a60d796500d78",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105701Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:57:01+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "6e878f3b66b9e4cc34a9ec751a450df0692d0a3dac498115a71c1f1ab4f9520b",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105732Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:57:32+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "49b7e9b18c9f131f55cd6e9ed3c3749de434ef2dcf57ef3351cd9a9f47ca28fc",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105818Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:58:18+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "1bc1ed52badf55e2ce0897b5c01b596d70acf15f5c4953738cf5637cebba7d64",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105833Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:58:33+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "3d78175e88b086830b327c604522dfd0a9c14ba77af3da51905867ce2e975c2a",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105907Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:59:07+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "58f6a6f51450ce6307ea464ad31bb6c9ee735738d5b7f0b5c2aea490b9d38b9d",
+      "feed": "alerts",
+      "path": "data/2026-10-11/10/alerts/20261011T105935Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:59:35+00:00"
+    },
+    {
+      "bytes": 110652,
+      "compressed_sha256": "74ab89a428fa37335341e751e274b7ad0aecebb1df8c3d931b13b92fe3b3886c",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100002Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:00:02+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "c8edbaa56395961ca8b57099ba6f13cb6221f69d01c0a19e89d5adb92cba8898",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100031Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:00:31+00:00"
+    },
+    {
+      "bytes": 110652,
+      "compressed_sha256": "8ff9274781cd7a6a82044230b38aee8dc29be4657f874648ad77ac16b97b0eed",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100059Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:00:59+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "296053dd931b8aa9432d18aef04846b6c867f2d636b23e13b7719ddbe04775dc",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100127Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:01:27+00:00"
+    },
+    {
+      "bytes": 110654,
+      "compressed_sha256": "008dd34d0476745fd8dc7ee60752905d0c666165b20fa5f448d0c3069079ffe8",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100159Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:01:59+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "2c63bf9e98c4cc1607a8fbef92374b3352b00e81c8294db933ed75e94c35fa46",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100228Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:02:28+00:00"
+    },
+    {
+      "bytes": 110651,
+      "compressed_sha256": "78ff8bcafc67d29647a0803aac1663159b2dce04800df8cd255f2cf751d61001",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100259Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:02:59+00:00"
+    },
+    {
+      "bytes": 110654,
+      "compressed_sha256": "60ce4ccdc9d52d7a888a37bb712d264b83cc8ab5c86822142e34ab851166336f",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100330Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:03:30+00:00"
+    },
+    {
+      "bytes": 110654,
+      "compressed_sha256": "9c4d85ccfef13688ad0dcc02205fd5dc815f2027aad3b6807e3febd52a30f206",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100413Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:04:13+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "3ba1568ae50423df2a7b4f0af44c099ac4fd5c32699e7e09b06753bded5629e4",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100427Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:04:27+00:00"
+    },
+    {
+      "bytes": 110651,
+      "compressed_sha256": "0ab4157788e870076498a47dd1e60a7c8ebf6ca21629e32b7bc11ad0c2eed80e",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100457Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:04:57+00:00"
+    },
+    {
+      "bytes": 110651,
+      "compressed_sha256": "d813e3f76b5bc2093d67bc1dee1a5186e4aa909acaacce1782163295af1c112b",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100527Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:05:27+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "c924c65b046993dd14f0bd72b859779558e5f9d378dada8eb36f623a7e5fa1a0",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100600Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:06:00+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "b4ee03af26e14594a512b80a0207e7d2312334b762a5983cd0a58ee8ea4a892b",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100627Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:06:27+00:00"
+    },
+    {
+      "bytes": 110652,
+      "compressed_sha256": "db30a8f9bac4155582b6b026b5b9545b4cce1b6badf04ef9aa6d31a757371897",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100724Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:07:24+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "aae4ca9b4ee7eb75b01ba2f8c13f92cc617ac363f4885bc6ead63bfd9aef9539",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100754Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:07:54+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "eacc9c04a5cdd01da833db92d3e115b933eb3f36f2e35f23ae40049baa3a363a",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100824Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:08:24+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "a7d2724734c8819a25c634782cd8e1a6851b137d506170a9a458fa23bcffd73c",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100854Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:08:54+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "c1030078ed826f69ac6527fd2db8a9bf5b0889f05e359869f4adf47d598eb827",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100924Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:09:24+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "798f6aa8e732de1d2f9d649e360e51f3c5cf5f153d93d09eadd36a2b35fd6033",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T100954Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:09:54+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "ad1d9aad9c3d16bf78fc617fddbfefb4003f970e89ff1faeaf69b600a2808822",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101023Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:10:23+00:00"
+    },
+    {
+      "bytes": 110652,
+      "compressed_sha256": "566f9dd2967667570c233ac34cfaf0198950dc04f18ce3b6f9bb898848f80c2e",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101052Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:10:52+00:00"
+    },
+    {
+      "bytes": 110645,
+      "compressed_sha256": "c4fe6020cfa5bdc51cd9819f00243887aee1367ad3fff101f955ef59493bd6bc",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101123Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:11:23+00:00"
+    },
+    {
+      "bytes": 110645,
+      "compressed_sha256": "2160a750074326ee7695a1aeaba7c981d23739c9278427331a1c840ec27faffb",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101152Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:11:52+00:00"
+    },
+    {
+      "bytes": 110644,
+      "compressed_sha256": "c30da728a325a6a47e470399b6382b30e13a198ed363d8f9f7b18c118820c894",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101223Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:12:23+00:00"
+    },
+    {
+      "bytes": 110647,
+      "compressed_sha256": "168c0fc9bc1f90658654a3ab0503177384cc5b982312b6519cc6d903f541b5bb",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101253Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:12:53+00:00"
+    },
+    {
+      "bytes": 110649,
+      "compressed_sha256": "a5c092eb84a56f8340c163b66fd2e1d1507fc89a51b27826b75c902c5a49084e",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101323Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:13:23+00:00"
+    },
+    {
+      "bytes": 110648,
+      "compressed_sha256": "051acde9ef1904d056a06e8e1dcb22d875a7436bb99dcf3c3e0cbea4704c7f26",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101354Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:13:54+00:00"
+    },
+    {
+      "bytes": 110650,
+      "compressed_sha256": "09e2a9e7ffcf8881b5e0de0e88ce24af7a9b924fc2fbe99ad2e38518f9cd5e32",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101426Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:14:26+00:00"
+    },
+    {
+      "bytes": 110647,
+      "compressed_sha256": "5336435e7e75fb7c70e803bd091b91ae16f01a22506186e74501a0585d582515",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101457Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:14:57+00:00"
+    },
+    {
+      "bytes": 110650,
+      "compressed_sha256": "ad9e79ecbcff1c461947323cb419aa216be443fe2974d4d2637a02317a09e303",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101557Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:15:57+00:00"
+    },
+    {
+      "bytes": 110648,
+      "compressed_sha256": "0a404256f90a1b66514ca0ad723f513a2445c535b6d7506c3ad99bf4fdb11844",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101626Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:16:26+00:00"
+    },
+    {
+      "bytes": 110644,
+      "compressed_sha256": "c85d9f73c8bc16094bdadcb1c6cab4048dcb677c6f99c65bad2edb4f9089ee29",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101728Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:17:28+00:00"
+    },
+    {
+      "bytes": 110647,
+      "compressed_sha256": "7969368af5a998f643844b04c04e9ea9f2e382a95c79b5212714fdc5efc58326",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101826Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:18:26+00:00"
+    },
+    {
+      "bytes": 110651,
+      "compressed_sha256": "25e4e5e50d5edef319c75d85a149b3afe9c6f0d0220bc7dad24c1fbc5e53c1a8",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101856Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:18:56+00:00"
+    },
+    {
+      "bytes": 110652,
+      "compressed_sha256": "34dae9c2286e65f487436174ee446dbeef5ca4fd9a4108af4d976ac5d711a624",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T101926Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:19:26+00:00"
+    },
+    {
+      "bytes": 110628,
+      "compressed_sha256": "50e6d2a010e3a05f68852c547f394368fb308815de9f031573c3a7a4c773f452",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102024Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:20:24+00:00"
+    },
+    {
+      "bytes": 110630,
+      "compressed_sha256": "e491bda2dec9904897132e8334a5945c987f794c544a03e5c8da33a4fd1d647f",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102055Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:20:55+00:00"
+    },
+    {
+      "bytes": 110630,
+      "compressed_sha256": "a7969c2d3654e0c230fed9ae610cc63c66cf393e7359656c6c8a198cd2028afa",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102125Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:21:25+00:00"
+    },
+    {
+      "bytes": 110631,
+      "compressed_sha256": "bcd0e449c7dfc91b0dfbb90cf7883f8f63c3648205fa3946ae6ada8d7096d7ae",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102158Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:21:58+00:00"
+    },
+    {
+      "bytes": 110631,
+      "compressed_sha256": "0e1b3c1aea7e2253484b54e8123dcabe62e33bc7696f140fcae42701125eccf5",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102253Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:22:53+00:00"
+    },
+    {
+      "bytes": 110630,
+      "compressed_sha256": "ab99755ed24196c2a7fcf8f473dd510ecc19aab4ac18deccc69fd90a9e961165",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102322Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:23:22+00:00"
+    },
+    {
+      "bytes": 110631,
+      "compressed_sha256": "68c869858b0409b5708f30d0a78a4ac6aeab69c06d46b50e8eed40d2a352604c",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102352Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:23:52+00:00"
+    },
+    {
+      "bytes": 110630,
+      "compressed_sha256": "6ce16db20736ce827451f92a40f169b541452f824f489660883b6f746886001b",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102423Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:24:23+00:00"
+    },
+    {
+      "bytes": 110631,
+      "compressed_sha256": "2fe8541c6622b82dbff13f1b30956a09a10e4495bd90ab1b8c6350bc962274fc",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102526Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:25:26+00:00"
+    },
+    {
+      "bytes": 110632,
+      "compressed_sha256": "ecf2170b4b0ff6ae603f3a9bbf09d82d3fb03891721fddc4fa23adbb8e16c8e6",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102556Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:25:56+00:00"
+    },
+    {
+      "bytes": 110632,
+      "compressed_sha256": "fb47aa133761b6215005903c7ecb2504a07887311582e5a820f3acc5ae7e77de",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102622Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:26:22+00:00"
+    },
+    {
+      "bytes": 110631,
+      "compressed_sha256": "5e27b210073bea28571cb86776d31cdcddca374d79d11509890e23638d949da5",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102651Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:26:51+00:00"
+    },
+    {
+      "bytes": 110631,
+      "compressed_sha256": "8114f82025e1bc946e996ed68649a6c8c40f3e94fbbd54cef2663ca80acb5bcb",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102722Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:27:22+00:00"
+    },
+    {
+      "bytes": 110633,
+      "compressed_sha256": "39bb91ff65171681f95d28bb6c2778fed19b1ecbbed03b9c9203098403d910e8",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102754Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:27:54+00:00"
+    },
+    {
+      "bytes": 110632,
+      "compressed_sha256": "5bd1dcbf64b6861c2e32894e2d801b8460ae0915d282094e72922c1387de9150",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102820Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:28:20+00:00"
+    },
+    {
+      "bytes": 110632,
+      "compressed_sha256": "ff73a42e8c48203ee7278673a4275dcb27e9d53f168054d94a395e11a65bb54b",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102852Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:28:52+00:00"
+    },
+    {
+      "bytes": 110632,
+      "compressed_sha256": "f038e7ab3cbb0a91c06f8ebd5ee1572e9ffcd63807c0372d8332a582d2a1bf69",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102921Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:29:21+00:00"
+    },
+    {
+      "bytes": 110634,
+      "compressed_sha256": "c165a5adc1a9bf2bdd54211e19e0397045e9885380be6929a748509673114761",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T102952Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:29:52+00:00"
+    },
+    {
+      "bytes": 110632,
+      "compressed_sha256": "ee0a9424fbcebbd1a04fa8a3f9d6c8313e131dbc6aa3d6fe0b43b4ec7d57141e",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103022Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:30:22+00:00"
+    },
+    {
+      "bytes": 110632,
+      "compressed_sha256": "ca7059a0afd719a1562fc60ea9383356959f94e9db16ed0ba1cb91933e2d2443",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103054Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:30:54+00:00"
+    },
+    {
+      "bytes": 110631,
+      "compressed_sha256": "3d4a5a4290c262f36b30e2cacc99bd61f5c19c6596b91c9e1378176303e0c015",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103128Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:31:28+00:00"
+    },
+    {
+      "bytes": 110631,
+      "compressed_sha256": "7d855a2b5b6be1a90de94ef37766ebc285d35a7c25448fc93ccbd3087349f708",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103153Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:31:53+00:00"
+    },
+    {
+      "bytes": 110632,
+      "compressed_sha256": "8174f00fe8a78bd1c220045e65d482448ada3b8a9f5a6d35ae0646e3a763b42a",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103224Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:32:24+00:00"
+    },
+    {
+      "bytes": 110642,
+      "compressed_sha256": "0c16a0f97e6fd88eadeb76d15b8428fd62eada42128ca50173f3049f6588bae6",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103253Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:32:53+00:00"
+    },
+    {
+      "bytes": 110653,
+      "compressed_sha256": "fc27647de83daa88e70a646d9f6b054de1733a3f8e68553ee96875495ec4322e",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103322Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:33:22+00:00"
+    },
+    {
+      "bytes": 110644,
+      "compressed_sha256": "48d0034aa69ff1074f7897207a7c9dcf317d2979b0e299ff8f15754a2ee27894",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103353Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:33:53+00:00"
+    },
+    {
+      "bytes": 110642,
+      "compressed_sha256": "4ccc9be2a935accf3f120c76d70173b4c784c0eef2908095d8daccb16a92003e",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103422Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:34:22+00:00"
+    },
+    {
+      "bytes": 110623,
+      "compressed_sha256": "abd545adc7590d72e927b31e43f58cef3444320d4179640e47259f099500e091",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103452Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:34:52+00:00"
+    },
+    {
+      "bytes": 110623,
+      "compressed_sha256": "d4b699398989ff65d2aef5fe6ec75b1665cfb6fdfc1961685ebc5005aeea35f7",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103521Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:35:21+00:00"
+    },
+    {
+      "bytes": 110623,
+      "compressed_sha256": "b8cb9c4fa202dec0dd2f3b084a14b37ebbf1ce3756af773830404a0da95dfc8d",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103553Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:35:53+00:00"
+    },
+    {
+      "bytes": 110641,
+      "compressed_sha256": "03e3f7f9232b8dc077bbe81494f2c25ae0c1069e7dbb4c78b49b6ef82e64bf97",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103624Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:36:24+00:00"
+    },
+    {
+      "bytes": 110640,
+      "compressed_sha256": "82faadd4be3224a25474a82399f958bbe6dc49cd00c072d0ca0c44794f3d7e46",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103654Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:36:54+00:00"
+    },
+    {
+      "bytes": 110464,
+      "compressed_sha256": "64c1fa2d9f0362d20634c70c28a2915979909bb395ced6c42ceed029a97626e9",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103725Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:37:25+00:00"
+    },
+    {
+      "bytes": 110464,
+      "compressed_sha256": "d78625f8ffc3d9dd85bca354f847d889aaca29ba0458dfdcb16914e910250c46",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103753Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:37:53+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "db87a32f55f1d460f9585787788b177dfd8c3c95de27f4d558f0b05f10913266",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103827Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:38:27+00:00"
+    },
+    {
+      "bytes": 110468,
+      "compressed_sha256": "f364695aba3dd43a8e8b245cb8061af062d4a45f05997cce570112c38afeecb0",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103854Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:38:54+00:00"
+    },
+    {
+      "bytes": 110461,
+      "compressed_sha256": "e18bf3b8a98af90a9df05a942c4e71bd37f9d876341a903e3013932cae00b9b0",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103924Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:39:24+00:00"
+    },
+    {
+      "bytes": 110461,
+      "compressed_sha256": "4a6356d7edf62da506b2cd2010030fd8b73bc0322a7289b9bd7fb9897028c5c4",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T103954Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:39:54+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "591d1b35c9c3ee0db9f696115729c7521ad8b44c163c4173e25911ba2ac11d80",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104027Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:40:27+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "30222854df4c50d918a83242a49f20e5d7b6665b747c772955073cea58123a13",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104322Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:43:22+00:00"
+    },
+    {
+      "bytes": 110462,
+      "compressed_sha256": "6e9450fc0c96a6cdc3bd3e59b5d4375dff87b37d421fde69d7b80665b8c82a8b",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104355Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:43:55+00:00"
+    },
+    {
+      "bytes": 110461,
+      "compressed_sha256": "c5d32aa062c91f21c8f4696482cc861d736bbd866ec6e1089fa5c11329288bb7",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104422Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:44:22+00:00"
+    },
+    {
+      "bytes": 110462,
+      "compressed_sha256": "d3b4526f0b76189b2818d8cad4a95e41fc857de920c7c43bbc89cccedb1214f3",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104454Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:44:54+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "2e938c364af52a546f9339255a96bc24a79acd5e53064f7f90d0403cd722751d",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104522Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:45:22+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "897ae0ed80e945a2f8e7d639f82421106d2438ecfe361a4ef81763e8cb529e13",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104555Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:45:55+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "357d1de4ab629c7d7ff888d95454473a34e15e49707e704e21160704f4ebccb7",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104627Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:46:27+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "2fb2bc801145f228b7c6ac2027479772ae29c6ceb008b6478a7a106272ea7c28",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104656Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:46:56+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "72fa5ea4dde1c8118b74d641b55afec67fd48738235011e635c37dac0cb46870",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104732Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:47:32+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "d81c518c37e7fba26aabf6c34597a88a751c0744f8a3f0eb915af393b3282194",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104825Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:48:25+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "8ff7d19cd4298c872bc2f3b5d762133e45f72cebf31ff36b54d0b474586a0d9e",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104855Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:48:55+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "0ed3cdbf4ec8cfba9290648ed4ec493c86fc04f9d14da0733e3ec7e90da34914",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T104924Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:49:24+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "dd6dfd574817417d88d563b5202edc1aa55ff750c7bed2f9d01fa5ddc67fb0e8",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105027Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:50:27+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "fb964d6dd76e70b34eaee35b7f2797b976ef3730b2147e842a295e56de5b3a15",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105102Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:51:02+00:00"
+    },
+    {
+      "bytes": 110462,
+      "compressed_sha256": "96055be4a3aed36d13e7bbcbf96cc22189b6ccca1ec38cd7b547e682783581d9",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105152Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:51:52+00:00"
+    },
+    {
+      "bytes": 110462,
+      "compressed_sha256": "0b914679c551e45bd5cfe9e83b171ff730e7116a6c5d44963d8a36ca8f0333a5",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105200Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:52:00+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "782e1c21f921a68be1fb9fc41c59788ee1358f34d9a937a8da1950955246137a",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105231Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:52:31+00:00"
+    },
+    {
+      "bytes": 110463,
+      "compressed_sha256": "e6ad4d328275b216f56378b9e7f2b73300aae669b63d190e45b352fbfad97792",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105302Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:53:02+00:00"
+    },
+    {
+      "bytes": 111594,
+      "compressed_sha256": "23bcef3f83ef055abeff2c64d914e029288a27ca04728591b6fd3835a7f57135",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105352Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:53:52+00:00"
+    },
+    {
+      "bytes": 111594,
+      "compressed_sha256": "f03baa1de588fce0a960ec5574bb5c2cbb16318572424b0f3cf919c04515a128",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105401Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:54:01+00:00"
+    },
+    {
+      "bytes": 111594,
+      "compressed_sha256": "d8fa17fad081887c632d93d22265d11050a330c77196d30dfc0adeab973fb773",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105431Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:54:31+00:00"
+    },
+    {
+      "bytes": 111594,
+      "compressed_sha256": "e6f424518b68012086b3680d989460b27ee00e7a43257d5771ddf8eec4b67429",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105504Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:55:04+00:00"
+    },
+    {
+      "bytes": 112629,
+      "compressed_sha256": "a0fd34f3f991b7f8c236df4771ab7b753ab78b63b27c8382e846c5a311f9c73b",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105532Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:55:32+00:00"
+    },
+    {
+      "bytes": 112634,
+      "compressed_sha256": "d0a6c7dec2ec08c5f658adad3c3feb23b74f25c5c668ea71de7448861637864f",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105617Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:56:17+00:00"
+    },
+    {
+      "bytes": 112622,
+      "compressed_sha256": "effe0fbf69c1aaf0b78a14ebcc995612ddf177d5421f427ba51f9665c1392882",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105633Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:56:33+00:00"
+    },
+    {
+      "bytes": 112620,
+      "compressed_sha256": "28ccf4b1bc948bdf011fedbf44f02195a000fa15d9841569f958196e4c4d48bd",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105700Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:57:00+00:00"
+    },
+    {
+      "bytes": 112623,
+      "compressed_sha256": "80eeb6d49ca7595d3323c84fa366545b5c9f0d5d98c6b992e13e7eb0208cc8f0",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105732Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:57:32+00:00"
+    },
+    {
+      "bytes": 112620,
+      "compressed_sha256": "50388cfc588d41992688a117ea5e02152f7c51005e5e1ed3975f71114a0a2277",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105817Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:58:17+00:00"
+    },
+    {
+      "bytes": 112620,
+      "compressed_sha256": "6a80921642913d264c0f5bee312d617847dfaa594b929e2cf4b475c41161a056",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105832Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:58:32+00:00"
+    },
+    {
+      "bytes": 112620,
+      "compressed_sha256": "cc615235fae61bda610e823b4769771b6a000f3940d4bdca06d420bf2c4073b8",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105904Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:59:04+00:00"
+    },
+    {
+      "bytes": 112620,
+      "compressed_sha256": "ffce9b25c75a1b00be04bbfe5b2b48cc42d60ea36dfe670ba535498a58329de6",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/10/trip_updates/20261011T105933Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:59:33+00:00"
+    },
+    {
+      "bytes": 218,
+      "compressed_sha256": "39ded4864f51effe81059d5107186d7414968d2b2f2f15b5ebae4ecf5e1cc08a",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100002Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:00:02+00:00"
+    },
+    {
+      "bytes": 216,
+      "compressed_sha256": "eceeb3283aa1f891c6ded2ad816d59ed96a2a1e29734b11cefc1c102d98c68bb",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100031Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:00:31+00:00"
+    },
+    {
+      "bytes": 206,
+      "compressed_sha256": "b2a30ad0b2081ff8ff7d8c8fe2212cc4f5eb8ecdd88e91c678aa2de5df0c41c2",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100058Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:00:58+00:00"
+    },
+    {
+      "bytes": 206,
+      "compressed_sha256": "9cc74cc1846fa4e6d3db591b41d072d80879ffd71a7cb276f3a7a30b674dc1ab",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100127Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:01:27+00:00"
+    },
+    {
+      "bytes": 218,
+      "compressed_sha256": "ff309f81069d4527fd6b397abd76325981828300d634cbf30633e436c0b3f6c9",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100158Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:01:58+00:00"
+    },
+    {
+      "bytes": 207,
+      "compressed_sha256": "dfb551509e44b1d6ac9bcf22f39909ee01a90aae86a0038ca860f9aef2884922",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100228Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:02:28+00:00"
+    },
+    {
+      "bytes": 216,
+      "compressed_sha256": "601fb18176e6b090d3f8cbc62452b4da94579041ee4f332a9cc46d7c9f590970",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100258Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:02:58+00:00"
+    },
+    {
+      "bytes": 216,
+      "compressed_sha256": "80cbb50393bab5ff98bc891ace8424908e77a6e4907ef15b0c60eb0bc26a4b51",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100328Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:03:28+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "01a4a14361d5da9b72214c8d84b5ffe13d4f7af82e2ca8f9cc7907d10512a346",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100358Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:03:58+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "79c8b562149cf5962c7eba3edbf24603a550d250302c75220baa3dd372510e12",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100427Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:04:27+00:00"
+    },
+    {
+      "bytes": 216,
+      "compressed_sha256": "12fd7b07dba5864f9b66e6463b02a4cccf511377be595c76434f387da147c8dd",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100456Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:04:56+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "ad5436c91293b49c12884577ca4b461826eafd551e41041c4d7b8f5d8d37c9fb",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100527Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:05:27+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "bd8979e52b484a7cf2046b385e75242cfda790164cde6ccb2dcc45d51b15bb7a",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100559Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:05:59+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "59574f0dd460fc2c83f748adfd7d1bae132c849b887b7bc0dca480a6dfa810e9",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100627Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:06:27+00:00"
+    },
+    {
+      "bytes": 216,
+      "compressed_sha256": "85e26bdba13d25373c5aa9c6336acfb7fb82b8c72a3658417ab600b80fe1b00e",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100723Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:07:23+00:00"
+    },
+    {
+      "bytes": 216,
+      "compressed_sha256": "485271916f461d26d5e02431b6076dac3542e61a555d718944ee4957a57d0b42",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100754Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:07:54+00:00"
+    },
+    {
+      "bytes": 209,
+      "compressed_sha256": "5b7739ae56088d6e07b2abb4b3e3decb4d843da96586219f5d90b587f7ae8f32",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100822Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:08:22+00:00"
+    },
+    {
+      "bytes": 214,
+      "compressed_sha256": "9cef6a97a60de74769366ae01b8abe0a6b34758f96fc8256e26810a152b2263c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100854Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:08:54+00:00"
+    },
+    {
+      "bytes": 209,
+      "compressed_sha256": "d7a8ac310d9205e399a0773ce7fcc30595db8e81b58f2f89cea2456d7ac0d62c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100924Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:09:24+00:00"
+    },
+    {
+      "bytes": 209,
+      "compressed_sha256": "13864b6ff67758a78ed2cf6bd40699b37aec0d17ba68c86fe245bfaae9835f4b",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T100954Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:09:54+00:00"
+    },
+    {
+      "bytes": 215,
+      "compressed_sha256": "2417779ae245c74fe05cba514e5ef0b07d7d6e673a51620f94ff1d2983880378",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101022Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:10:22+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "1e5e117d4bcad62a36eec0ed25064b644256ffd45728b212aefca9ad572b01ed",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101052Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:10:52+00:00"
+    },
+    {
+      "bytes": 223,
+      "compressed_sha256": "12e4987d4ece6364630215e3f46c5cc689a2cf050b8df2fe6a5235339d782bb2",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101122Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:11:22+00:00"
+    },
+    {
+      "bytes": 220,
+      "compressed_sha256": "852c93210b72479faa07e2930308608ff21719ffb85be113d5fcf2b0ab3ee228",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101152Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:11:52+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "363ba2f4e4312f4ba06dfc72b75c1eb4eafa4057c7a3204ae86d7b5bf4e20a12",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101222Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:12:22+00:00"
+    },
+    {
+      "bytes": 221,
+      "compressed_sha256": "7114adad11ebe0fde11878c3b2ed560c77cebc407c13c7e42135d1e69f143560",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101253Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:12:53+00:00"
+    },
+    {
+      "bytes": 213,
+      "compressed_sha256": "71865e69d7bd3192d5dd1ec9c0995b5c2ce95f6d0dfd89b4d7b50eddd83c8338",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101323Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:13:23+00:00"
+    },
+    {
+      "bytes": 224,
+      "compressed_sha256": "b0d8f2da337eb9963e5f3f4bb1ad1db0c69c4276d93282c57f12f1f47f0f582d",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101353Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:13:53+00:00"
+    },
+    {
+      "bytes": 224,
+      "compressed_sha256": "3e1aefdf4494bec8fe99a68134c493d66df92c91d078b144ba726d7ad6b32504",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101426Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:14:26+00:00"
+    },
+    {
+      "bytes": 226,
+      "compressed_sha256": "780d1f24d4b82563527956ae5d178892075dfdfd3687ce476f64243668000b9c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101456Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:14:56+00:00"
+    },
+    {
+      "bytes": 221,
+      "compressed_sha256": "d9628b85cebb96826810071ead2562448e97658a76b6730fb2c66e0ded930c58",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101525Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:15:25+00:00"
+    },
+    {
+      "bytes": 225,
+      "compressed_sha256": "d7b3ab0c2b768f52728439436120a56616cb3093fa849d95ca2cdc3561f5a524",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101556Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:15:56+00:00"
+    },
+    {
+      "bytes": 225,
+      "compressed_sha256": "6fcd5365aed44e1163e31fc9dd3a13cd5e608f7927d7c63b9b6ee0a2887b1b9a",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101626Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:16:26+00:00"
+    },
+    {
+      "bytes": 225,
+      "compressed_sha256": "11c3a32beb8a6ae8c48ea0adbe397066a0de25d8ff4112a0dcc27fff73854ae1",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101727Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:17:27+00:00"
+    },
+    {
+      "bytes": 225,
+      "compressed_sha256": "1d53d16d80f7b4236425aa7865e6093ef8b297535e90c3d900fcf26966cd574c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101824Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:18:24+00:00"
+    },
+    {
+      "bytes": 224,
+      "compressed_sha256": "efa504d580ae2b557eed66b98ee4fb8b3b04a95fbf45a654e9bc253f12d34995",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101856Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:18:56+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "4d20f16629cd9524ece3a2f95700e5f224c9bee9061154ae5691eca3280fdbf7",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101926Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:19:26+00:00"
+    },
+    {
+      "bytes": 224,
+      "compressed_sha256": "c723e7dd9a3f20e56df6f55e01eb7f8dbe16d861596564fb2c06cb5935915e08",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T101954Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:19:54+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "41a1ece683de3a73830da38ddd7aab54417324ced09b64731cb53ae550abd838",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102023Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:20:23+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "8c11afad59645188c44975798f4666d0327442fa63b5d11f83fee4c50b6e2d42",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102055Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:20:55+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "cba85a955ea2c00239a3e89a040502fa97aa134ae85890e51eb3f16349e7b077",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102124Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:21:24+00:00"
+    },
+    {
+      "bytes": 220,
+      "compressed_sha256": "086c163ef6aca0af08a9fe9dcd27099381bf43cee852991f0a3aa55a92cde5cf",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102155Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:21:55+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "5492cff88a06e2ee4344506cf0b8e31667fa9047e9e3a1638fd01181773f46a8",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102224Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:22:24+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "ddc6f9548e5b20419fb4132d542015a699a3556ec9bc6df25131998ce205a2aa",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102253Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:22:53+00:00"
+    },
+    {
+      "bytes": 220,
+      "compressed_sha256": "9a5258e83b109cd8694d3faf0e988c12d22d6217faab57be3cd81b514d2d196a",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102321Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:23:21+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "8d340d945a668661a1e9c9e371d7623ecae5df2e5a095825b755120c8d46278d",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102351Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:23:51+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "8eea6115e8d9a33627a5dc7695146ad99900f9b560dae17292f12d4eba0702b1",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102422Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:24:22+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "1952a9b7e9ef08c4e0bdad03763ad24e2e4236e48ca3f4512ccfcbcf72bb6aa1",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102452Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:24:52+00:00"
+    },
+    {
+      "bytes": 223,
+      "compressed_sha256": "64c639c23d4ffdfc50e3dcd318e5fe57d833a2f76555a9a86be1e36c5b3b13ea",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102522Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:25:22+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "32d051e9ec922dc8b75ef66db80585b5c3ace2a9ea5490dad5006e4fdaf98e52",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102554Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:25:54+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "90bc137eb5da6a8cc126dc1ab5d99cf1f80dd70bf30914a342df0f66641ef295",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102622Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:26:22+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "554cc883cb216ea7ae0cde2d1a3489f6649fa586a3a231bbead0f669c3b61df0",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102650Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:26:50+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "fcfecfb6d0635009d3d43b5a0ad0bb24dd1856e6a849c5591d2ac568552bce9e",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102720Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:27:20+00:00"
+    },
+    {
+      "bytes": 221,
+      "compressed_sha256": "703717153fcb9154550c65626981e9732ea1f2d920e048f3e3d834b3887096c1",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102751Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:27:51+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "01c6840b7f136acd4485b671c75168e9940df1445ebc60d820d36028b39a5bb7",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102820Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:28:20+00:00"
+    },
+    {
+      "bytes": 220,
+      "compressed_sha256": "9fa1c8afe11b87145f45e3e48248e53829a2ac0dd5dc7e418298b7cb8c594ca5",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102851Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:28:51+00:00"
+    },
+    {
+      "bytes": 207,
+      "compressed_sha256": "c4357e55664a230956a0512de54539fe77fdbfd04b23cf964987435e790204db",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102921Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:29:21+00:00"
+    },
+    {
+      "bytes": 221,
+      "compressed_sha256": "01568ffbdc7b716a94e705b5445b00a64ba60c5a08ca9b180b00ebffd1345f84",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T102950Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:29:50+00:00"
+    },
+    {
+      "bytes": 220,
+      "compressed_sha256": "f70c68b02c4c120f85ffd37c468fab1e730ac62230de41d422fe451df275a774",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103021Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:30:21+00:00"
+    },
+    {
+      "bytes": 215,
+      "compressed_sha256": "5472b12c2e481524f5ee605c437c1b806f01ae3356a3f16f3144c980b5079198",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103052Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:30:52+00:00"
+    },
+    {
+      "bytes": 215,
+      "compressed_sha256": "b12ae3c48ae0641959f470934eacf44b2097f483c3190c53d3116452041e3b94",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103124Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:31:24+00:00"
+    },
+    {
+      "bytes": 220,
+      "compressed_sha256": "db4b0892616c97d4b949ae2099d77d9042aa07cd5315b023dc5e57a03e12de21",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103152Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:31:52+00:00"
+    },
+    {
+      "bytes": 215,
+      "compressed_sha256": "db2f7c8ceee900ab0ea4b4f0e5110f52aafc6fb568f74bdeed6ea6d3596679e9",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103224Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:32:24+00:00"
+    },
+    {
+      "bytes": 214,
+      "compressed_sha256": "4ab14bbb9acec81afe96b440904e9f32b7684bc4dc6bfd165097978f405c7985",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103252Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:32:52+00:00"
+    },
+    {
+      "bytes": 220,
+      "compressed_sha256": "cbeeb479d3d1457c3177019aad8b66c761aee37536bb758fb5cd29a9dedc7613",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103321Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:33:21+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "4547412e82bade34cb0ee751473a3b7135ae9953d68a92553506358b786cc779",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103353Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:33:53+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "6ec2ea420f10331045c58a003780ce83fb00d996bbfa27818fa25fcf91c71000",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103421Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:34:21+00:00"
+    },
+    {
+      "bytes": 218,
+      "compressed_sha256": "354c2b68771fe7805522911269a07c57d085f18e2877da40bde3b6a67642b4ed",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103450Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:34:50+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "06d0bdeeb37362ca763ff52a787258db9f1368cd3da6a93f259071dd01b07dfa",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103520Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:35:20+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "29b945a41c9f42ba09e47f41a5f8a44032b23bde96b99d3e3aaa4ab13a0e9bf2",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103552Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:35:52+00:00"
+    },
+    {
+      "bytes": 219,
+      "compressed_sha256": "26982730077cfe20342c5aca7f90781ac7a8c7033fe640b4fd08f43ed98a292b",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103623Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:36:23+00:00"
+    },
+    {
+      "bytes": 217,
+      "compressed_sha256": "a34fe811f8ce2b61e3d170110362a31b4f8e31e58e9c43d4992b0a378c19050c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103653Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:36:53+00:00"
+    },
+    {
+      "bytes": 144,
+      "compressed_sha256": "3d48587fb0d08acb5d402b54dc46711e09f60cd06c7f4f72c894bfe7def9a78d",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103721Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:37:21+00:00"
+    },
+    {
+      "bytes": 144,
+      "compressed_sha256": "7dca48ec67b401281441fdc9c1dbaf75e774b4c6033e43b5bcd24ee7e7064c8c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103752Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:37:52+00:00"
+    },
+    {
+      "bytes": 145,
+      "compressed_sha256": "0ec8ede1376e9f7aec62ce8aed2c55357e648a3ddf42df41083341ccb42aae0c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103824Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:38:24+00:00"
+    },
+    {
+      "bytes": 149,
+      "compressed_sha256": "2584d724967bfd1a7be5c6e41706f7ba7f652dc327db508facd8a182260761db",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103853Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:38:53+00:00"
+    },
+    {
+      "bytes": 144,
+      "compressed_sha256": "213c408c8f5aed35e9563fe5ae7175f6cd068be0d1d6e4902d5abafbac6afba6",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103923Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:39:23+00:00"
+    },
+    {
+      "bytes": 149,
+      "compressed_sha256": "b22608bdad0c71911d1272eebb4011d2185b1deff0e1c23631e7e68745f26dad",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T103953Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:39:53+00:00"
+    },
+    {
+      "bytes": 144,
+      "compressed_sha256": "1802fb540cfaeb5febd48b84aad21ca56f6bba4d35199291c74a2d2c7336bb02",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104025Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:40:25+00:00"
+    },
+    {
+      "bytes": 145,
+      "compressed_sha256": "12ebde3abd9d788dd3de0d1f8353b1884205e958a2b0e9d4e25cac1f56598b4d",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104324Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:43:24+00:00"
+    },
+    {
+      "bytes": 144,
+      "compressed_sha256": "eadad7605304afbd99d536d257eb2a1dde2e21e82617b39e94485acf82609019",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104354Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:43:54+00:00"
+    },
+    {
+      "bytes": 150,
+      "compressed_sha256": "a30a0756f25ba358589efb0532f8c3415027bcad06c064eec8061540ba0852ed",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104421Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:44:21+00:00"
+    },
+    {
+      "bytes": 205,
+      "compressed_sha256": "4e40f3d57a61e32008c95ad21742f516b62faeadbf273985e712c4e4637bd820",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104453Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:44:53+00:00"
+    },
+    {
+      "bytes": 212,
+      "compressed_sha256": "2640321321807e1228cc5a49507536b9a04923e43551d82a242b460010ef38f3",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104521Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:45:21+00:00"
+    },
+    {
+      "bytes": 214,
+      "compressed_sha256": "7bdfa5821f3a7a79540ff381d24aa44dd9454e68a022ca28c4ff740e9e5227e7",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104554Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:45:54+00:00"
+    },
+    {
+      "bytes": 263,
+      "compressed_sha256": "4cbdd7f3cf87b46b3c55410d387a3298f657aaf2710db6b1aa0966d2db7c2fa6",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104626Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:46:26+00:00"
+    },
+    {
+      "bytes": 271,
+      "compressed_sha256": "8048ad82c6a41f889fe39c4f9c5b30e980cece9643a32ee7ffe92e0cabf8a258",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104655Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:46:55+00:00"
+    },
+    {
+      "bytes": 275,
+      "compressed_sha256": "7606e2512c06b35c7fb10a39b957b032f36d13490448bd2a68a84a56b0115cd8",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104731Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:47:31+00:00"
+    },
+    {
+      "bytes": 273,
+      "compressed_sha256": "1b4151754a9086bdf6ec012ff8a9ab51e2a7319bc6bc845f02f96ed392ccb5a3",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104824Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:48:24+00:00"
+    },
+    {
+      "bytes": 270,
+      "compressed_sha256": "837bee24c133d3ea0b3c69ec0cb97157dfa49221b90d444e3463ed26e4ec43c5",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104854Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:48:54+00:00"
+    },
+    {
+      "bytes": 273,
+      "compressed_sha256": "193eed0c8f0bd4bd05d1775232f58e23d40663daeb1551685536c4d4e01d813d",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104923Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:49:23+00:00"
+    },
+    {
+      "bytes": 272,
+      "compressed_sha256": "98730165ed852032a44eb20d1f8426f78637546761dd8f57249ca67f323c4cdb",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T104955Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:49:55+00:00"
+    },
+    {
+      "bytes": 273,
+      "compressed_sha256": "3fede0836483ebc3c7d2d5f3334d3bdda97c7df77e1d19621218d8024006a412",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105026Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:50:26+00:00"
+    },
+    {
+      "bytes": 273,
+      "compressed_sha256": "aff8f39166adac1fc31384f6a1e419bda15dc56f1d6367e6518fe62cbef75311",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105101Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:51:01+00:00"
+    },
+    {
+      "bytes": 267,
+      "compressed_sha256": "b62ede33a3d605261ed4f34b84433f737a7565a0abe25ea9f718808c492b7753",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105151Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:51:51+00:00"
+    },
+    {
+      "bytes": 270,
+      "compressed_sha256": "5d6a9e50d55e1df3acc61181c643da9feb96a67fb32bdd35d3482423003ae22c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105200Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:52:00+00:00"
+    },
+    {
+      "bytes": 261,
+      "compressed_sha256": "21904c50829b4b1352c6ca30b281b803395b616fb47b30ffa9b7ec74f3e0aabd",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105231Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:52:31+00:00"
+    },
+    {
+      "bytes": 263,
+      "compressed_sha256": "f69379f51241ef983ffdb6eb6492ecf27f11c0475cb9f682f2c45faabfe99a97",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105301Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:53:01+00:00"
+    },
+    {
+      "bytes": 269,
+      "compressed_sha256": "bcdb2c7400d7c7bb5a99625b43b4e4505cf7aa86d6ee361bfbce1971ccb68df7",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105351Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:53:51+00:00"
+    },
+    {
+      "bytes": 269,
+      "compressed_sha256": "6c17292a0252c1740be5c22c17445ab1e413c0ca70d0f7b29fa1b3b09ea0ebc4",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105359Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:53:59+00:00"
+    },
+    {
+      "bytes": 268,
+      "compressed_sha256": "fcc8b55ca8dfdfb82ff2a8713d2d6967f909c079504eafaf1c4e994df7b63a29",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105430Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:54:30+00:00"
+    },
+    {
+      "bytes": 269,
+      "compressed_sha256": "2a45492193020a08f0f14c01b706b3738438430a54bb622192a70e040c0b6acf",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105501Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:55:01+00:00"
+    },
+    {
+      "bytes": 270,
+      "compressed_sha256": "e9c8ef95fd891547efe799a479c24ba89d53f957f5457ca6c073b29dc98cf501",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105532Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:55:32+00:00"
+    },
+    {
+      "bytes": 266,
+      "compressed_sha256": "93aaa46069dcb41384049d7f0a4d86f5883a6692cb42ce231d7836efd6064b46",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105602Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:56:02+00:00"
+    },
+    {
+      "bytes": 253,
+      "compressed_sha256": "7f29851cadd36126f18cf760e83414ffdcd7b99cab1c34ebe3bb81e4a08511fe",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105632Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:56:32+00:00"
+    },
+    {
+      "bytes": 246,
+      "compressed_sha256": "8308200a031b24a21f48de9f137e472b4513525d240e4a09d15921fa84bc253d",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105700Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:57:00+00:00"
+    },
+    {
+      "bytes": 249,
+      "compressed_sha256": "faa7ae79a3d177e3f116fa39e7e707ce2835869fef4ea007773500053b48810f",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105731Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:57:31+00:00"
+    },
+    {
+      "bytes": 299,
+      "compressed_sha256": "0328d601d3183ecbea20777d0ea5f91f54a798c27b6349e39c3fcc9306393752",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105816Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:58:16+00:00"
+    },
+    {
+      "bytes": 305,
+      "compressed_sha256": "e1980f631a406e6eed2c7001fb4282ef2ea6fa431c4e54324ab7d00d9a3d4b1b",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105832Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:58:32+00:00"
+    },
+    {
+      "bytes": 309,
+      "compressed_sha256": "74decddcb804a4af6f5cb0d7507ff3a30a28f8aaba58189de27438c873be674f",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105903Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:59:03+00:00"
+    },
+    {
+      "bytes": 361,
+      "compressed_sha256": "637f29600d0e96ae16ac002dae07a6e2ed1e438eea4208eb8aab2bf394c3d666",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/10/vehicle_positions/20261011T105932Z.pb.gz",
+      "timestamp_utc": "2026-10-11T10:59:32+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "e1d558f4856884d6dde8ff3cc8dfe68774408d03574c8a3a2d0cb2b46f4febb0",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110004Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:00:04+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c12c3a40be027f9d254a52069a35b2b2c70355716a49333244bf9b97db07a46d",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110036Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:00:36+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "2c0f473b6511502aed2aed72e41187f5836283a7372d11cf3005736df00aa889",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110103Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:01:03+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "912d7fae12dceff0e167f8963695e6415b74ca348586da79d9fbc939b9af2817",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110139Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:01:39+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "f8f0bfff42e514d5b62a075e01b8d38a0c33cd7878979f59d0f87d86c535efaa",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110206Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:02:06+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "bc818a91ba0f9e6075adc28d1920d42955c7f00fd43041ebfce1de0ed62c8bd3",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110241Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:02:41+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "4b42a18caa64ebade143c9299cebf3ba85a9dd123fddee1abe2a4e60e7166a90",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110320Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:03:20+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "2c6ff3524a8ddbffe1e85df62d5123f87a90090d3334896e31c6053157d31152",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110338Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:03:38+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "a6606cc3c754eb478b06419d4993a8690e851dc8dbf705d1bf622247ab2690ca",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110407Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:04:07+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c058230e05aa162a45b85812548a14ceb880a80e2f0c588b9265231ada8f9c01",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110440Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:04:40+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "3d9b424a75cadf1dd757b97fb6119d6abc81d8371189d29fb6afc2977784ab0c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110507Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:05:07+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "ad1fcfa4a3af19b8350f6d4842bb3e52d53e7a27c96d502cbe791f96c754e3a8",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110539Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:05:39+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d0a0c753217dfcdf310fd972f55a601473eb91573efa280a7f81032afa18a6aa",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110607Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:06:07+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "b297578649eb1785a4e0e21c739fd125f9c1d07a6c53da1f5fc413b92f818782",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110636Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:06:36+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "c3fbb113c3274eac551bcbacc410411c041453a416206b867b519b82ac6ab67e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110709Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:07:09+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "cb6451c2a3e183afbe7c30a7058f204b7baa2e7f5f0d324bf1c91851fa6237ff",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110736Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:07:36+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "d5b6324c63024d375516155dfec9c3d16c415f5e0acbc0b30a257077d6f0681e",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110803Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:08:03+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "901a6a9b71cbad8e86d6bb6b0d84ee4738cbaee8230d9b0003dcded02554073c",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110834Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:08:34+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "84dd0863ce048d866f6ffe5519374b0261d28a6ce83b9b1918fbd6675c91f867",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110906Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:09:06+00:00"
+    },
+    {
+      "bytes": 6881,
+      "compressed_sha256": "a77b9769487323a98d604fd2a4d8d2ad2db04bc87356d237c2f59a8b78ad3a23",
+      "feed": "alerts",
+      "path": "data/2026-10-11/11/alerts/20261011T110940Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:09:40+00:00"
+    },
+    {
+      "bytes": 112620,
+      "compressed_sha256": "3dc820785ef3e008ed94d2a29623af2eb0e2399e2d5d02c513ca61129025f291",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110003Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:00:03+00:00"
+    },
+    {
+      "bytes": 113437,
+      "compressed_sha256": "e427423df3e8076ede9a66d676a87103535903bd636102ce579d391596626bd1",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110034Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:00:34+00:00"
+    },
+    {
+      "bytes": 179559,
+      "compressed_sha256": "262b9ebb55ec96e0be84e1f29f6ab986d942452c56c3234af7f2638ecdcdd1a1",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110103Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:01:03+00:00"
+    },
+    {
+      "bytes": 179557,
+      "compressed_sha256": "ae1ac8faac37239fe474b641c75a85f728d51fd9ef36007fcf79b48246da22a3",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110138Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:01:38+00:00"
+    },
+    {
+      "bytes": 179719,
+      "compressed_sha256": "88e669cddaa8c7c4e0eea9feb8cd3340c102475d7dd7f094c702b8b1a850a73e",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110206Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:02:06+00:00"
+    },
+    {
+      "bytes": 180433,
+      "compressed_sha256": "af8b80af71445f70310d6f4ba933b8e62631cc806d8fd20b664c9e4e5256ba23",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110240Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:02:40+00:00"
+    },
+    {
+      "bytes": 180435,
+      "compressed_sha256": "4428f593d1121398e2ae4cfe2a62445b2a9c87c49aa85ad789937f2e0334709a",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110320Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:03:20+00:00"
+    },
+    {
+      "bytes": 181104,
+      "compressed_sha256": "7cc791581b088b412b1b99a9bea422af795771fbbf44b4790b55bb0951a2e290",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110337Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:03:37+00:00"
+    },
+    {
+      "bytes": 181103,
+      "compressed_sha256": "5cb46b5f7ad6b8b37d0590b820a6f047dca72d81d123456f38d15ebe8b6b4867",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110406Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:04:06+00:00"
+    },
+    {
+      "bytes": 181105,
+      "compressed_sha256": "1b4bcd57a5a113aeee0b07237e4df4aea89d6be6383f582f345f2d5bcdb7ea72",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110439Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:04:39+00:00"
+    },
+    {
+      "bytes": 181105,
+      "compressed_sha256": "21bbea5098a77f45f0f859f2935291cdf04070987c3bb1ff436a5c6a779de786",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110507Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:05:07+00:00"
+    },
+    {
+      "bytes": 181104,
+      "compressed_sha256": "2cd3972dc343a5191be10b82ad095365f9279d1393c7b7939d415c234ac72cbf",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110538Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:05:38+00:00"
+    },
+    {
+      "bytes": 181105,
+      "compressed_sha256": "d82454e5ad1226220b562f191be83c25fec854b3fc8be616b6414cba362ef32f",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110606Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:06:06+00:00"
+    },
+    {
+      "bytes": 181293,
+      "compressed_sha256": "f95eb83bdb39cfe9d1b258ea42cc131d83692e3afc397c097839e09a06f6b70d",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110635Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:06:35+00:00"
+    },
+    {
+      "bytes": 181318,
+      "compressed_sha256": "d14cc963c888af64d47d7bae2709ce6001d82c65c484725c7da8da300a63c441",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110709Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:07:09+00:00"
+    },
+    {
+      "bytes": 181334,
+      "compressed_sha256": "2185ae012fdd3852c03aad170a29231d72165f96e369c0ed834550ad1ec97bdf",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110736Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:07:36+00:00"
+    },
+    {
+      "bytes": 181334,
+      "compressed_sha256": "782f1dbb6aab185e7b5f4b263dc272bf8ad043f8b890ddd0fd1acdd366db2bf7",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110802Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:08:02+00:00"
+    },
+    {
+      "bytes": 181546,
+      "compressed_sha256": "bfda614fdb65680dc40c554085d6ea3c8352a606c7845dc2165e22d99190ba99",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110834Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:08:34+00:00"
+    },
+    {
+      "bytes": 181574,
+      "compressed_sha256": "23c49966862a3623a50840c6a5ac765af5f5019e5b28a754ae7ab3585e205455",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110905Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:09:05+00:00"
+    },
+    {
+      "bytes": 182764,
+      "compressed_sha256": "7bc455e2ebdd69414f40c27d3d0576d42403034d487cc4dd5acceb8d3143c1de",
+      "feed": "trip_updates",
+      "path": "data/2026-10-11/11/trip_updates/20261011T110938Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:09:38+00:00"
+    },
+    {
+      "bytes": 417,
+      "compressed_sha256": "6cf38f681426f297b4ed9c43bdcccfe34ae4fdf2ee4cdc071f3d05c473a1934d",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110002Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:00:02+00:00"
+    },
+    {
+      "bytes": 434,
+      "compressed_sha256": "8b1d8706d1e3b432256dd1876e1fae76d958855812a4dd6e75dcb5cec473cb7e",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110033Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:00:33+00:00"
+    },
+    {
+      "bytes": 440,
+      "compressed_sha256": "c49b8c2118f9f06996bd73b50e701ef051e7e09123b4a941209c04965c8256ff",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110102Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:01:02+00:00"
+    },
+    {
+      "bytes": 450,
+      "compressed_sha256": "2c8c12ba19beb9192b7a2f4f9fea89a265ce181884509a8c66df0373f677ac91",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110136Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:01:36+00:00"
+    },
+    {
+      "bytes": 451,
+      "compressed_sha256": "7f32c3872739ba268a8aff4e30c3a4ca86e00956574e161b79d12e88541844ae",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110205Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:02:05+00:00"
+    },
+    {
+      "bytes": 439,
+      "compressed_sha256": "04ccd65f4c46cedbf7a1ccb13907ca8d5918130655cfd0934cda859c55641261",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110235Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:02:35+00:00"
+    },
+    {
+      "bytes": 446,
+      "compressed_sha256": "c0bcafa24451772256af42bc5d2a4d0263bdbfd1a1392b423b4d23126244f587",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110305Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:03:05+00:00"
+    },
+    {
+      "bytes": 495,
+      "compressed_sha256": "14b0813816c7a186d271bbb2cbaa0fe1966e6c37ad82c8e1095faad027a957d0",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110336Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:03:36+00:00"
+    },
+    {
+      "bytes": 508,
+      "compressed_sha256": "7e7bb12eb8643165b78ba2957b1b4443010388140a475fb72a5df8ce85764c78",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110405Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:04:05+00:00"
+    },
+    {
+      "bytes": 509,
+      "compressed_sha256": "d3daebb1df7c7d16fe80e9bbff80fdc39295e8eb3702c20e9c63ca74020188df",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110435Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:04:35+00:00"
+    },
+    {
+      "bytes": 516,
+      "compressed_sha256": "d1f8ebaca41b4cc0bff30ec01bcc8c090dec36ada1ff20a0192c9edff25d1fc1",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110505Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:05:05+00:00"
+    },
+    {
+      "bytes": 519,
+      "compressed_sha256": "40e7081546941b159df9b4b16f83e321bfbf8c341615077eb4fa5c0a7d8a55dd",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110536Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:05:36+00:00"
+    },
+    {
+      "bytes": 519,
+      "compressed_sha256": "7c0fdd4fffe667dddbe7b4e35bc4105c04f451c8839efbe089136ca145e0ba21",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110604Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:06:04+00:00"
+    },
+    {
+      "bytes": 515,
+      "compressed_sha256": "85529d85f54f66da81ec5a6e5bc6d848c86a2681e518f91c8a4c7e70ef66da7c",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110633Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:06:33+00:00"
+    },
+    {
+      "bytes": 555,
+      "compressed_sha256": "776fda3cb384c05741c4eaef7c91eb04ec31578e299db8dc43fe6773f40c4d80",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110707Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:07:07+00:00"
+    },
+    {
+      "bytes": 553,
+      "compressed_sha256": "953e22bf229561fcb41e26d8902780ed07aad5769dfe05abf51e5bf13a1ce842",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110732Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:07:32+00:00"
+    },
+    {
+      "bytes": 591,
+      "compressed_sha256": "5b1c2186b4d6c2f092101b2bab8e93f34af777f9fe53825f71cea2715fae6493",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110801Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:08:01+00:00"
+    },
+    {
+      "bytes": 606,
+      "compressed_sha256": "a07ea863bfaf937b75a376941d541422f984323bd66b003abc85003be66e4c39",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110832Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:08:32+00:00"
+    },
+    {
+      "bytes": 613,
+      "compressed_sha256": "56947cc7430003b01511eea3cd753778642182cf4f9bd562dd90155fcd7efa70",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110904Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:09:04+00:00"
+    },
+    {
+      "bytes": 615,
+      "compressed_sha256": "7341a4779d0387dc81d00034e67c57fba028da1eed4bdc2ba034fde4ffff5364",
+      "feed": "vehicle_positions",
+      "path": "data/2026-10-11/11/vehicle_positions/20261011T110936Z.pb.gz",
+      "timestamp_utc": "2026-10-11T11:09:36+00:00"
+    }
+  ],
+  "inventory_cutoff_utc": "2026-10-11T11:09:58.958692+00:00",
+  "label": "pilot; metadata only; no reliability inference",
+  "licence": "Open Government Licence - Edmonton",
+  "logged_gaps": [
+    {
+      "feed": "trip_updates",
+      "status": "GAP_HTTP_500",
+      "timestamp_utc": "2026-10-11T09:40:25.202985Z"
+    },
+    {
+      "feed": "trip_updates",
+      "status": "GAP_timeout",
+      "timestamp_utc": "2026-10-11T10:17:16.709532Z"
+    },
+    {
+      "feed": "trip_updates",
+      "status": "GAP_timeout",
+      "timestamp_utc": "2026-10-11T10:25:13.523622Z"
+    },
+    {
+      "feed": "vehicle_positions",
+      "status": "GAP_URLError",
+      "timestamp_utc": "2026-10-11T10:41:31.685236Z"
+    },
+    {
+      "feed": "trip_updates",
+      "status": "GAP_URLError",
+      "timestamp_utc": "2026-10-11T10:42:11.703376Z"
+    },
+    {
+      "feed": "alerts",
+      "status": "GAP_URLError",
+      "timestamp_utc": "2026-10-11T10:42:36.729480Z"
+    },
+    {
+      "feed": "vehicle_positions",
+      "status": "GAP_URLError",
+      "timestamp_utc": "2026-10-11T10:43:21.768923Z"
+    },
+    {
+      "feed": "trip_updates",
+      "status": "GAP_timeout",
+      "timestamp_utc": "2026-10-11T10:50:15.994580Z"
+    },
+    {
+      "feed": "alerts",
+      "status": "GAP_timeout",
+      "timestamp_utc": "2026-10-11T10:51:22.315680Z"
+    }
+  ],
+  "payloads_decoded": 0,
+  "sources": {
+    "alerts": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Alert/Alerts.pb",
+    "trip_updates": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/TripUpdate/TripUpdates.pb",
+    "vehicle_positions": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb"
+  }
+}

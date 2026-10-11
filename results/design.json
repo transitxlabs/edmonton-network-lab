@@ -1,0 +1,40 @@
+{
+  "departures_seconds": [
+    18000,
+    21600,
+    25200,
+    28800,
+    32400,
+    36000,
+    39600,
+    43200,
+    46800,
+    50400,
+    54000,
+    57600,
+    61200,
+    64800,
+    68400,
+    72000,
+    75600,
+    79200,
+    82800,
+    86400
+  ],
+  "destinations": 1374,
+  "intervals": "Ranges over the sampled departures and DA quantiles, not sampling confidence intervals.",
+  "origin_departure_batches": 27040,
+  "origin_population": 1010899,
+  "origins": 1352,
+  "profile_limit": "Twenty hourly departures across the day; no between-sample interpolation or full-minute profile claim.",
+  "route_deletions": 243,
+  "seed": 20261011,
+  "service_date": "2026-10-13",
+  "subset_reason": "Pilot benchmark: 100 origin queries at 08:00 took 0.4609 seconds on one worker. A subsequent four-worker pilot took about 4.5 seconds per route for six departures. The full minute-grid deletion check projects about 58 hours, beyond the report deadline. Hourly departures retain every origin and every route within the compute window.",
+  "thresholds_seconds": [
+    1800,
+    2700,
+    3600
+  ],
+  "workers": 4
+}

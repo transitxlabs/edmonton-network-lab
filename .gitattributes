@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.csv -text
+*.zip binary
+*.gz binary
+*.npz binary
+*.pdf binary
+data/frozen/** -text
+data/manifests/edmonton_licence.txt -text
+data/manifests/statcan_licence.txt -text

@@ -1,0 +1,29 @@
+{
+  "all_authors_and_committers_match": true,
+  "all_scans_clear": true,
+  "expanded_source_exceptions": [
+    {
+      "em_dash_count": 2,
+      "en_dash_count": 1,
+      "file": "data/frozen/98100015.zip",
+      "kind": "original national census metadata punctuation"
+    }
+  ],
+  "finding_files": {},
+  "literal_expanded_source_punctuation_exit_code": 1,
+  "method": "Text files, extracted PDF text, decompressed gzip text and ZIP text members; numerical NPY members checked by name only. Compressed bytes are not decoded as prose.",
+  "remotes": [],
+  "scan_counts": {
+    "assistant_names": 0,
+    "commit_names": 0,
+    "commit_trailers": 0,
+    "credential_patterns": 0,
+    "em_dash": 0,
+    "home_paths": 0,
+    "signed_urls": 0,
+    "unauthorised_en_dash": 0
+  },
+  "scoped_scan_exit_code": 0,
+  "strict_expanded_source_punctuation_pass": false,
+  "tracked_files": 117
+}

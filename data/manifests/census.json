@@ -1,0 +1,12 @@
+{
+  "city_dguid": "2021A00054811061",
+  "dissemination_areas": 1352,
+  "missing_boundaries": [],
+  "polygon_repair_method": "make_valid; population and membership unchanged",
+  "polygon_repairs": [
+    "2021S051248110994",
+    "2021S051248111048"
+  ],
+  "population": 1010899,
+  "representative_point": "interior point in EPSG:26912"
+}

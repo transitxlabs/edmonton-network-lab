@@ -1,0 +1,39 @@
+[
+  {
+    "exit_code": 0,
+    "provenance": "Completed prior to disk stop; retained after current consistency and frozen registration checks.",
+    "step": "frozen inputs and walking preflight"
+  },
+  {
+    "exit_code": 0,
+    "provenance": "Completed prior to disk stop; retained after current array, summary, deletion and cohort checks.",
+    "step": "scheduled experiment, oracle, 243 full deletions and decomposition"
+  },
+  {
+    "exit_code": 0,
+    "receipt": "work-tmp.noindex/p2c-resume/frequency.json",
+    "step": "trip reductions"
+  },
+  {
+    "exit_code": 0,
+    "receipt": "work-tmp.noindex/p2c-resume/render-final.json",
+    "step": "render"
+  },
+  {
+    "exit_code": 0,
+    "receipt": "results/local_checks.json",
+    "step": "local checks including artifacts"
+  },
+  {
+    "exit_code": 0,
+    "receipt": "results/compiler_checks.json",
+    "step": "strict compiler comparison"
+  },
+  {
+    "canonical_hashes_equal": 30,
+    "exit_code": 0,
+    "fresh_full_deletion_checks": 20,
+    "receipt": "results/replay_receipt.json",
+    "step": "clean replay"
+  }
+]

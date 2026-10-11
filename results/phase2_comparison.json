@@ -1,0 +1,512 @@
+{
+  "status": "completed phase 2 with both addenda",
+  "before": {
+    "source_commit": "5eea233",
+    "city_means": [
+      [
+        26129.661274321174,
+        1.0218389275288629
+      ],
+      [
+        84921.3271316917,
+        3.0823238028724926
+      ],
+      [
+        193282.02582681357,
+        6.476179123730462
+      ]
+    ],
+    "walking_only_self": {
+      "all_areas": 151,
+      "populated_areas": 149,
+      "population": 96373
+    },
+    "scheduled_only_self": {
+      "all_areas": 137,
+      "populated_areas": 135,
+      "population": 85448
+    },
+    "top_ten": [
+      {
+        "rank": "1",
+        "route_id": "021R",
+        "route_name": "Capital Line",
+        "population_weighted_loss_30": "448.11678723591575",
+        "population_weighted_library_loss_30": "0.04404851523248119",
+        "population_weighted_loss_45": "4773.93453544815",
+        "population_weighted_library_loss_45": "0.31542008647748193",
+        "population_weighted_loss_60": "20008.358009009804",
+        "population_weighted_library_loss_60": "0.9001590168750785"
+      },
+      {
+        "rank": "2",
+        "route_id": "056",
+        "route_name": "Meadows - Leger - West Edmonton Mall",
+        "population_weighted_loss_30": "353.8841141894492",
+        "population_weighted_library_loss_30": "0.028501116333085698",
+        "population_weighted_loss_45": "2712.5266794209906",
+        "population_weighted_library_loss_45": "0.09802556931998152",
+        "population_weighted_loss_60": "9211.23595819167",
+        "population_weighted_library_loss_60": "0.2565624261177427"
+      },
+      {
+        "rank": "3",
+        "route_id": "009",
+        "route_name": "Southgate - Eaux Claires",
+        "population_weighted_loss_30": "480.9103651799042",
+        "population_weighted_library_loss_30": "0.012502089724097066",
+        "population_weighted_loss_45": "2272.6423220321713",
+        "population_weighted_library_loss_45": "0.049638292252737415",
+        "population_weighted_loss_60": "4804.474811479683",
+        "population_weighted_library_loss_60": "0.09516212796728457"
+      },
+      {
+        "rank": "4",
+        "route_id": "004",
+        "route_name": "Lewis Farms - University - Capilano",
+        "population_weighted_loss_30": "303.082890130468",
+        "population_weighted_library_loss_30": "0.02778487267273981",
+        "population_weighted_loss_45": "1593.3130453685285",
+        "population_weighted_library_loss_45": "0.09086847449646306",
+        "population_weighted_loss_60": "4427.206664760773",
+        "population_weighted_library_loss_60": "0.18871529203214168"
+      },
+      {
+        "rank": "5",
+        "route_id": "107",
+        "route_name": "Belvedere - West Clareview",
+        "population_weighted_loss_30": "479.7909160559067",
+        "population_weighted_library_loss_30": "0.02113687915409947",
+        "population_weighted_loss_45": "1515.365373345903",
+        "population_weighted_library_loss_45": "0.038866593002861806",
+        "population_weighted_loss_60": "2849.504421411041",
+        "population_weighted_library_loss_60": "0.07686559191373223"
+      },
+      {
+        "rank": "6",
+        "route_id": "119",
+        "route_name": "Eaux Claires - West Clareview",
+        "population_weighted_loss_30": "654.1464596364226",
+        "population_weighted_library_loss_30": "0.02169934879745652",
+        "population_weighted_loss_45": "1405.5361701317343",
+        "population_weighted_library_loss_45": "0.07130039697338705",
+        "population_weighted_loss_60": "2413.283635209848",
+        "population_weighted_library_loss_60": "0.10485943699617865"
+      },
+      {
+        "rank": "7",
+        "route_id": "114",
+        "route_name": "West Clareview - Coliseum",
+        "population_weighted_loss_30": "248.0893352847317",
+        "population_weighted_library_loss_30": "0.009992838058005795",
+        "population_weighted_loss_45": "1279.536489105242",
+        "population_weighted_library_loss_45": "0.048958451833467045",
+        "population_weighted_loss_60": "1987.3265000756753",
+        "population_weighted_library_loss_60": "0.04799480462439868"
+      },
+      {
+        "rank": "8",
+        "route_id": "007",
+        "route_name": "West Edmonton Mall - Downtown",
+        "population_weighted_loss_30": "312.3787301204176",
+        "population_weighted_library_loss_30": "0.006336983219886457",
+        "population_weighted_loss_45": "1129.1102640817728",
+        "population_weighted_library_loss_45": "0.029975546518494923",
+        "population_weighted_loss_60": "2160.0434155637704",
+        "population_weighted_library_loss_60": "0.05779395369863854"
+      },
+      {
+        "rank": "9",
+        "route_id": "103",
+        "route_name": "Eaux Claires - Castle Downs - Kingsway",
+        "population_weighted_loss_30": "325.99706854987494",
+        "population_weighted_library_loss_30": "0.017940763617334668",
+        "population_weighted_loss_45": "1118.4675921135545",
+        "population_weighted_library_loss_45": "0.05841745812390753",
+        "population_weighted_loss_60": "2254.2472125306285",
+        "population_weighted_library_loss_60": "0.10381937265740693"
+      },
+      {
+        "rank": "10",
+        "route_id": "023R",
+        "route_name": "Valley Line",
+        "population_weighted_loss_30": "78.23031143566271",
+        "population_weighted_library_loss_30": "0.010291285281714593",
+        "population_weighted_loss_45": "1058.3221918806923",
+        "population_weighted_library_loss_45": "0.0999926797830446",
+        "population_weighted_loss_60": "3611.2817068767504",
+        "population_weighted_library_loss_60": "0.2036720780216421"
+      }
+    ],
+    "all_route_speedup": 6.801050895940991,
+    "any_effect_routes": 186,
+    "any_effect_speedup": 5.217264181093326,
+    "top_five_speedups": [
+      {
+        "route_id": "021R",
+        "speedup": 1.148899610607042
+      },
+      {
+        "route_id": "056",
+        "speedup": 1.5782178197318195
+      },
+      {
+        "route_id": "009",
+        "speedup": 1.1888941515765503
+      },
+      {
+        "route_id": "004",
+        "speedup": 1.3167630038625509
+      },
+      {
+        "route_id": "107",
+        "speedup": 2.157044710676955
+      }
+    ],
+    "rho_30_45_primary_routes": 183,
+    "rho_30_45": 0.9435712379064977
+  },
+  "after": {
+    "city_means": [
+      [
+        33913.57423768349,
+        1.2660492294482435
+      ],
+      [
+        111442.31957698049,
+        3.8117144244875107
+      ],
+      [
+        253441.2375036972,
+        7.948590759314234
+      ]
+    ],
+    "origin_cohorts": {
+      "all_areas": {
+        "city_population_weighted_mean_access": [
+          [
+            33913.57423768349,
+            1.2660492294482435
+          ],
+          [
+            111442.3195769805,
+            3.8117144244875107
+          ],
+          [
+            253441.23750369716,
+            7.948590759314236
+          ]
+        ],
+        "city_population_weighted_time_range": [
+          [
+            [
+              24649.919719972026,
+              0.9138440140904284
+            ],
+            [
+              76192.23513625,
+              2.818624808215262
+            ],
+            [
+              160284.67094536644,
+              5.378630308270163
+            ]
+          ],
+          [
+            [
+              41452.385018681394,
+              1.5938526005070734
+            ],
+            [
+              139424.62000259175,
+              4.70303759327094
+            ],
+            [
+              313086.3952689636,
+              9.567136776275374
+            ]
+          ]
+        ],
+        "origin_area_count": 1352,
+        "origin_population": 1010899
+      },
+      "destination_scope": "All areas and libraries retained in both origin cohorts",
+      "moved_area_count": 12,
+      "moved_area_population": 5553,
+      "without_moved": {
+        "city_population_weighted_mean_access": [
+          [
+            34080.9930223525,
+            1.2729478706833268
+          ],
+          [
+            111985.59363273939,
+            3.8317054526501324
+          ],
+          [
+            254635.52465365158,
+            7.988107079552712
+          ]
+        ],
+        "city_population_weighted_time_range": [
+          [
+            [
+              24768.261195648065,
+              0.9188916054771193
+            ],
+            [
+              76565.73509518117,
+              2.8339188697224635
+            ],
+            [
+              161037.5611908736,
+              5.406396404819833
+            ]
+          ],
+          [
+            [
+              41660.26495156891,
+              1.6023866410171224
+            ],
+            [
+              140100.57297786037,
+              4.726802513761432
+            ],
+            [
+              314541.96052702254,
+              9.615527390570012
+            ]
+          ]
+        ],
+        "origin_area_count": 1340,
+        "origin_population": 1005346
+      }
+    },
+    "walking_only_self": {
+      "all_areas": 7,
+      "populated_areas": 7,
+      "population": 2780
+    },
+    "scheduled_only_self": {
+      "all_areas": 7,
+      "populated_areas": 7,
+      "population": 2780
+    },
+    "top_ten": [
+      {
+        "rank": "1",
+        "route_id": "021R",
+        "route_name": "Capital Line",
+        "rank_45_min": "1",
+        "rank_45_max": "6",
+        "top_ten_departures_45": "20",
+        "population_weighted_loss_30": "717.4291558306022",
+        "population_weighted_library_loss_30": "0.07403192603811064",
+        "population_weighted_loss_45": "6618.522237780431",
+        "population_weighted_library_loss_45": "0.4529360499911465",
+        "population_weighted_loss_60": "26585.96062247564",
+        "population_weighted_library_loss_60": "1.0940082540392264"
+      },
+      {
+        "rank": "2",
+        "route_id": "056",
+        "route_name": "Meadows - Leger - West Edmonton Mall",
+        "rank_45_min": "1",
+        "rank_45_max": "8",
+        "top_ten_departures_45": "20",
+        "population_weighted_loss_30": "419.1472809350885",
+        "population_weighted_library_loss_30": "0.030111267297722125",
+        "population_weighted_loss_45": "3287.996687997515",
+        "population_weighted_library_loss_45": "0.10940944644321539",
+        "population_weighted_loss_60": "11269.781388496775",
+        "population_weighted_library_loss_60": "0.2939404925714636"
+      },
+      {
+        "rank": "3",
+        "route_id": "009",
+        "route_name": "Southgate - Eaux Claires",
+        "rank_45_min": "1",
+        "rank_45_max": "8",
+        "top_ten_departures_45": "20",
+        "population_weighted_loss_30": "648.304875462336",
+        "population_weighted_library_loss_30": "0.013365875324834627",
+        "population_weighted_loss_45": "2929.051618312017",
+        "population_weighted_library_loss_45": "0.058299988426143465",
+        "population_weighted_loss_60": "6113.374312616789",
+        "population_weighted_library_loss_60": "0.11359829221316868"
+      },
+      {
+        "rank": "4",
+        "route_id": "004",
+        "route_name": "Lewis Farms - University - Capilano",
+        "rank_45_min": "2",
+        "rank_45_max": "13",
+        "top_ten_departures_45": "19",
+        "population_weighted_loss_30": "466.86524543995",
+        "population_weighted_library_loss_30": "0.03227360003323774",
+        "population_weighted_loss_45": "2120.3392307737963",
+        "population_weighted_library_loss_45": "0.10784465114714724",
+        "population_weighted_loss_60": "5725.341897706892",
+        "population_weighted_library_loss_60": "0.21822274035289382"
+      },
+      {
+        "rank": "5",
+        "route_id": "114",
+        "route_name": "West Clareview - Coliseum",
+        "rank_45_min": "3",
+        "rank_45_max": "28",
+        "top_ten_departures_45": "14",
+        "population_weighted_loss_30": "390.3895434657666",
+        "population_weighted_library_loss_30": "0.015676145688144908",
+        "population_weighted_loss_45": "1844.6503839157028",
+        "population_weighted_library_loss_45": "0.06538828310246622",
+        "population_weighted_loss_60": "2726.6227424797135",
+        "population_weighted_library_loss_60": "0.056112727384239176"
+      },
+      {
+        "rank": "6",
+        "route_id": "107",
+        "route_name": "Belvedere - West Clareview",
+        "rank_45_min": "3",
+        "rank_45_max": "22",
+        "top_ten_departures_45": "16",
+        "population_weighted_loss_30": "570.7596094169645",
+        "population_weighted_library_loss_30": "0.021804947873130746",
+        "population_weighted_loss_45": "1784.609239943852",
+        "population_weighted_library_loss_45": "0.05129300751113613",
+        "population_weighted_loss_60": "3130.103643539068",
+        "population_weighted_library_loss_60": "0.0828337450131022"
+      },
+      {
+        "rank": "7",
+        "route_id": "119",
+        "route_name": "Eaux Claires - West Clareview",
+        "rank_45_min": "3",
+        "rank_45_max": "18",
+        "top_ten_departures_45": "9",
+        "population_weighted_loss_30": "667.8205400836285",
+        "population_weighted_library_loss_30": "0.022632577537419662",
+        "population_weighted_loss_45": "1626.7773228581689",
+        "population_weighted_library_loss_45": "0.08195388461161797",
+        "population_weighted_loss_60": "2860.1197608267494",
+        "population_weighted_library_loss_60": "0.1280455317494626"
+      },
+      {
+        "rank": "8",
+        "route_id": "103",
+        "route_name": "Eaux Claires - Castle Downs - Kingsway",
+        "rank_45_min": "4",
+        "rank_45_max": "22",
+        "top_ten_departures_45": "10",
+        "population_weighted_loss_30": "408.449485655837",
+        "population_weighted_library_loss_30": "0.02137879254010539",
+        "population_weighted_loss_45": "1533.9599617765969",
+        "population_weighted_library_loss_45": "0.07093255607137805",
+        "population_weighted_loss_60": "2846.8489737847203",
+        "population_weighted_library_loss_60": "0.11905467311769029"
+      },
+      {
+        "rank": "9",
+        "route_id": "002",
+        "route_name": "West Edmonton Mall - Stadium - Clareview",
+        "rank_45_min": "4",
+        "rank_45_max": "43",
+        "top_ten_departures_45": "11",
+        "population_weighted_loss_30": "456.8762144882921",
+        "population_weighted_library_loss_30": "0.012095520917519951",
+        "population_weighted_loss_45": "1481.972648058807",
+        "population_weighted_library_loss_45": "0.04739449737313026",
+        "population_weighted_loss_60": "2676.47174866134",
+        "population_weighted_library_loss_60": "0.06898181717461388"
+      },
+      {
+        "rank": "10",
+        "route_id": "023R",
+        "route_name": "Valley Line",
+        "rank_45_min": "5",
+        "rank_45_max": "20",
+        "top_ten_departures_45": "11",
+        "population_weighted_loss_30": "111.30670472520005",
+        "population_weighted_library_loss_30": "0.011625048595359181",
+        "population_weighted_loss_45": "1476.7380276367867",
+        "population_weighted_library_loss_45": "0.11598052822289863",
+        "population_weighted_loss_60": "5394.831468870778",
+        "population_weighted_library_loss_60": "0.26081750006677223"
+      }
+    ],
+    "all_route_speedup": 6.47326363466404,
+    "any_effect_routes": 186,
+    "any_effect_speedup": 4.963334114204964,
+    "top_five_speedups": [
+      {
+        "route_id": "021R",
+        "speedup": 1.1245008645128014
+      },
+      {
+        "route_id": "056",
+        "speedup": 1.5072269068650892
+      },
+      {
+        "route_id": "009",
+        "speedup": 1.1968776996615187
+      },
+      {
+        "route_id": "004",
+        "speedup": 1.2324438364018362
+      },
+      {
+        "route_id": "114",
+        "speedup": 1.755508947116761
+      }
+    ],
+    "moved_area_count": 12,
+    "moved_area_population": 5553,
+    "exceptions": {
+      "areas": [
+        {
+          "id": "2021S051248112451",
+          "population": 336,
+          "reason": "only own populated area reachable by walking in 60 minutes"
+        },
+        {
+          "id": "2021S051248112459",
+          "population": 319,
+          "reason": "only own populated area reachable by walking in 60 minutes"
+        },
+        {
+          "id": "2021S051248112460",
+          "population": 259,
+          "reason": "only own populated area reachable by walking in 60 minutes"
+        },
+        {
+          "id": "2021S051248112470",
+          "population": 122,
+          "reason": "only own populated area reachable by walking in 60 minutes"
+        },
+        {
+          "id": "2021S051248112493",
+          "population": 25,
+          "reason": "only own populated area reachable by walking in 60 minutes"
+        },
+        {
+          "id": "2021S051248112568",
+          "population": 1521,
+          "reason": "only own populated area reachable by walking in 60 minutes"
+        },
+        {
+          "id": "2021S051248112577",
+          "population": 198,
+          "reason": "only own populated area reachable by walking in 60 minutes"
+        }
+      ],
+      "registered_at": "2026-10-11T08:43:04.522659-07:00"
+    },
+    "exception_registration": {
+      "registered_at": "2026-10-11T08:43:04.522659-07:00",
+      "sha256": "7c89cb0b4565b16c613f8310d733643bb114dc33096be8e40a0b2924f824fdb8"
+    },
+    "all_deletion_checks_byte_equal": true
+  },
+  "methods_change": "Retain arterials; largest-component connectors within 300 m; polygon fallback for unmatched areas; charge original-to-access walking at 1.33 m/s on access and egress; retain exact frozen exceptions.",
+  "baseline_correlation_note": "The frozen amendment preserves historical 0.945433613392293 over 186 any-budget routes. The strict union of non-zero 30- or 45-minute population loss has 183 routes and correlation 0.9435712379064977. Publish the rebuilt strict-union reference without modifying the frozen amendment."
+}

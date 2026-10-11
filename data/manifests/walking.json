@@ -1,0 +1,66 @@
+{
+  "access_point_rule": "If the interior point has no connector within 300 m, use the nearest point of its official polygon within 300 m of the largest component; add straight original-to-access walking at 1.33 m/s on access and egress; keep the original point.",
+  "arterial_rule": "Keep arterials except explicit freeway or expressway labels. Source fields do not identify limited access; all arterial classes are retained.",
+  "closure_edges": 4310284,
+  "closure_seconds": 3600,
+  "component_size_max": 40222,
+  "components": 2476,
+  "directed_edges": 129965,
+  "exceptions": [
+    {
+      "id": "2021S051248112451",
+      "population": 336,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112459",
+      "population": 319,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112460",
+      "population": 259,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112470",
+      "population": 122,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112493",
+      "population": 25,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112568",
+      "population": 1521,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112577",
+      "population": 198,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    }
+  ],
+  "excluded_segments": 2505,
+  "graph_nodes": 49257,
+  "included_segments": 51368,
+  "limits": "Road centrelines approximate walking. Crossings, sidewalks, barriers, entrances and accessibility are not certified.",
+  "maximum_snap_metres": 300,
+  "method": "Road endpoint identifiers; line projection connectors; integer-ceiling edge seconds; directed pathways",
+  "moved_access_areas": 12,
+  "moved_access_population": 5553,
+  "pathways": 305,
+  "populated_walking_only_self_areas": 7,
+  "proxy": true,
+  "road_components_before_connectors": 1506,
+  "road_records": 53873,
+  "snap_target": "largest road component before connectors and station pathways",
+  "source": "City of Edmonton Road Network",
+  "speed_metres_per_second": 1.33,
+  "unconnected_points": {
+    "stop": 970
+  },
+  "unidentified_endpoint_joins_within_two_metres": 541
+}
