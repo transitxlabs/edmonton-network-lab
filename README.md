@@ -2,7 +2,7 @@
 
 Scheduled what-if accessibility across Edmonton's published network, with exact
 reuse for service deletions. TransitX Labs Inc. produced this
-public research release (2026-10-13) to make neighbourhood access changes
+public research release (2026-10-14) to make neighbourhood access changes
 checkable and reproducible. There is no City endorsement.
 
 The frozen feed contains **243 routes, 6,790 stops and
