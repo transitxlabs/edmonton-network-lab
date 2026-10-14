@@ -13,6 +13,6 @@ jobs:
       - run: python -m ruff check src tests scripts
       - run: python -m ruff format --check src tests scripts
       - run: python -m mypy src/network_lab
-      - run: python -m pytest -q --basetemp=work-tmp/fixture-tests
+      - run: mkdir -p work-tmp && python -m pytest -q --basetemp=work-tmp/fixture-tests
       - name: Check frozen input hashes without network
         run: PYTHONPATH=src python scripts/verify_inputs.py
