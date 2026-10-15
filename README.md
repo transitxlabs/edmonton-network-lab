@@ -4,7 +4,7 @@ Edmonton Network Lab, a TransitX Labs Inc. research release, measures how many p
 
 ![Top of the Edmonton Network Lab atlas: the question "What changes when transit service disappears?", the 2026-10-13 schedule, 243 published routes, 1,352 dissemination areas, 1,010,899 Census residents, and the verification results (2000 of 2000 routing queries matched, 243 of 243 deletion results matched full reruns).](docs/media/hero-atlas.png)
 
-**Try it live:** [https://transitxlabs.github.io/edmonton-network-lab/](https://transitxlabs.github.io/edmonton-network-lab/) (static atlas; no install). See [docs/PAGES_TODO.md](docs/PAGES_TODO.md) for enabling GitHub Pages.
+**Try it live:** [https://transitxlabs.github.io/edmonton-network-lab/](https://transitxlabs.github.io/edmonton-network-lab/) (static atlas; no install).
 
 [![Screen recording of the static atlas: verification summary, accessibility map, hourly profiles and route ranking.](docs/media/demo-preview.gif)](https://transitxlabs.github.io/edmonton-network-lab/media/demo.mp4)
 
