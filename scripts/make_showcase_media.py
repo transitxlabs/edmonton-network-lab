@@ -437,7 +437,7 @@ def burn_caption_on_frame_from_str(frame: Path, caption: str, captioned: Path) -
     )
 
 
-def export_chart_pngs(port: int) -> list[Path]:
+def export_chart_pngs(port: int, browser: HeadlessChrome) -> list[Path]:
     out: list[Path] = []
     for stem, window in (
         ("route-ranking", "1200,500"),
@@ -454,7 +454,13 @@ def export_chart_pngs(port: int) -> list[Path]:
     chrome_screenshot(f"file://{arch}", MEDIA / "architecture-flow.png", window="1200,220")
     out.append(MEDIA / "architecture-flow.png")
     atlas = MEDIA / "example-access-map.png"
-    chrome_screenshot(f"http://127.0.0.1:{port}/index.html#atlas", atlas)
+    browser.screenshot_section(
+        f"http://127.0.0.1:{port}/index.html",
+        "#atlas .atlas-grid",
+        atlas,
+        step_id=90,
+        must_contain="Citywide 45-minute access",
+    )
     out.append(atlas)
     return out
 
@@ -561,7 +567,7 @@ def main() -> int:
     preview = MEDIA / "demo-preview.gif"
     build_video(captioned_frames, vtt, mp4, poster, preview)
 
-    charts = export_chart_pngs(port)
+    charts = export_chart_pngs(port, browser)
     strip_images([hero, poster, preview, *frames, *captioned_frames, *charts])
     browser.close()
     server.shutdown()
