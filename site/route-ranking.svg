@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+<title id="title">Route deletion ranking at 45 minutes</title><desc id="desc">Ten largest population-weighted losses in reachable people per origin resident, averaged across hourly departures. All routes are in the CSV.</desc>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="Arial,sans-serif" fill="#173342">
+<text x="20" y="46" font-size="16">021R</text><rect x="125" y="25" width="550.00" height="29" rx="3" fill="#247f6b"/><text x="685.00" y="46" font-size="15">6,618.5</text>
+<text x="20" y="93" font-size="16">056</text><rect x="125" y="72" width="273.23" height="29" rx="3" fill="#247f6b"/><text x="408.23" y="93" font-size="15">3,288.0</text>
+<text x="20" y="140" font-size="16">009</text><rect x="125" y="119" width="243.40" height="29" rx="3" fill="#247f6b"/><text x="378.40" y="140" font-size="15">2,929.1</text>
+<text x="20" y="187" font-size="16">004</text><rect x="125" y="166" width="176.20" height="29" rx="3" fill="#247f6b"/><text x="311.20" y="187" font-size="15">2,120.3</text>
+<text x="20" y="234" font-size="16">114</text><rect x="125" y="213" width="153.29" height="29" rx="3" fill="#247f6b"/><text x="288.29" y="234" font-size="15">1,844.7</text>
+<text x="20" y="281" font-size="16">107</text><rect x="125" y="260" width="148.30" height="29" rx="3" fill="#247f6b"/><text x="283.30" y="281" font-size="15">1,784.6</text>
+<text x="20" y="328" font-size="16">119</text><rect x="125" y="307" width="135.19" height="29" rx="3" fill="#247f6b"/><text x="270.19" y="328" font-size="15">1,626.8</text>
+<text x="20" y="375" font-size="16">103</text><rect x="125" y="354" width="127.47" height="29" rx="3" fill="#247f6b"/><text x="262.47" y="375" font-size="15">1,534.0</text>
+<text x="20" y="422" font-size="16">002</text><rect x="125" y="401" width="123.15" height="29" rx="3" fill="#247f6b"/><text x="258.15" y="422" font-size="15">1,482.0</text>
+<text x="20" y="469" font-size="16">023R</text><rect x="125" y="448" width="122.72" height="29" rx="3" fill="#247f6b"/><text x="257.72" y="469" font-size="15">1,476.7</text>
+<text x="125" y="510" font-size="13">Mean reachable people lost per origin resident</text></g></svg>

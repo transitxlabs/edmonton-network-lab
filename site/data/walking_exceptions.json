@@ -1,0 +1,40 @@
+{
+  "areas": [
+    {
+      "id": "2021S051248112451",
+      "population": 336,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112459",
+      "population": 319,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112460",
+      "population": 259,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112470",
+      "population": 122,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112493",
+      "population": 25,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112568",
+      "population": 1521,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    },
+    {
+      "id": "2021S051248112577",
+      "population": 198,
+      "reason": "only own populated area reachable by walking in 60 minutes"
+    }
+  ],
+  "registered_at": "2026-10-11T08:43:04.522659-07:00"
+}
