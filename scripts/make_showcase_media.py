@@ -14,6 +14,7 @@ import socket
 import struct
 import subprocess
 import sys
+import tempfile
 import threading
 import time
 import urllib.parse
@@ -386,7 +387,7 @@ def strip_images(paths: list[Path]) -> None:
 
 def vtt_timestamp(sec: float) -> str:
     m, s = divmod(sec, 60)
-    return f"00:{int(m):02d}:{s:06.3f}".replace(".", ",")
+    return f"00:{int(m):02d}:{s:06.3f}"  # WebVTT uses a full stop before the milliseconds
 
 
 def escape_drawtext(text: str) -> str:
@@ -409,32 +410,35 @@ def wrap_caption(text: str, max_len: int = 52) -> str:
             current.append(word)
     if current:
         lines.append(" ".join(current))
-    return "\\n".join(lines[:2])
+    return "\n".join(lines[:2])
 
 
 def burn_caption_on_frame_from_str(frame: Path, caption: str, captioned: Path) -> None:
-    wrapped = wrap_caption(caption)
-    text = escape_drawtext(wrapped)
-    vf = (
-        f"drawtext=text='{text}':fontsize={CAPTION_FONT}:fontcolor=white:"
-        "box=1:boxcolor=black@0.78:boxborderw=14:"
-        "line_spacing=8:x=(w-text_w)/2:y=h-th-36"
-    )
-    subprocess.run(
-        [
-            FFMPEG,
-            "-y",
-            "-i",
-            str(frame),
-            "-vf",
-            vf,
-            "-map_metadata",
-            "-1",
-            str(captioned),
-        ],
-        check=True,
-        capture_output=True,
-    )
+    # The caption goes through a text file, so its line break is a real one and nothing in it is escaped or expanded.
+    with tempfile.TemporaryDirectory() as tmp:
+        text_file = Path(tmp) / "caption.txt"
+        text_file.write_text(wrap_caption(caption), encoding="utf-8")
+        vf = (
+            f"drawtext=textfile='{escape_drawtext(str(text_file))}':expansion=none:"
+            f"fontsize={CAPTION_FONT}:fontcolor=white:"
+            "box=1:boxcolor=black@0.78:boxborderw=14:"
+            "line_spacing=8:x=(w-text_w)/2:y=h-th-36"
+        )
+        subprocess.run(
+            [
+                FFMPEG,
+                "-y",
+                "-i",
+                str(frame),
+                "-vf",
+                vf,
+                "-map_metadata",
+                "-1",
+                str(captioned),
+            ],
+            check=True,
+            capture_output=True,
+        )
 
 
 def export_chart_pngs(port: int, browser: HeadlessChrome) -> list[Path]:
@@ -531,14 +535,9 @@ def main() -> int:
     browser = HeadlessChrome()
     base = f"http://127.0.0.1:{port}"
 
+    # The hero is the top of the atlas page (its question and headline counts), as the README's alt text describes.
     hero = MEDIA / "hero-atlas.png"
-    browser.screenshot_section(
-        f"{base}/index.html",
-        "#routes .table-wrap",
-        hero,
-        step_id=0,
-        must_contain="Capital Line",
-    )
+    chrome_screenshot(f"{base}/index.html", hero)
 
     frames: list[Path] = []
     captioned_frames: list[Path] = []
