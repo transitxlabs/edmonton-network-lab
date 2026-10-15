@@ -2,7 +2,7 @@
 
 Edmonton Network Lab, a TransitX Labs Inc. research release, measures how many people and public libraries residents can reach by scheduled transit in 30, 45 and 60 minutes, and how that changes if one route is removed. It has no City endorsement. For transit planners, city staff and researchers who weigh what a route change would do to residents' access.
 
-![Chart from the Edmonton Network Lab atlas ranking transit routes by the population-weighted 45-minute access residents would lose if each were removed, averaged over hourly samples; route 021R ranks first, with an hourly rank range of 1 to 6.](docs/media/hero-atlas.png)
+![Top of the Edmonton Network Lab atlas: the question "What changes when transit service disappears?", the 2026-10-13 schedule, 243 published routes, 1,352 dissemination areas, 1,010,899 Census residents, and the verification results (2000 of 2000 routing queries matched, 243 of 243 deletion results matched full reruns).](docs/media/hero-atlas.png)
 
 **Try it live:** [https://transitxlabs.github.io/edmonton-network-lab/](https://transitxlabs.github.io/edmonton-network-lab/) (static atlas; no install). See [docs/PAGES_TODO.md](docs/PAGES_TODO.md) for enabling GitHub Pages.
 
