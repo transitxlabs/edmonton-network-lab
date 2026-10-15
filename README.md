@@ -6,7 +6,7 @@ Edmonton Network Lab, a TransitX Labs Inc. research release, measures how many p
 
 How it was made: its code and documentation were written with AI coding assistants and reviewed, tested and revised by Amir Daneshpajouh.
 
-**Try it live:** [https://transitxlabs.github.io/edmonton-network-lab/](https://transitxlabs.github.io/edmonton-network-lab/) (static atlas; no install). See [docs/PAGES_TODO.md](docs/PAGES_TODO.md) for enabling GitHub Pages.
+**Try it live:** [https://transitxlabs.github.io/edmonton-network-lab/](https://transitxlabs.github.io/edmonton-network-lab/) (static atlas; no install).
 
 [![Screen recording of the static atlas: verification summary, accessibility map, hourly profiles and route ranking.](docs/media/demo-preview.gif)](https://transitxlabs.github.io/edmonton-network-lab/media/demo.mp4)
 
