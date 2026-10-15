@@ -1,22 +1,63 @@
 # Edmonton Network Lab
 
-Scheduled what-if accessibility across Edmonton's published network, with exact
-reuse for service deletions. TransitX Labs Inc. produced this
-public research release (2026-10-14) to make neighbourhood access changes
-checkable and reproducible. There is no City endorsement.
+Edmonton Network Lab, a TransitX Labs Inc. research release, measures how many people and public libraries residents can reach by scheduled transit in 30, 45 and 60 minutes, and how that changes if one route is removed. It has no City endorsement. For transit planners, city staff and researchers who weigh what a route change would do to residents' access.
 
-The frozen feed contains **243 routes, 6,790 stops and
-86,628 published trips**. No route, stop or origin sampling
-is applied. Service day **2026-10-13** uses 12,813
-active trip occurrences, including the midnight boundary. All
-**1,352 City dissemination areas**, representing
-**1,010,899 Census residents**, are origins and population destinations.
-There are 22 selected public library destinations.
+![Chart from the Edmonton Network Lab atlas ranking transit routes by the population-weighted 45-minute access residents would lose if each were removed, averaged over hourly samples; route 021R ranks first, with an hourly rank range of 1 to 6.](docs/media/hero-atlas.png)
 
-Departures are evaluated **hourly from 05:00 through 24:00**, twenty samples per
-origin and 27,040 origin/departure batches. The full minute
-grid was projected beyond the report deadline from measured pilots;
-`results/design.json` records the reason. No between-sample values are inferred.
+**Try it live:** [https://transitxlabs.github.io/edmonton-network-lab/](https://transitxlabs.github.io/edmonton-network-lab/) (static atlas; no install). See [docs/PAGES_TODO.md](docs/PAGES_TODO.md) for enabling GitHub Pages.
+
+[![Screen recording of the static atlas: verification summary, accessibility map, hourly profiles and route ranking.](docs/media/demo-preview.gif)](https://transitxlabs.github.io/edmonton-network-lab/media/demo.mp4)
+
+Captions: [docs/media/demo.en.vtt](docs/media/demo.en.vtt) (burned into the recording frames). Poster: [docs/media/demo-poster.png](docs/media/demo-poster.png).
+
+| Result charts | |
+| --- | --- |
+| ![Bar chart of the top ten routes by mean 45-minute population-weighted access lost per origin resident.](docs/media/chart-route-ranking.png) | ![Line chart of citywide mean reachable people at hourly departures for 30, 45 and 60 minute budgets.](docs/media/chart-day-profile.png) |
+
+| Example outputs | |
+| --- | --- |
+| ![Map of dissemination areas coloured by mean 45-minute population access, with library markers.](docs/media/example-access-map.png) | ![Atlas section listing oracle match, byte-identical deletion checks and aggregate reuse speedup.](docs/media/example-verification.png) |
+| ![Route ranking table and chart for one-at-a-time route removals under the 45-minute measure.](docs/media/example-routes-section.png) | |
+
+## How it works
+
+1. Freeze Edmonton's published transit feed: 243 routes, 6,790 stops and 86,628 trips.
+2. Use all 1,352 Census dissemination areas as origins and as population destinations, plus 22 public libraries as destinations.
+3. Connect each area to the City road network for walking (road centrelines do not certify sidewalks).
+4. Route departures every hour from 05:00 to 24:00 on service day 2026-10-13.
+5. Count the people and libraries reachable in 30, 45 and 60 minutes.
+6. Check the router against an independent connection scan (the oracle).
+7. Remove each route in turn, with and without reusing results that the selected optimal journey proves unchanged.
+8. Write the route ranking, the static atlas and the technical note.
+
+Aggregate measured deletion speedup with reuse: 6.47x overall; 4.96x on 186 routes with any effect (for example route 021R: 1.12x).
+
+## Architecture
+
+![Pipeline from frozen GTFS and Census inputs through walking, oracle check, base access, N-1 deletions to atlas outputs.](docs/media/architecture-flow.png)
+
+- Compiled round-based router plus independent connection-scan oracle (`src/network_lab/`).
+- Frozen inputs and manifests under `data/`; numerical results under `results/`.
+- Static atlas and CSV exports under `docs/site/` (rendered by `scripts/render.py` during rebuild).
+
+## Design choices
+
+- **Hourly departure samples** keep the published timetable checkable within the report window; the full minute grid is not inferred between samples (`results/design.json`).
+- **Exact deletion reuse** reroutes only batches where a surviving optimal journey certifies unchanged arrivals; full reruns confirm byte-identical outputs.
+- **Road-centreline walking** links Census interior points to stops; it does not certify sidewalks, barriers or pathway times.
+- **Population-weighted 45-minute loss** ranks route removals by scheduled access dependence, not passengers, funding priority or ridership.
+
+## Why it matters
+
+It shows which routes residents' access by the published timetable depends on most, with numbers that can be rebuilt.
+
+Showcase images and the demo recording can be regenerated with:
+
+```sh
+python scripts/make_showcase_media.py
+```
+
+(Google Chrome headless and ffmpeg required.)
 
 ## Measured results
 
