@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Build README and Pages showcase images, captions and demo video from the static atlas."""
 
 from __future__ import annotations
@@ -20,6 +19,7 @@ import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
+from typing import Self
 
 
 class DevToolsWebSocket:
@@ -106,14 +106,17 @@ class DevToolsWebSocket:
     def close(self) -> None:
         self._sock.close()
 
-    def __enter__(self) -> DevToolsWebSocket:
+    def __enter__(self) -> Self:
         return self
 
     def __exit__(self, *args: object) -> None:
         self.close()
 
+
 ROOT = Path(__file__).resolve().parents[1]
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+
+
 def find_ffmpeg() -> str:
     seen: set[str] = set()
     for directory in os.environ.get("PATH", "").split(os.pathsep):
@@ -122,7 +125,7 @@ def find_ffmpeg() -> str:
         if not resolved or resolved in seen:
             continue
         seen.add(resolved)
-        proc = subprocess.run([resolved, "-filters"], capture_output=True, text=True)
+        proc = subprocess.run([resolved, "-filters"], capture_output=True, text=True, check=False)
         if "drawtext" in proc.stdout:
             return resolved
     raise RuntimeError("ffmpeg with drawtext support not found on PATH")
@@ -242,13 +245,8 @@ class HeadlessChrome:
     ) -> None:
         out.parent.mkdir(parents=True, exist_ok=True)
         sel = json.dumps(selector)
-        nav_url = (
-            f"{page_url}?__step={step_id}&__showcase={urllib.parse.quote(selector, safe='')}"
-        )
-        open_url = (
-            f"http://127.0.0.1:{self.port}/json/new?"
-            f"{urllib.parse.quote(nav_url, safe='')}"
-        )
+        nav_url = f"{page_url}?__step={step_id}&__showcase={urllib.parse.quote(selector, safe='')}"
+        open_url = f"http://127.0.0.1:{self.port}/json/new?{urllib.parse.quote(nav_url, safe='')}"
         open_req = urllib.request.Request(open_url, method="PUT")
         with urllib.request.urlopen(open_req, timeout=30) as resp:
             target = json.loads(resp.read())
@@ -268,6 +266,7 @@ class HeadlessChrome:
         )
         msg_id = 0
         with DevToolsWebSocket(target["webSocketDebuggerUrl"]) as ws:
+
             def call(method: str, params: dict | None = None) -> dict:
                 nonlocal msg_id
                 msg_id += 1
@@ -294,8 +293,7 @@ class HeadlessChrome:
                     break
                 time.sleep(0.1)
             wait_sel = (
-                f"(() => {{ const el = document.querySelector({sel});"
-                " return Boolean(el); })()"
+                f"(() => {{ const el = document.querySelector({sel}); return Boolean(el); }})()"
             )
             for _ in range(40):
                 found = call(
@@ -325,13 +323,15 @@ class HeadlessChrome:
                     " if (y >= top && y < bottom) return true;"
                     " } return false; })()"
                 )
-                if not call(
-                    "Runtime.evaluate",
-                    {"expression": in_crop, "returnByValue": True},
-                ).get("result", {}).get("value"):
-                    raise RuntimeError(
-                        f"expected text not in crop for {selector}: {must_contain}"
+                if (
+                    not call(
+                        "Runtime.evaluate",
+                        {"expression": in_crop, "returnByValue": True},
                     )
+                    .get("result", {})
+                    .get("value")
+                ):
+                    raise RuntimeError(f"expected text not in crop for {selector}: {must_contain}")
             shot = call(
                 "Page.captureScreenshot",
                 {"format": "png", "fromSurface": True, "captureBeyondViewport": True},
@@ -489,8 +489,7 @@ def build_video(frames: list[Path], vtt: Path, mp4: Path, poster: Path, preview:
             "-i",
             str(concat),
             "-vf",
-            "scale=1280:720:force_original_aspect_ratio=decrease,"
-            "pad=1280:720:(ow-iw)/2:(oh-ih)/2",
+            "scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2",
             "-c:v",
             "libx264",
             "-pix_fmt",
@@ -546,9 +545,7 @@ def main() -> int:
     hold = 5.0
     for i, (caption, path, selector, marker) in enumerate(STEPS, start=1):
         frame = MEDIA / f"step-{i:02d}.png"
-        browser.screenshot_section(
-            f"{base}{path}", selector, frame, step_id=i, must_contain=marker
-        )
+        browser.screenshot_section(f"{base}{path}", selector, frame, step_id=i, must_contain=marker)
         frames.append(frame)
         captioned = MEDIA / f"step-{i:02d}-captioned.png"
         burn_caption_on_frame_from_str(frame, caption, captioned)
