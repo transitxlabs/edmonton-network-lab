@@ -566,7 +566,9 @@ def main() -> int:
         hold = 5.0
         for i, (caption, path, selector, marker) in enumerate(STEPS, start=1):
             frame = MEDIA / f"step-{i:02d}.png"
-            browser.screenshot_section(f"{base}{path}", selector, frame, step_id=i, must_contain=marker)
+            browser.screenshot_section(
+                f"{base}{path}", selector, frame, step_id=i, must_contain=marker
+            )
             frames.append(frame)
             captioned = MEDIA / f"step-{i:02d}-captioned.png"
             burn_caption_on_frame_from_str(frame, caption, captioned)
