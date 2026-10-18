@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import atexit
 import base64
 import hashlib
 import http.server
@@ -9,6 +10,7 @@ import json
 import os
 import secrets
 import shutil
+import signal
 import socket
 import struct
 import subprocess
@@ -214,7 +216,11 @@ class HeadlessChrome:
             ],
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
+            # Its own process group, so close() stops Chrome and every helper it started.
+            start_new_session=True,
         )
+        # A backstop: a browser left open by an early exit is closed when Python exits.
+        atexit.register(self.close)
         self._wait_for_browser()
 
     def _wait_for_browser(self) -> None:
@@ -228,12 +234,19 @@ class HeadlessChrome:
         raise RuntimeError("Chrome remote debugging did not start")
 
     def close(self) -> None:
-        if self._proc.poll() is None:
-            self._proc.terminate()
+        """Stop Chrome's whole process group; safe to call more than once."""
+        if self._proc.poll() is not None:
+            return
+        for sig, wait in ((signal.SIGTERM, 5), (signal.SIGKILL, 5)):
             try:
-                self._proc.wait(timeout=5)
+                os.killpg(self._proc.pid, sig)
+            except ProcessLookupError:
+                return
+            try:
+                self._proc.wait(timeout=wait)
+                return
             except subprocess.TimeoutExpired:
-                self._proc.kill()
+                continue
 
     def screenshot_section(
         self,
@@ -525,48 +538,58 @@ def build_video(frames: list[Path], vtt: Path, mp4: Path, poster: Path, preview:
     )
 
 
+def _exit_on_signal(signum: int, frame: object) -> None:
+    # SIGTERM becomes a normal exit, so main's finally block closes the browser and the server.
+    raise SystemExit(128 + signum)
+
+
 def main() -> int:
+    signal.signal(signal.SIGTERM, _exit_on_signal)
     MEDIA.mkdir(parents=True, exist_ok=True)
     port = free_port()
     server = serve_site(port)
-    time.sleep(0.5)
+    browser: HeadlessChrome | None = None
+    try:
+        time.sleep(0.5)
 
-    browser = HeadlessChrome()
-    base = f"http://127.0.0.1:{port}"
+        browser = HeadlessChrome()
+        base = f"http://127.0.0.1:{port}"
 
-    # The hero is the top of the atlas page (its question and headline counts), as the README's alt text describes.
-    hero = MEDIA / "hero-atlas.png"
-    chrome_screenshot(f"{base}/index.html", hero)
+        # The hero is the top of the atlas page (its question and headline counts), as the README's alt text describes.
+        hero = MEDIA / "hero-atlas.png"
+        chrome_screenshot(f"{base}/index.html", hero)
 
-    frames: list[Path] = []
-    captioned_frames: list[Path] = []
-    vtt_lines = ["WEBVTT", ""]
-    t = 0.0
-    hold = 5.0
-    for i, (caption, path, selector, marker) in enumerate(STEPS, start=1):
-        frame = MEDIA / f"step-{i:02d}.png"
-        browser.screenshot_section(f"{base}{path}", selector, frame, step_id=i, must_contain=marker)
-        frames.append(frame)
-        captioned = MEDIA / f"step-{i:02d}-captioned.png"
-        burn_caption_on_frame_from_str(frame, caption, captioned)
-        captioned_frames.append(captioned)
-        vtt_lines.append(f"{vtt_timestamp(t)} --> {vtt_timestamp(t + hold)}")
-        vtt_lines.append(caption)
-        vtt_lines.append("")
-        t += hold
+        frames: list[Path] = []
+        captioned_frames: list[Path] = []
+        vtt_lines = ["WEBVTT", ""]
+        t = 0.0
+        hold = 5.0
+        for i, (caption, path, selector, marker) in enumerate(STEPS, start=1):
+            frame = MEDIA / f"step-{i:02d}.png"
+            browser.screenshot_section(f"{base}{path}", selector, frame, step_id=i, must_contain=marker)
+            frames.append(frame)
+            captioned = MEDIA / f"step-{i:02d}-captioned.png"
+            burn_caption_on_frame_from_str(frame, caption, captioned)
+            captioned_frames.append(captioned)
+            vtt_lines.append(f"{vtt_timestamp(t)} --> {vtt_timestamp(t + hold)}")
+            vtt_lines.append(caption)
+            vtt_lines.append("")
+            t += hold
 
-    vtt = MEDIA / "demo.en.vtt"
-    vtt.write_text("\n".join(vtt_lines), encoding="utf-8")
+        vtt = MEDIA / "demo.en.vtt"
+        vtt.write_text("\n".join(vtt_lines), encoding="utf-8")
 
-    mp4 = SHOWCASE / "demo.mp4"
-    poster = MEDIA / "demo-poster.png"
-    preview = MEDIA / "demo-preview.gif"
-    build_video(captioned_frames, vtt, mp4, poster, preview)
+        mp4 = SHOWCASE / "demo.mp4"
+        poster = MEDIA / "demo-poster.png"
+        preview = MEDIA / "demo-preview.gif"
+        build_video(captioned_frames, vtt, mp4, poster, preview)
 
-    charts = export_chart_pngs(port, browser)
-    strip_images([hero, poster, preview, *frames, *captioned_frames, *charts])
-    browser.close()
-    server.shutdown()
+        charts = export_chart_pngs(port, browser)
+        strip_images([hero, poster, preview, *frames, *captioned_frames, *charts])
+    finally:
+        if browser is not None:
+            browser.close()
+        server.shutdown()
     size_mb = mp4.stat().st_size / (1024 * 1024)
     if size_mb > 10:
         print(f"Warning: demo.mp4 is {size_mb:.1f} MB", file=sys.stderr)
