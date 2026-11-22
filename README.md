@@ -1,6 +1,6 @@
 # Edmonton Network Lab
 
-Removing Edmonton's Capital Line LRT (route 021R) would cut the average resident's 45-minute reach by scheduled transit by 6,618 people, about 6 percent of the 111,442 they can reach today, the largest loss of any of the city's 243 published routes. The numbers come from the City's published timetable for Tuesday 2026-10-13 and 2021 Census populations for all 1,352 dissemination areas, with every route removed in turn. A TransitX Labs Inc. research release; it has no City endorsement.
+Removing Edmonton's Capital Line LRT (route 021R) would cut the average resident's 45-minute reach by scheduled transit by 6,618 people, about 6 percent of the 111,442 they can reach today, the largest loss of any of the 243 routes in the published regional schedule (185 Edmonton Transit Service routes and 58 routes of six neighbouring transit agencies). The numbers come from the City's published timetable for Tuesday 2026-10-13 and 2021 Census populations for all 1,352 dissemination areas, with every route removed in turn. A TransitX Labs Inc. research release; it has no City endorsement.
 
 ![Map of Edmonton's 1,352 dissemination areas coloured by the mean number of people reachable within 45 minutes by scheduled transit, with the 22 public libraries marked.](docs/media/example-access-map.png)
 
@@ -21,7 +21,7 @@ Mean number of people reachable within 45 minutes from each dissemination area, 
 | 9 | 002 | West Edmonton Mall - Stadium - Clareview | 1,482.0 | 4 to 43 | 11/20 |
 | 10 | 023R | Valley Line | 1,476.7 | 5 to 20 | 11/20 |
 
-The loss is the origin-population-weighted mean number of people no longer reachable within 45 minutes, averaged over the 20 hourly departures. It measures how much residents' scheduled access depends on a route, not ridership or funding priority. At 30 minutes the top five are 021R (717.4), 119 (667.8), 009 (648.3), 107 (570.8) and 005 (525.0); at 60 minutes 021R (26,586.0), 056 (11,269.8), 009 (6,113.4), 004 (5,725.3) and 023R (5,394.8). All 243 routes, including those with no measured effect, are in [results/n1_ranking.csv](results/n1_ranking.csv).
+The loss is the origin-population-weighted mean number of people no longer reachable within 45 minutes, averaged over the 20 hourly departures. It measures how much residents' scheduled access depends on a route, not ridership or funding priority. At 30 minutes the top five are 021R (717.4), 119 (667.8), 009 (648.3), 107 (570.8) and 005 (525.0); at 60 minutes 021R (26,586.0), 056 (11,269.8), 009 (6,113.4), 004 (5,725.3) and 023R (5,394.8). All 243 routes in the schedule, including those with no measured effect, are in [results/n1_ranking.csv](results/n1_ranking.csv).
 
 ## How it was checked
 
@@ -37,7 +37,7 @@ The loss is the origin-population-weighted mean number of people no longer reach
 | 45 minutes | 111,442.3 | 76,192.2 to 139,424.6 | 3.81 | 2.82 to 4.70 |
 | 60 minutes | 253,441.2 | 160,284.7 to 313,086.4 | 7.95 | 5.38 to 9.57 |
 
-City means weight origins by Census population and average the hourly departures; the ranges describe those departures, not confidence intervals. Leaving out the 12 areas whose access point had to be moved (5,553 residents) changes the 45-minute mean to 111,985.6 people. Sources: results/summary.json, oracle.json, reference_benchmark.json and deletion_timings.json.
+Citywide means weight origins by Census population and average the hourly departures; the ranges describe those departures, not confidence intervals. Leaving out the 12 areas whose access point had to be moved (5,553 residents) changes the 45-minute mean to 111,985.6 people. Sources: results/summary.json, oracle.json, reference_benchmark.json and deletion_timings.json.
 
 ## Run it
 

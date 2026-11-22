@@ -292,7 +292,7 @@ def render():
 <title>Edmonton Network Lab | TransitX Labs</title><link rel="stylesheet" href="styles.css"></head>
 <body><a class="skip" href="#main">Skip to content</a>
 <header><a class="brand" href="#main">TRANSITX <span>LABS</span></a><nav aria-label="Sections"><a href="#atlas">Atlas</a><a href="#routes">Route changes</a><a href="#method">Method</a><a href="#limits">Limits</a></nav></header>
-<main id="main" tabindex="-1"><section class="hero"><p class="eyebrow">Edmonton Network Lab / phase 2</p><h1>What changes when<br>transit service disappears?</h1>
+<main id="main" tabindex="-1"><section class="hero"><p class="eyebrow">Edmonton Network Lab</p><h1>What changes when<br>transit service disappears?</h1>
 <p class="lead">A reproducible view of scheduled access across Edmonton. Every dissemination area. Every published route deletion. Results checked against an independent calculation.</p>
 <p class="scope">Schedule for {s["service_date"]} · Hourly departures, 05:00 to 24:00 · Walking graph proxy</p><div class="stats">{stats}</div></section>
 <section class="evidence" aria-label="Verification"><p><strong>{o["matches"]}/{o["queries"]}</strong> independent routing queries matched; {o["reachable_queries"]} reachable, 0 disagreements (95% upper bound {upper:.2f}% on reachable queries).</p><p><strong>{s["full_recomputation_checks"]}/{s["route_deletions"]}</strong> deletion results matched full reruns byte for byte.</p><p><strong>{fmt(b["aggregate_speedup"], 2)}x</strong> aggregate measured deletion speedup with exact reuse; {fmt(b["any_effect_speedup"], 2)}x over {b["any_effect_routes"]} routes with any effect. Highest-loss five: {top_speedups}.</p></section>
@@ -336,7 +336,7 @@ There are {s["library_destinations"]} selected public library destinations.
 
 Departures are evaluated **hourly from 05:00 through 24:00**, twenty samples per
 origin and {fmt(s["dissemination_areas"] * 20)} origin/departure batches. The full minute
-grid was projected beyond the report deadline from measured pilots;
+grid was projected beyond the compute time set for this release from measured pilots;
 `results/design.json` records the reason. No between-sample values are inferred.
 
 ## Measured results
@@ -353,7 +353,7 @@ grid was projected beyond the report deadline from measured pilots;
 """
     for j, t in enumerate([30, 45, 60]):
         text += f"| {t} minutes | {fmt(s['city_population_weighted_mean_access'][j][0], 1)} | {fmt(s['city_population_weighted_time_range'][0][j][0], 1)} to {fmt(s['city_population_weighted_time_range'][1][j][0], 1)} | {fmt(s['city_population_weighted_mean_access'][j][1], 2)} | {fmt(s['city_population_weighted_time_range'][0][j][1], 2)} to {fmt(s['city_population_weighted_time_range'][1][j][1], 2)} |\n"
-    text += """\nCity means weight origins by Census population and average hourly departures.
+    text += """\nCitywide means weight origins by Census population and average hourly departures.
 Ranges describe these samples, not confidence intervals. Numbers are traced to
 results/summary.json, oracle.json, reference_benchmark.json and deletion_timings.json.
 The reference benchmark retains the latest complete run after the walking repair; benchmark.json records
