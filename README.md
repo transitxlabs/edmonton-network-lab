@@ -68,4 +68,4 @@ Road centrelines do not show sidewalks, crossings, barriers or entrances, so wal
 
 [DATA.md](DATA.md) lists every source with its licence and required attribution; frozen inputs, counts and rejection ledgers are under data/. Code is Apache-2.0; data keep their source licences. A comparison with observed service is pre-registered in [PROTOCOL_REALTIME.md](PROTOCOL_REALTIME.md) and [PROTOCOL_AMENDMENT_1.md](PROTOCOL_AMENDMENT_1.md); no result from it is claimed yet. Build-session notes are in [docs/BUILD_NOTES.md](docs/BUILD_NOTES.md).
 
-Contains information licensed under the Open Government Licence - City of Edmonton. Adapted from Statistics Canada, 2021 Census of Population, 2021. This does not constitute an endorsement by Statistics Canada of this product.
+Contains information licensed under the Open Government Licence – City of Edmonton. Adapted from Statistics Canada, 2021 Census of Population, 2021. This does not constitute an endorsement by Statistics Canada of this product.
