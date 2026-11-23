@@ -64,6 +64,8 @@ The compiled router scans trips in boarding rounds with no fixed transfer limit,
 
 Road centrelines do not show sidewalks, crossings, barriers or entrances, so walking reach can be overstated near arterials and interchanges and understated where trails and footbridges are missing; 1.33 m/s may overstate access for older people and in winter. Fares, demand, capacity, on-demand service, library opening hours and real delays are outside the model. Reusing a journey is exact only for the selected optimal journey; ties are not enumerated, and retimed or added trips need a new base run.
 
+Erratum, 2026-11-23: two run records, results/design.json and results/phase2_comparison.json, still use the words "report deadline" and "completed phase 2". They are hashed outputs, so they stay unchanged. No deadline or commissioned phase applies to this project, and no number changes.
+
 ## Data and licences
 
 [DATA.md](DATA.md) lists every source with its licence and required attribution; frozen inputs, counts and rejection ledgers are under data/. Code is Apache-2.0; data keep their source licences. A comparison with observed service is pre-registered in [PROTOCOL_REALTIME.md](PROTOCOL_REALTIME.md) and [PROTOCOL_AMENDMENT_1.md](PROTOCOL_AMENDMENT_1.md); no result from it is claimed yet. Build-session notes are in [docs/BUILD_NOTES.md](docs/BUILD_NOTES.md).
